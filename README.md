@@ -45,7 +45,9 @@ Nodef - Photo Filters & Effects
 
 A node-based image filter compositor with a collection of over 150+ filters and effects. It uses the Node Pipeline editor to enable a productive, flexible, and complete node graph compositing experience on a mobile device.
 
-Click on the [video](https://www.youtube.com/watch?v=dlnh_09_rvA) below to see an overview of the Node Pipeline.
+![Photo Filters & Effects](https://github.com/Misfits-Rebels-Outcasts/Nodef/blob/main/photofilterseffects.png?raw=true)
+
+Or click on the [video](https://www.youtube.com/watch?v=dlnh_09_rvA) below to get an overview of the Node Pipeline.
 
 [![Nodef Compositing](https://img.youtube.com/vi/dlnh_09_rvA/0.jpg)](https://www.youtube.com/watch?v=dlnh_09_rvA)
 

@@ -1,18 +1,17 @@
-# Header
-Node Pipeline for Node Graph
+# Node Pipeline for Node Graph
  
 A node graph is commonly represented as a kind of flowchart with a Directed Acylic Graph (DAG) in most digital compositing software as shown below:
   
-  Read media Read media
-     |           |
-     V           V
-  Premult    Color Correction
-     |           |
-     |           V
-     |       Transform
+     Read media  Read media
+     |           |     
+     V           V     
+     Premult     Color Correction
      |           |
      |           V
-     |       Gaussian Blur
+     |           Transform
+     |           |
+     |           V
+     |           Gaussian Blur
      |           |
      V           V
          Merge
@@ -24,28 +23,28 @@ On a small screen mobile device, the DAG could be decomposed into multiple serie
 
 For example, the node graph above can be represented as below:
   
-  Read media
-     |
-     V
-  Premult
-     
-     
-  Read media
-     |
-     V
-  Color Correction
-     |
-     V
-  Transform
-     |
-     V
-  Gaussian Blur
-     
+     Read media
+     |                
+     V               
+     Premult     
+
   
-  Merge (Premult and Gussian Blur)
+     Read media
+     |              
+     V             
+     Color Correction
+     |           
+     V
+     Transform
+     |           
+     V          
+     Gaussian Blur      
+     
+     
+     Merge
      |
      V
-  Viewer
+     Viewer
   
 Notice the break from the first series after the Premult node and the second break after the Gaussian Blur node.
 

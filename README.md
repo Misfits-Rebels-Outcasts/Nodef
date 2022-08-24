@@ -35,4 +35,4 @@ For a start, the arrangement of the multiple node properties screen, the node gr
  
 This paper proposes using a Node Pipeline for representing the node graph on a mobile device instead of using a flow chart like user interface. It is by no means a complete consideration but with the hope of throwing out some ideas for discussion and testing.
 
-#### Node Pipeline for Node Graph
+[Node Pipeline for Node Graph](NodePipeline.md)

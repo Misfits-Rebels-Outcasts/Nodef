@@ -33,7 +33,7 @@ For a start, the arrangement of the multiple node properties screen, the node gr
  
 ### Proposed Idea
  
-This article/repo proposes using a Node Pipeline for representing the node graph on a mobile device instead of using a flow chart like user interface. It is by no means a complete consideration but with the hope of throwing out some ideas for discussion and testing.
+This article/repo proposes using a Node Pipeline to represent the node graph on a mobile device instead of using a flow chart like user interface. It is by no means a complete consideration but with the hope of throwing out some ideas for discussion and testing.
 
 [Node Pipeline for Node Graph](NodePipeline.md)
 
@@ -41,7 +41,7 @@ This article/repo proposes using a Node Pipeline for representing the node graph
 
 Nodef - Photo Filters & Effects (Node-based Image Compositor)
 
-A node-based image filter compositor with a collection of over 150+ filters and effects. It uses the Node Pipeline editor to enable a productive, flexible and complete node graph compositing experience on a mobile device.
+A node-based image filter compositor with a collection of over 150+ filters and effects. It uses the Node Pipeline editor to enable a productive, flexible, and complete node graph compositing experience on a mobile device.
 
 ### Source Code (GPL)
 

@@ -37,4 +37,11 @@ This article/repo proposes using a Node Pipeline for representing the node graph
 
 [Node Pipeline for Node Graph](NodePipeline.md)
 
+### Open Source Project
+
+Nodef - Photo Filters & Effects (Node-based Image Compositor)
+
+A node-based image filter compositor with a collection of over 150+ filters and effects. It uses the Node Pipeline editor to enable a productive, flexible and complete node graph compositing experience on a mobile device.
+
+### Source Code (GPL)
 

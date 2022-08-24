@@ -61,7 +61,7 @@ We can visualize how the pipeline can appear as a simple list on a mobile device
     7. Merge 2,6          >
     8. Viewer             >
   
-The lines joining the nodes could be further represented by listing the input nodes used, similar to using a spreadsheet formula (e.g. =SUM(A1,A2)).
+The lines joining the nodes could be further represented by listing the input nodes used, like using a spreadsheet formula (e.g., =SUM(A1,A2)).
   
 Input referencing previous nodes below:
   
@@ -95,7 +95,7 @@ Interestingly, the first thing to note is, mathematically, a DAG can be decompos
   
 Secondly, it the contextual overload of a user of frequently panning a flow-chart-like node graph on a small screen is significantly reduced. A Node Pipeline is easy to navigate as one can quickly scroll up and down of the list. Tapping on a node can bring up a screen can enable a change in the node properties.
  
-Thirdly, the Node Pipeline is 'not too far away' from a metaphor that a desktop node-based tool user is very familiar with, the 'Link To' capability. Below, the merge node is linking to node 2 and node 6 and using them as input nodes.
+Thirdly, the Node Pipeline is 'not too far away' from a metaphor that a desktop node-based tool user is familiar with, the 'Link To' capability. Below, the merge node is linking to node 2 and node 6 and using them as input nodes.
  
  7. Merge            (2,6)   >
  
@@ -106,11 +106,11 @@ The above approach leads to other interesting productivity gains in compositing 
   * [Viewer Cycling](ViewerCycling.md)
   * [Directed Acyclic Graph (DAG) Generation/Import](DirectedAcyclicGraphGeneration.md)
  
-In it, I will address on how to specifically join nodes, or link node properties, or setting the Viewer.
+In it, I will address how to specifically join nodes, link node properties, or setting the Viewer.
 
 ### Feedback
  
-Whether a Node Pipeline is suited for representing a node graph on a small screen ultimately requires feedback and testing by many. If your daily work involves working in a related field, I would appreciate if you could provide your feedback to me on my Github repository. This repository also hosts an open-source project that implements the Node Pipeline. I also have an app in Apple App Store, designed for the iPhone, for those that want to test out the user interface directly.
+Whether a Node Pipeline is suited for representing a node graph on a small screen requires feedback and testing by many. If your daily work involves working in a related field, I would appreciate if you could provide your feedback to me on my Github repository. This repository also hosts an open-source project that implements the Node Pipeline. I also have an app in Apple App Store, designed for the iPhone, for those that want to test out the user interface directly.
 
 ### Open User Interface
 

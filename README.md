@@ -43,9 +43,14 @@ Nodef - Photo Filters & Effects (Node-based Image Compositor)
 
 A node-based image filter compositor with a collection of over 150+ filters and effects. It uses the Node Pipeline editor to enable a productive, flexible, and complete node graph compositing experience on a mobile device.
 
+Click on the image below to see a preview
+
 [![Nodef Compositing](https://img.youtube.com/vi/pK6qKEVQcHo/0.jpg)](https://www.youtube.com/watch?v=pK6qKEVQcHo)
 
-Coming Soon...
+Platform 
+iOS
+
+TestFlight coming soon....
 
 ### Source Code (GPL)
 

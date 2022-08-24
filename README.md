@@ -1,4 +1,4 @@
-# :construction: Nodef - Node based compositing on mobile 
+# Nodef - Node based Compositing on Mobile 
 
 Node-based Compositing is the process of combining multiple seemingly simple nodes to render and achieve a desirable result. This process has wide applications in the graphics software industry especially in procedural image generation, motion graphics, animation, 3D modelling, and visual effects VFX.
 

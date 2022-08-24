@@ -1,6 +1,6 @@
 # Node Pipeline for Node Graph
  
-A node graph is commonly represented as a kind of flowchart with a Directed Acyclic Graph (DAG) in most digital compositing software as shown below:
+A node graph is commonly represented as a flowchart with a Directed Acyclic Graph (DAG) in most digital compositing software as shown below:
   
      Read media  Read media
      |           |     
@@ -19,7 +19,7 @@ A node graph is commonly represented as a kind of flowchart with a Directed Acyc
            V
          Viewer
    
-On a small screen mobile device, the DAG could be decomposed into multiple series of nodes shown below (from here we will refer this as the Node Pipeline).
+On a small screen mobile device, the DAG could be decomposed into multiple series of nodes shown below. 
 
 For example, the node graph above can be represented as below:
   
@@ -46,9 +46,9 @@ For example, the node graph above can be represented as below:
      V
      Viewer
   
-Notice the break from the first series after the Premult node and the second break after the Gaussian Blur node.
+Notice the break from the first series after the Premult node and the second break after the Gaussian Blur node. From here, we will refer to the above arrangement as a pipeline (or Node Pipeline with breaks).
 
-We can visualize how the pipeline can appear as a simple list on a mobile device below.
+This arrangement has an obvious advantage of being represented easily on a mobile device with a simple list as shown below.
   
     1. Read media         >
     2. Premult            >
@@ -61,10 +61,8 @@ We can visualize how the pipeline can appear as a simple list on a mobile device
     7. Merge 2,6          >
     8. Viewer             >
   
-The lines joining the nodes could be further represented by listing the input nodes used, like using a spreadsheet formula (e.g., =SUM(A1,A2)).
-  
-Input referencing previous nodes below:
-  
+The lines joining the nodes could be further represented by listing the input nodes used, like using a spreadsheet formula (e.g., =SUM(A1,A2)). In the above, the 'Premult' node actually uses node 1 (Read media) as the input while the 'Merge' node uses node 2 and 6. We can also represent this information in the pipeline.
+    
     1. Read media       (input none)  >
     2. Premult          (input 1)     >
   
@@ -89,28 +87,32 @@ Simplifying it further
     7. Merge            (2,6)   >
     8. Viewer           (7)     >
   
-First, this will require a slight shift in thinking, especially by one familiar to a desktop node-based tool. Instead of three parallel series of nodes, it is now three sequence or series of nodes in a Node Pipeline.
- 
-Interestingly, the first thing to note is, mathematically, a DAG can be decomposed to the above with any loss of information. This means a node graph represented with a Node Pipeline can be as flexible as a flow chart like node graph.
+With the above, let's think a little further on the implications if we use the above as the user interface for a node graph on a mobile device. First, it will require a shift (slight) in thinking. Instead of three parallel series of nodes in a node graph, it is now three sequence (or series) of nodes in a pipeline. The lines joining nodes in a node graph is now represented by the target node referencing input nodes. For example, node 2 uses node 1 as the input and thus reference it. Node 7 references node 2 and 6.
+
+Mathematically, the node graph, a Directed Acyclic Graph, can be decomposed to the above without loss of information. This means the a node pipeline is as flexible as a flowchart like node graph.
   
-Secondly, it the contextual overload of a user of frequently panning a flow-chart-like node graph on a small screen is significantly reduced. A Node Pipeline is easy to navigate as one can quickly scroll up and down of the list. Tapping on a node can bring up a screen can enable a change in the node properties.
- 
-Thirdly, the Node Pipeline is 'not too far away' from a metaphor that a desktop node-based tool user is familiar with, the 'Link To' capability. Below, the merge node is linking to node 2 and node 6 and using them as input nodes.
- 
+A pipeline user interface should be familiar to many mobile users as it is like managing mobile phone Settings. A pipeline makes it easy to navigate the node graph on a small screen as one can quickly scroll up and down of the list. Tapping on any item in the list (a node) can further bring up a screen for changing node properties. 
+
+Most importantly the contextual overload of a user of frequently panning a flow-chart-like node graph on a small screen is significantly reduced. Of course, this productivity can only occur, when one becomes familiar with using the pipeline.  
+
+Finally, the referencing model for linking nodes in a pipeline is similar to using a spreadsheet. 'Merge' below is like a formula applying to cell 2 and 6.
+
  7. Merge            (2,6)   >
+
+This concept is also used on many desktop node-based tool, the 'Link To' capability, for linking node properties.
  
-The above approach leads to other interesting productivity gains in compositing on a mobile device. Please check out my second related article on Node Pipeline, specifically on:
+The pipeline approach leads to other interesting productivity gains in compositing on a mobile device. Please check out the following:
  
   * [Auto Chaining](AutoChaining.md)
   * [Reverse Compositing](ReverseCompositing.md)
   * [Viewer Cycling](ViewerCycling.md)
   * [Directed Acyclic Graph (DAG) Generation/Import](DirectedAcyclicGraphGeneration.md)
  
-In it, I will address how to specifically join nodes, link node properties, or setting the Viewer.
+In it, I will address how to join nodes by Auto Chaining and Reverse Compositing, and think further on how to link node properties, and also about setting the Viewer to nodes in the Pipeline.
 
 ### Feedback
  
-Whether a Node Pipeline is suited for representing a node graph on a small screen requires feedback and testing by many. If your daily work involves working in a related field, I would appreciate if you could provide your feedback to me on my Github repository. This repository also hosts an open-source project that implements the Node Pipeline. I also have an app in Apple App Store, designed for the iPhone, for those that want to test out the user interface directly.
+Whether a pipeline (Node Pipeline) is suited for representing a node graph on a small screen requires feedback and also real usage. If your daily work involves working in a related field, we would appreciate if you could provide your feedback to us on our Github repository. This repository also hosts an open-source project that implements the Node Pipeline. An app for the project is also available in Apple App Store.
 
 ### Open User Interface
 

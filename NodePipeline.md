@@ -50,44 +50,44 @@ Notice the break from the first series after the Premult node and the second bre
 
 We can visualize how the pipeline can appear as a simple list on a mobile device below.
   
-  1. Read media         >
-  2. Premult            >
+    1. Read media         >
+    2. Premult            >
   
-  3. Read media         >
-  4. Color Correction   >
-  5. Transform          >
-  6. Blur               >
+    3. Read media         >
+    4. Color Correction   >
+    5. Transform          >
+    6. Blur               >
   
-  7. Merge 2,6          >
-  8. Viewer             >
+    7. Merge 2,6          >
+    8. Viewer             >
   
 The lines joining the nodes could be further represented by listing the input nodes used, similar to using a spreadsheet formula (e.g =SUM(A1,A2)).
   
 Input referencing previous nodes below:
   
-  1. Read media       (input none)  >
-  2. Premult          (input 1)     >
+    1. Read media       (input none)  >
+    2. Premult          (input 1)     >
   
-  3. Read media       (input none)  >
-  4. Color Correction (input 3)     >
-  5. Transform        (input 4)     >
-  6. Gaussian Blur    (input 5)     >
+    3. Read media       (input none)  >
+    4. Color Correction (input 3)     >
+    5. Transform        (input 4)     >
+    6. Gaussian Blur    (input 5)     >
   
-  7. Merge            (input 2,6)   >
-  8. Viewer           (input 7)     >
+    7. Merge            (input 2,6)   >
+    8. Viewer           (input 7)     >
   
 Simplfying it further
   
-  1. Read media       (none)  >
-  2. Premult          (1)     >
+    1. Read media       (none)  >
+    2. Premult          (1)     >
   
-  3. Read media       (none)  >
-  4. Color Correction (3)     >
-  5. Transform        (4)     >
-  6. Gaussian Blur    (5)     >
+    3. Read media       (none)  >
+    4. Color Correction (3)     >
+    5. Transform        (4)     >
+    6. Gaussian Blur    (5)     >
   
-  7. Merge            (2,6)   >
-  8. Viewer           (7)     >
+    7. Merge            (2,6)   >
+    8. Viewer           (7)     >
   
 First, this will require a slight shift in thinking, especially by one familiar to a desktop node-based tool. Instead of three parallel series of nodes, it is now three sequence or series of nodes in a Node Pipeline.
  
@@ -101,17 +101,17 @@ Thirdly, the Node Pipeline is 'not too far away' from a metaphor that a desktop 
  
 The above approach leads to other interesting productivity gains in compositing on a mobile device. Please check out my second related article on Node Pipeline, specifically on:
  
- -Auto Chaining
- -Reverse Compositing
- -Viewer Cycling
- -DAG Graph Generation/Import DAG
+  * Auto Chaining
+  * Reverse Compositing
+  * Viewer Cycling
+  * DAG Graph Generation/Import DAG
  
 In it, I will address on how to specifically join nodes, or link node properties, or setting the Viewer.
 
-Feedback
+### Feedback
  
 Whether a Node Pipeline is suited for representing a node graph on a small screen ultimately requires feedback and testing by many. If your daily work involves working in a related field, I would appreciate if you could provide your feedback to me on my Github repository. This repository also hosts an open-source project that implements the Node Pipeline. I also have an app in Apple App Store, designed for the iPhone, for those that want to test out the user interface directly.
 
-Open User Interface
+### Open User Interface
 
 The ideas and user interface proposed here are from some of my random thoughts and not protected by any patents nor IP, or at least as far as I know. Please feel free to use them in any way you deem fit (but of course at your own risk), both commercially and non-commercially.

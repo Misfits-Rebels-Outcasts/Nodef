@@ -4,10 +4,14 @@
  
 This repo proposes the following ideas as the basis for node-based compositing on a mobile device. It is by no means a complete consideration but with the hope of throwing out some ideas for discussion and getting feedback.
 
-* [Node Compositing on Mobile](NodeCompositingOnMobile.md)
+Background
+
+[Node-based Compositing on Mobile](NodeBasedCompositingOnMobile.md)
+
+Ideas
+
 * [Node Pipeline for Node Graph](NodePipeline.md)
-* Auto Chaining
-* Reverse Compositing
+* Auto Chaining & Reverse Compositing
 * Viewer Cycling
 * Direct Acyclic Graph Generation
 

@@ -1,6 +1,6 @@
 # Node Pipeline for Node Graph
  
-A node graph is commonly represented as a kind of flowchart with a Directed Acylic Graph (DAG) in most digital compositing software as shown below:
+A node graph is commonly represented as a kind of flowchart with a Directed Acyclic Graph (DAG) in most digital compositing software as shown below:
   
      Read media  Read media
      |           |     
@@ -61,7 +61,7 @@ We can visualize how the pipeline can appear as a simple list on a mobile device
     7. Merge 2,6          >
     8. Viewer             >
   
-The lines joining the nodes could be further represented by listing the input nodes used, similar to using a spreadsheet formula (e.g =SUM(A1,A2)).
+The lines joining the nodes could be further represented by listing the input nodes used, similar to using a spreadsheet formula (e.g. =SUM(A1,A2)).
   
 Input referencing previous nodes below:
   
@@ -76,7 +76,7 @@ Input referencing previous nodes below:
     7. Merge            (input 2,6)   >
     8. Viewer           (input 7)     >
   
-Simplfying it further
+Simplifying it further
   
     1. Read media       (none)  >
     2. Premult          (1)     >

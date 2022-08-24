@@ -101,10 +101,10 @@ Thirdly, the Node Pipeline is 'not too far away' from a metaphor that a desktop 
  
 The above approach leads to other interesting productivity gains in compositing on a mobile device. Please check out my second related article on Node Pipeline, specifically on:
  
-  * Auto Chaining
-  * Reverse Compositing
-  * Viewer Cycling
-  * DAG Graph Generation/Import DAG
+  * [Auto Chaining](AutoChaining.md)
+  * [Reverse Compositing](ReverseCompositing.md)
+  * [Viewer Cycling](Viewer Cycling.md)
+  * [Directed Acyclic Graph (DAG) Generation/Import](DirectedAcyclicGraphGeneration.md)
  
 In it, I will address on how to specifically join nodes, or link node properties, or setting the Viewer.
 

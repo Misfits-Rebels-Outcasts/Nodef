@@ -24,5 +24,5 @@
 
   With the above, one may ask, what happens if I do not want to use the previous node as my input? Or what if, I need more than one input node such as a background or a mask. 
 
-  Please see [Reverse Compositing](ReverseCompositing.md)
+  Please see [Reverse Compositing](ReverseCompositing.md).
    

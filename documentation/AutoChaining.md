@@ -1,6 +1,6 @@
  # Auto chaining
   
- Each of the node in the pipeline that requires an input, is by default assumed to be automatically taking the output of the previous node. For example, below, node 4 can be assumed to be taking the output from node 3. When we add a node, this auto chaining behavior can occur automatically. This replicates the behavior of existing digital compositing software of "adding a node to the node graph by first selecting an existing node".
+Each of the nodes in the pipeline that requires an input is by default assumed to be automatically taking the output of the previous node. For example, below, node 4 can be assumed to be taking the output from node 3. When we add a node, this auto-chaining behavior can occur automatically. This replicates the behavior of existing digital compositing software of "adding a node to the node graph by first selecting an existing node".
   
     3. Read media       (input none)  >
     4. Color Correction (input 3)     >
@@ -22,7 +22,7 @@ We can easily reorder the nodes resulting in a new composite. For example, we ca
     5. Gaussian Blur    (input 4)     >
     6. Transform        (input 5)     >
 
-  With the above, one may ask, what happens if I do not want to use the previous node as my input? Or what if, I need more than one input node such as a background or a mask. 
+  With the above, one may ask, what happens if we do not want to use the previous node as my input? Or what if, we need more than one input node such as a background or a mask? 
 
   Please see [Reverse Compositing](ReverseCompositing.md).
    

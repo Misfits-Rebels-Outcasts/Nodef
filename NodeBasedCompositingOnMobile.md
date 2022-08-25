@@ -31,9 +31,9 @@ On a mobile device, a pure node-based app is not common. Resource constraint is 
  
 For a start, the arrangement of the multiple node properties screen, the node graph, the dope sheet, and the curve editor together in one small screen presents a problem. Compositing with a node graph with a flow chart like user interface is also more difficult especially when trying to connect nodes while panning the small screen frequently. This is not to mention, if one is to connect to a distant node with multiple inputs. Or if one needs to link node properties, which may involve the timeline, for tracking, animating objects, or rotoscoping.
  
-### Proposed Idea
+### Main Idea
  
-This article (and this repo) proposes and experiment with using a Node Pipeline to represent the node graph on a mobile device instead of using a flow chart like user interface. It is by no means a complete consideration but with the hope of throwing out some ideas for discussion and getting feedback.
+A Node Pipeline is proposed to represent the node graph on a mobile device instead of using a flow chart like user interface. 
 
 [Node Pipeline for Node Graph](NodePipeline.md)
 

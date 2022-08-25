@@ -31,7 +31,7 @@ An open source node-based photo filters and effects compositor is created to tes
 
 A node-based image filter compositor with a collection of over 150+ filters and effects. It uses the Node Pipeline editor to enable a productive, flexible, and complete node graph compositing experience on a mobile device.
 
-![Photo Filters & Effects](https://github.com/Misfits-Rebels-Outcasts/Nodef/blob/main/photofilterseffects.png?raw=true)
+![Photo Filters & Effects](https://github.com/Misfits-Rebels-Outcasts/Nodef/blob/main/documentation/photofilterseffects.png?raw=true)
 
 Or click on the [video](https://www.youtube.com/watch?v=dlnh_09_rvA) below to get an overview of the Node Pipeline.
 

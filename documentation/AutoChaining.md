@@ -7,7 +7,7 @@
     5. Transform        (input 4)     >
     6. Gaussian Blur    (input 5)     >
   
- Further, if a node is added between node 5 and 6, they can be automatically be joined by the software without the user doing anything.
+ Further, if a node (New Rotate) is added between node 5 and 6, they can be automatically be joined by the software without the user doing anything.
   
     3. Read media       (input none)  >
     4. Color Correction (input 3)     >

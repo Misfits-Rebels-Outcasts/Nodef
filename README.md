@@ -6,14 +6,14 @@ This repo proposes the following ideas as the basis for node-based compositing o
 
 Background
 
-[Node-based Compositing on Mobile](NodeBasedCompositingOnMobile.md)
+[Node-based Compositing on Mobile](documentation/NodeBasedCompositingOnMobile.md)
 
 Ideas
 
-* [Node Pipeline](NodePipeline.md) for representing Node Graph
-* [Auto Chaining](AutoChaining.md) & [Reverse Compositing](ReverseCompositing.md)
-* [Viewer Cycling](ViewerCycling.md)
-* [Direct Acyclic Graph Generation/Import](DirectedAcyclicGraphGeneration.md)
+* [Node Pipeline](documentation/NodePipeline.md) for representing Node Graph
+* [Auto Chaining](documentation/AutoChaining.md) & [Reverse Compositing](ReverseCompositing.md)
+* [Viewer Cycling](documentation/ViewerCycling.md)
+* [Direct Acyclic Graph Generation/Import](documentation/DirectedAcyclicGraphGeneration.md)
 
 ### Feedback
  

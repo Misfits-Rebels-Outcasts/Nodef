@@ -109,4 +109,5 @@ In a composite blend filter, we usually have both an Input and Background Image.
 In the above, after 'long pressing' on the yellow color socket of Node 1, the Viewer displays the rendered output of Node 1 instead of the output of the entire pipeline. The yellow color socket turns blue to indicate where the Viewer is set to. The Viewer will automatically reset back to display the output of the entire pipeline when we exit the Pipeline screen.
 
 By setting the Viewer from the top to the bottom of the pipeline, one after another, it enables us to view the effect of each node on our image. This can help us quickly understand the progression steps we have taken in achieving the result we require. This process is known as Viewer Cycling.
- 
+
+

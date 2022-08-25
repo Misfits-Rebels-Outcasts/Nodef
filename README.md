@@ -45,4 +45,6 @@ Platform
 Programming Language
 * Swift
 
+### Help File
+[Nodef Photo Filters & Effects - Help File](documentation/photofilterseffectshelp.md)
 

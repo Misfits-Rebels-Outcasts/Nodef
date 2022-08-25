@@ -1,6 +1,6 @@
 # Nodef - Photo Filters & Effects Help File
 
-### Overview
+## Overview
  
 Nodef is a powerful node-based image filter compositor with a huge collection of over 150+ filters and effects. It uses an innovative Node Pipeline editor to enable a productive, flexible and complete node graph compositing experience on a mobile device.
  
@@ -22,7 +22,7 @@ The Pipeline screen contains a pipeline of filter nodes (node graph) which we ap
  
  <img src="https://user-images.githubusercontent.com/47021297/186768256-339083c8-d177-4960-9a74-25cee17bc9f6.jpeg" width="30%" height="30%">
 
-### Filters Compositing
+## Filters Compositing
  
  Compositing is the process of combining multiple seemingly simple nodes, in our case image filters, to render and achieve a desirable composite effect. The process involves adding and compositing nodes in a node graph. In Nodef, we have designed from the ground up a 'Mobile First' Node Pipeline to streamline, simplify, and manage the node graph.
  
@@ -100,7 +100,7 @@ In a composite blend filter, we usually have both an Input and Background Image.
 
 <img src="https://user-images.githubusercontent.com/47021297/186768616-9186b432-0bdb-40c7-a27f-4e2ee3669c1d.jpeg" width="30%" height="30%">
 
-Setting the Viewer
+## Setting the Viewer
  
  The upper portion of the app, the Viewer, displays the effect of applying all the filters in our pipeline (node graph) on the image. The Viewer can be set to display the effect of the pipeline up to a specific node. We do this by ‘long pressing’ on the yellow socket of a node in the pipeline.
  

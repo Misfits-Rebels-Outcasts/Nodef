@@ -110,10 +110,4 @@ The pipeline approach leads to other interesting productivity gains in compositi
  
 In it, I will address how to join nodes by Auto Chaining and Reverse Compositing, and think further on how to link node properties, and also about setting the Viewer to nodes in the Pipeline.
 
-### Feedback
- 
-Whether a pipeline (Node Pipeline) is suited for representing a node graph on a small screen requires feedback and also real usage. If your daily work involves working in a related field, we would appreciate if you could provide your feedback to us on our Github repository. This repository also hosts an open-source project that implements the Node Pipeline. An app for the project is also available in Apple App Store.
 
-### Open User Interface
-
-The ideas and user interface proposed here are from some of my random thoughts and not protected by any patents nor IP, or at least as far as I know. Please feel free to use them in any way you deem fit (but of course at your own risk), both commercially and non-commercially.

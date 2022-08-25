@@ -1,6 +1,6 @@
  # Reverse Compositing
 
- The auto chaining, or automatic preceding node referencing, behavior can be altered by the user by changing the properties of a node. For example, the node 4 (Color Correction) below can be modified to use node 1 as the input instead of the automatically assigned preceding node.
+ The auto chaining, or automatic preceding node referencing, behavior can be altered by the user by changing the properties of a node. For example, node 4 (Color Correction) below can be modified to use node 1 as the input instead of the automatically assigned preceding node.
  
      1. Read media       (none)  >
      2. Premult          (1)     >
@@ -37,7 +37,7 @@ The double quotes, as shown above, or other mechanisms such as color coding, ind
      .
      -----------------------------------------------------------
 
-The input nodes can be from a selection of all available nodes. On top of that, one of the Input Node choices can be a "Preceding Node" which will allow the software to automatically link to the previous preceding node as described in the section on Auto Chaining. Instead of linking nodes by drawing lines, we now link nodes by referencing a previous node in the target node, or depend on Auto Chaining to automatically link the nodes quickly. We call this process of referencing the input nodes in the target node 'Reverse Compositing'.
+The input nodes can be from a selection of all available nodes. On top of that, one of the Input Node choices can be a "Preceding Node" which will allow the software to automatically link to the previous preceding node as described in the section on Auto Chaining. Instead of linking nodes by drawing lines, we now link nodes by referencing a previous node in the target node or depend on Auto Chaining to automatically link the nodes quickly. We call this process of referencing the input nodes in the target node 'Reverse Compositing'.
 
 We can expand on the above idea to support two or more input nodes. For example, if we tap on node 7 (Merge) below,
   

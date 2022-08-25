@@ -32,6 +32,6 @@ On a device with limited screen, we can do this by setting the Viewer on the pip
  
  One can also 'cycle' through and view the output of each node by "long pressing" on each of the node. This 'Viewer Cycling' through the nodes help visualize and understand what is going on and remove the need to pan around a flow chart like node graph to view the thumbnails ('postage stamp').
  
- This quick setting of Viewer is especially useful in our merging node in step 7. We could view the output node 2 and node 6 before 'merging' them.
+ This quick setting of Viewer is especially useful in our merging node in step 7. We could view the output of the intermediate node 2 and node 6 before 'merging' them.
  
  

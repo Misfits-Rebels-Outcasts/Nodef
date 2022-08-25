@@ -27,7 +27,7 @@ The ideas and user interface proposed here are from some of my random thoughts a
 
 An open-source node-based photo filters and effects compositor is created to test the ideas above.
 
-### Nodef - Photo Filters & Effects 
+### [Nodef - Photo Filters & Effects](photofiltersandeffects.md) 
 
 A node-based image filter compositor with a collection of over 150+ filters and effects. It uses the Node Pipeline editor to enable a productive, flexible, and complete node graph compositing experience on a mobile device.
 
@@ -38,10 +38,11 @@ Or click on the [video](https://www.youtube.com/watch?v=dlnh_09_rvA) below to ge
 [![Nodef Compositing](https://img.youtube.com/vi/dlnh_09_rvA/0.jpg)](https://www.youtube.com/watch?v=dlnh_09_rvA)
 
 Platform
-iOS, iPadOS, and Mac
+* iOS
+* iPadOS
+* Mac
 
 Programming Language
-Swift
+* Swift
 
-Coming soon...
 

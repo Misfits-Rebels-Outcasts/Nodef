@@ -11,7 +11,7 @@ Background
 Ideas
 
 * [Node Pipeline](NodePipeline.md) for representing Node Graph
-* Auto Chaining & Reverse Compositing
+* Reverse Compositing & Auto Chaining
 * Viewer Cycling
 * Direct Acyclic Graph Generation
 

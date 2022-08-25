@@ -1,6 +1,6 @@
 # Nodef - Node based Compositing on Mobile 
  
-### Propose Ideas
+### Proposed Ideas
  
 This repo proposes the following ideas as the basis for node-based compositing on a mobile device. It is by no means a complete consideration but with the hope of throwing out some ideas for discussion and getting feedback.
 

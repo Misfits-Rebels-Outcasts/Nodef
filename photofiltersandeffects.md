@@ -1,20 +1,16 @@
 # Nodef - Photo Filters & Effects 
 
-Nodef is a node-based photo effects mixer that allows you to blend and composite image filters from a library of over 150+ filters. These basic filters enable you to blur, distort, stylize, tile, transit, color correct, and apply photo effects on an image. 
+Nodef is a node-based photo filters mixer that allows you to blend and composite image filters from a library of over 150+ filters. These filters enable you apply many different types of photo effects, use various types of distortion, apply different types of blur, tile, transit, transform, stylize, and color correct your image.
 
-## Node-based Image Compositing
+On top of that, the app features an innovative and unique Node Pipeline, node-based editor, for compositing filters from the library. A Presets gallery with many different samples on filter compositing is also provided.
 
-The app features an innovative and unique Node Pipeline, node-based editor, for compositing filters from the library. 
-
-Find out more on the Node Pipeline at the following:
+### Node-based Image Compositing on Mobile with a Node Pipeline
 
 https://github.com/Misfits-Rebels-Outcasts/Nodef
 
-We also provide many compositing ideas in a Presets gallery to help you get started with filter compositing.
+### You are truly only limited by your imagination!
 
-## You are truly only limited by your imagination!
-
-With Nodef, you can create a Gradient, Tile, Star light, QR Code, or Sunbeam, and then distort it with a Bump, Circle Splash, Circular Wrap, Droste, Torus Lens, Twirl distortion, and finally, blend it with an Addition Blend, Subtract Blend, Difference Blend, Divide Blend, Luminosity Blend, Pin Light Blend, Saturation Blend, Color Burn Blend, Overlay Blend, Color Dodge Blend, Darken Blend, Source Atop, Source In, Source Out, or Source Over composite filter with the original or a different image.
+With Nodef Photo Filters & Effects, you can create a Gradient, Tile, Star light, QR Code, or Sunbeam, and then distort it with a Bump, Circle Splash, Circular Wrap, Droste, Torus Lens, Twirl distortion, and finally, blend it with an Addition Blend, Subtract Blend, Difference Blend, Divide Blend, Luminosity Blend, Pin Light Blend, Saturation Blend, Color Burn Blend, Overlay Blend, Color Dodge Blend, Darken Blend, Source Atop, Source In, Source Out, or Source Over composite filter with the original or a different image.
 
 Or you can distort your image with a Displacement, Glass, Glass Lozenge, Hole, Light Tunnel, Pinch, Stretch Crop, or Vortex distortion, and then Color Correct it with an Exposure, Gamma, Exposure, Color Clamp, Matrix, Hue, Temperature, Tint, Tone Curve, Vibrance, or White Point Adjust filter.
 

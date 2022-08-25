@@ -1,4 +1,4 @@
-# Nodef - Node based Compositing on Mobile 
+# Nodef - Node-based Compositing on Mobile 
  
 ### Proposed Ideas
  
@@ -17,15 +17,15 @@ Ideas
 
 ### Feedback
  
-Whether a Node Pipeline is suited for representing a node graph on a small screen requires testing, usage and feedback. If your daily work involves working in a related field, we would appreciate if you could provide feedback to us in this Github repo. This repo also hosts an open-source project that implements the Node Pipeline. An app for the project is also available in Apple App Store.
+Whether a Node Pipeline is suited for representing a node graph on a small screen requires testing, usage, and feedback. If your daily work involves working in a related field, we would appreciate it if you could provide feedback to us in this Github repo. This repo also hosts an open-source project that implements the Node Pipeline. An app for the project is also available in Apple App Store.
 
 ### Open User Interface
 
-The ideas and user interface proposed here are from some of my random thoughts and not protected by any patents nor IP, or at least as far as I know. Please feel free to use them in any way you deem fit (but of course at your own risk), both commercially and non-commercially.
+The ideas and user interface proposed here are from some of my random thoughts and are not protected by any patents or IP, or at least as far as I know. Please feel free to use them in any way you deem fit (but of course at your own risk), both commercially and non-commercially.
 
 ### Open-Source Project (GPL)
 
-An open source node-based photo filters and effects compositor is created to test the ideas above.
+An open-source node-based photo filters and effects compositor is created to test the ideas above.
 
 ### Nodef - Photo Filters & Effects 
 

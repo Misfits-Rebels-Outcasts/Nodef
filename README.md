@@ -48,5 +48,5 @@ Programming Language
 
 ## Sister Project
 
-The [WYSIWYG Draw User Interface](https://github.com/Misfits-Rebels-Outcasts/SwiftUI-WYSIWYG-Draw) based on SwiftUI for Nodef.
+The [WYSIWYG Draw User Interface based on SwiftUI](https://github.com/Misfits-Rebels-Outcasts/SwiftUI-WYSIWYG-Draw) for Nodef.
 

@@ -16,7 +16,7 @@ Nodef is a powerful node-based image filter compositor with over 150+ filters an
  
 <img src="https://user-images.githubusercontent.com/47021297/186766901-1d6cde91-b99f-4cd3-a63a-78fcad90f777.jpeg" width="30%" height="30%">
 
-In the Presets screen, tap on any of the presets to apply it on our image.
+In the Presets screen, tap on any of the presets to apply it to our image.
 
 <img src="https://user-images.githubusercontent.com/47021297/186768216-aab83fe5-999b-417e-8ac0-90fa04950178.png" width="30%" height="30%">
 
@@ -38,7 +38,7 @@ The Pipeline screen contains a pipeline of filter nodes (node graph) which we ap
 
  <img src="https://user-images.githubusercontent.com/47021297/186768290-e6f1fe4a-564e-48c6-94d0-406d79e5dbf5.jpeg" width="30%" height="30%">
 
- The Color Controls node enables us to set the Brightness, Contrast and Saturation of an image.
+ The Color Controls node enables us to set the Brightness, Contrast, and Saturation of an image.
  
 ### Chaining Filters
  
@@ -66,7 +66,7 @@ We can change node properties by tapping on a node in the pipeline to bring up t
 
 ### Compositing Filters
  
- We can blend two filter nodes together with a Composite node. A composite node can be added by the 'ADD COMPOSITE FILTER NODE' option.
+ We can blend two filter nodes with a Composite node. A composite node can be added by the 'ADD COMPOSITE FILTER NODE' option.
 
    <img src="https://user-images.githubusercontent.com/47021297/186768426-76b02b67-c0c8-4b51-97ae-4aeb70686edb.jpeg" width="30%" height="30%">
 
@@ -74,7 +74,7 @@ We can change node properties by tapping on a node in the pipeline to bring up t
 
    <img src="https://user-images.githubusercontent.com/47021297/186768452-ca078cba-4d81-4932-ab56-57935e9ece80.jpeg" width="30%" height="30%">
 
- The input images used for performing the composite (blend) filter can be setup by first tapping on the Color Dodge Blend Mode node and then changing its Input Image properties.
+ The input images used for performing the composite (blend) filter can be set up by first tapping on the Color Dodge Blend Mode node and then changing its Input Image properties.
  
 ### Input Image
  
@@ -114,6 +114,6 @@ In a composite blend filter, we usually have both an Input and Background Image.
 
 In the above, after 'long pressing' on the yellow color socket of Node 1, the Viewer displays the rendered output of Node 1 instead of the output of the entire pipeline. The yellow color socket turns blue to indicate where the Viewer is set to. The Viewer will automatically reset back to display the output of the entire pipeline when we exit the Pipeline screen.
 
-By setting the Viewer from the top to the bottom of the pipeline, one after another, it enables us to view the effect of each node on our image. This can help us quickly understand the progression steps we have taken in achieving the result we require. This process is known as Viewer Cycling.
+Setting the Viewer from the top to the bottom of the pipeline, one after another enables us to view the effect of each node on our image. This can help us quickly understand the progression steps we have taken in achieving the result we require. This process is known as Viewer Cycling.
 
 

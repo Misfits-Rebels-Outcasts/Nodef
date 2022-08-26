@@ -1,6 +1,6 @@
 # Nodef - Photo Filters & Effects 
 
-Nodef is a node-based photo filters mixer that allows you to blend and composite image filters from a library of over 150+ filters. These filters enable you apply many different types of photo effects, use various types of distortion, apply different types of blur, tile, transit, transform, stylize, and color correct your image.
+Nodef is a node-based photo filters mixer that allows you to blend and composite image filters from a library of over 150+ filters. These filters enable you to apply many different types of photo effects, distortions, blurs, tilings, transitions, transforms, styles, and color corrections on your image.
 
 On top of that, the app features an innovative and unique Node Pipeline, node-based editor, for compositing filters from the library. A Presets gallery with many different samples on filter compositing is also provided.
 

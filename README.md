@@ -2,7 +2,7 @@
  
 ### Proposed Ideas
  
-This repo proposes the following ideas as the basis for node-based compositing on a mobile device. It is by no means a complete consideration but with the hope of throwing out some ideas for discussion and getting feedback.
+This repo proposes the following ideas as the basis for node-based compositing on a mobile device. It is by no means a complete consideration but with the hope of ideation and feedback.
 
 Background
 
@@ -17,11 +17,11 @@ Ideas
 
 ### Feedback
  
-Whether a Node Pipeline is suited for representing a node graph on a small screen requires testing, usage, and feedback. If your daily work involves working in a related field, we would appreciate it if you could provide feedback to us in this Github repo. This repo also hosts an open-source project that implements the Node Pipeline. An app for the project is also available in Apple App Store.
+Whether a Node Pipeline is suited for representing a node graph on a small screen requires testing, usage, and feedback. If your daily work is in a related field, we would appreciate it if you could provide feedback to us in this Github repo. This repo also hosts an open-source project that implements the Node Pipeline. An app for the project is also available in Apple App Store.
 
 ### Open User Interface
 
-The ideas and user interface proposed here are from some of my random thoughts and are not protected by any patents or IP, or at least as far as I know. Please feel free to use them in any way you deem fit (but of course at your own risk), both commercially and non-commercially.
+The ideas and user interface proposed here are based on some random thoughts of mine, and they are not protected by any patents or IP, or at least from what I know. Please feel free to use them in any way you deem fit (but of course at your own risk), both commercially and non-commercially.
 
 ### Open-Source Project (GPL)
 
@@ -29,7 +29,7 @@ An open-source node-based photo filters and effects compositor is created to tes
 
 ### [Nodef - Photo Filters & Effects](photofiltersandeffects.md) 
 
-A node-based image filter compositor with a collection of over 150+ filters and effects. It uses the Node Pipeline editor to enable a productive, flexible, and complete node graph compositing experience on a mobile device.
+A node-based image filter compositor that is bundled with a collection of 150+ filters and effects. It uses the Node Pipeline editor to enable a productive, flexible, and complete node graph compositing experience on a mobile device.
 
 ![Photo Filters & Effects](https://github.com/Misfits-Rebels-Outcasts/Nodef/blob/main/documentation/photofilterseffects.png?raw=true)
 

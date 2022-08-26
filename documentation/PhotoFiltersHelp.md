@@ -12,7 +12,7 @@ Nodef is a powerful node-based image filter compositor with over 150+ filters an
  
 ### Presets
  
- The Presets screen contains many samples which we can test out to understand more about filters compositing. To bring up this screen, simply tap on the filters (3 circles) icon on the bottom toolbar.
+ The Presets screen contains many samples which we can test out to understand more about filter compositing. To bring up this screen, simply tap on the filters (3 circles) icon on the bottom toolbar.
  
 <img src="https://user-images.githubusercontent.com/47021297/186766901-1d6cde91-b99f-4cd3-a63a-78fcad90f777.jpeg" width="30%" height="30%">
 

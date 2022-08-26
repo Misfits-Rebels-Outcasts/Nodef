@@ -8,7 +8,7 @@ Click on the [video](https://www.youtube.com/watch?v=dlnh_09_rvA) below to get a
 
 ## Overview
  
-Nodef is a powerful node-based image filter compositor with a huge collection of over 150+ filters and effects. It uses an innovative Node Pipeline editor to enable a productive, flexible and complete node graph compositing experience on a mobile device.
+Nodef is a powerful node-based image filter compositor with over 150+ filters and effects. It uses an innovative Node Pipeline editor to enable a productive, flexible, and complete node graph compositing experience on a mobile device.
  
 ### Presets
  
@@ -30,7 +30,7 @@ The Pipeline screen contains a pipeline of filter nodes (node graph) which we ap
 
 ## Filters Compositing
  
- Compositing is the process of combining multiple seemingly simple nodes, in our case image filters, to render and achieve a desirable composite effect. The process involves adding and compositing nodes in a node graph. In Nodef, we have designed from the ground up a 'Mobile First' Node Pipeline to streamline, simplify, and manage the node graph.
+ Compositing is the process of combining multiple seemingly simple nodes, in our case image filters, to render, and achieve a desirable composite effect. The process involves adding and compositing nodes in a node graph. In Nodef, we have designed from the ground up a 'Mobile First' Node Pipeline to streamline, simplify, and manage the node graph.
  
 ### Adding Filters
  

@@ -76,5 +76,7 @@ we can specify the nodes to 'merge'.
  
 We can go further and expand the above to link node properties.
 
+Next, check out on how to set the Viewer on the pipeline with [Viewer Cycling](ViewerCycling.md).
+
 
  

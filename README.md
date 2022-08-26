@@ -33,9 +33,7 @@ A node-based image filter compositor that is bundled with a collection of 150+ f
 
 ![Photo Filters & Effects](https://github.com/Misfits-Rebels-Outcasts/Nodef/blob/main/documentation/photofilterseffects.png?raw=true)
 
-Or click on the [video](https://www.youtube.com/watch?v=dlnh_09_rvA) below to get an overview of the Node Pipeline.
-
-[![Nodef Compositing](https://img.youtube.com/vi/dlnh_09_rvA/0.jpg)](https://www.youtube.com/watch?v=dlnh_09_rvA)
+Or see a [video](https://www.youtube.com/watch?v=dlnh_09_rvA) to get an overview of the Node Pipeline.
 
 Platform
 * iOS

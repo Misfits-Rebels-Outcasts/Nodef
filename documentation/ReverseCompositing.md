@@ -22,7 +22,7 @@
 
 The double quotes, as shown above, or other mechanisms such as color coding, indicate an altered node on the pipeline.
  
- To change what node 4 (Color Correction) uses as an input node, we just tap on it on the pipeline and then change its input node property.
+ To change the input node of node 4 (Color Correction), we just tap on it on the pipeline and then change its input node property.
  
      -----------------------------------------------------------
      Node 4 (Color Correction Properties)
@@ -37,7 +37,7 @@ The double quotes, as shown above, or other mechanisms such as color coding, ind
      .
      -----------------------------------------------------------
 
-The input nodes can be from a selection of all available nodes. On top of that, one of the Input Node choices can be a "Preceding Node" which will allow the software to automatically link to the previous preceding node as described in the section on Auto Chaining. Instead of linking nodes by drawing lines, we now link nodes by referencing a previous node in the target node or depend on Auto Chaining to automatically link the nodes quickly. We call this process of referencing the input nodes in the target node 'Reverse Compositing'.
+The input nodes can be selected from all available (previous) nodes. On top of that, one of the Input Node choices can be a 'Preceding Node' which will allow the software to automatically link to the previous preceding node as described in the section on Auto Chaining. Instead of linking nodes by drawing lines, we now link nodes by referencing a previous node in the target node or depend on Auto Chaining to automatically link the nodes quickly. We call this process of referencing the input nodes in the target node 'Reverse Compositing'.
 
 We can expand on the above idea to support two or more input nodes. For example, if we tap on node 7 (Merge) below,
   

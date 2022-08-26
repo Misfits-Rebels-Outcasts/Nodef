@@ -34,4 +34,4 @@ You can also 'cycle' through and view the output of each node by "long pressing"
  
 This quick setting of Viewer is especially useful in our merging node in step 7. We could view the output of the intermediate node 2 and node 6 before 'merging' them.
  
- 
+Next, check out on [Directed Acyclic Graph Generation](DirectedAcyclicGraphGeneration.md). 

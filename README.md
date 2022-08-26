@@ -1,4 +1,4 @@
-# Nodef - Node-based Compositing on Mobile 
+# Nodef - Node-based Image/Video Compositing on Mobile 
  
 ### Proposed Ideas
  

@@ -8,11 +8,11 @@ Click on the [video](https://www.youtube.com/watch?v=dlnh_09_rvA) below to get a
 
 ## Overview
  
-Nodef is a powerful node-based image filter compositor with over 150+ filters and effects. It uses an innovative Node Pipeline editor to enable a productive, flexible, and complete node graph compositing experience on a mobile device.
+Nodef is a powerful node-based image filter compositor with 150+ filters and effects. It uses an innovative Node Pipeline editor to enable a productive, flexible, and complete node graph compositing experience on a mobile device.
  
 ### Presets
  
- The Presets screen contains many samples which we can test out to understand more about filter compositing. To bring up this screen, simply tap on the filters (3 circles) icon on the bottom toolbar.
+ The Presets screen contains many samples which you can try on to understand more about filter compositing. To bring up this screen, simply tap on the filters (3 circles) icon on the bottom toolbar.
  
 <img src="https://user-images.githubusercontent.com/47021297/186766901-1d6cde91-b99f-4cd3-a63a-78fcad90f777.jpeg" width="30%" height="30%">
 
@@ -24,13 +24,13 @@ We can tap on the 'Edit' button to customize the preset with the Pipeline (node 
  
 ### Pipeline
  
-The Pipeline screen contains a pipeline of filter nodes (node graph) which we applied on our image. We can bring up this screen by tapping on the 'f' (filters) button on the bottom toolbar of the app.
+The Pipeline screen contains a pipeline of filter nodes (node graph) to apply on the image. You can bring up this screen by tapping on the 'f' (filters) button on the bottom toolbar of the app.
  
  <img src="https://user-images.githubusercontent.com/47021297/186768256-339083c8-d177-4960-9a74-25cee17bc9f6.jpeg" width="30%" height="30%">
 
 ## Filters Compositing
  
- Compositing is the process of combining multiple seemingly simple nodes, in our case image filters, to render, and achieve a desirable composite effect. The process involves adding and compositing nodes in a node graph. In Nodef, we have designed from the ground up a 'Mobile First' Node Pipeline to streamline, simplify, and manage the node graph.
+ Compositing is the process of combining multiple seemingly simple nodes, in our case image filters, to render, and achieve a desirable composite effect. The process involves adding and compositing nodes in a node graph. In Nodef, we have designed from the ground up a 'Mobile First' Node Pipeline to streamline, simplify, and manage the node graph easily.
  
 ### Adding Filters
  
@@ -42,11 +42,11 @@ The Pipeline screen contains a pipeline of filter nodes (node graph) which we ap
  
 ### Chaining Filters
  
- We can combine (chain) filters by adding nodes into the pipeline sequentially. For example, we can add a Color Monochrome node and then a Gaussian Blur node.
+ We can combine (chain) filters by adding nodes onto the pipeline sequentially. For example, we can add a Color Monochrome node and then a Gaussian Blur node.
  
   <img src="https://user-images.githubusercontent.com/47021297/186768314-75265909-a279-43d8-b033-bf366da35ba7.jpeg" width="30%" height="30%">
 
- In the above, the Original Image (Node 0) is used as the input for Color Monochrome (Node 1). The output of Color Monochrome (Node 1) is used as the input for Gaussian Blur (Node 2).
+ In the above, the Original Image (Node 0) is used as an input for Color Monochrome (Node 1). The output of Color Monochrome (Node 1) is used as an input for Gaussian Blur (Node 2).
 
   <img src="https://user-images.githubusercontent.com/47021297/186770353-827b0032-5434-4f84-ad9b-da13b8f90f15.jpeg" width="30%" height="30%">
 
@@ -90,7 +90,7 @@ We can change node properties by tapping on a node in the pipeline to bring up t
  
  <img src="https://user-images.githubusercontent.com/47021297/186768529-dc66ae94-f2de-4695-b4a4-ce3fb208baca.jpeg" width="30%" height="30%">
 
-If we select Node 1 as the new Input Image for Node 3, the following is what we get in our pipeline. We now skip the Color Monochrome node and just apply the Gaussian Blur to Node 1.
+If we select Node 1 as the new Input Image for Node 3, the following is what we get on our pipeline. We now skip the Color Monochrome node and just apply the Gaussian Blur to Node 1.
  
  <img src="https://user-images.githubusercontent.com/47021297/186768542-7b5d9378-b76d-4afb-a875-59e9f3bb57b0.jpeg" width="30%" height="30%">
 
@@ -108,12 +108,12 @@ In a composite blend filter, we usually have both an Input and Background Image.
 
 ## Setting the Viewer
  
- The upper portion of the app, the Viewer, displays the effect of applying all the filters in our pipeline (node graph) on the image. The Viewer can be set to display the effect of the pipeline up to a specific node. We do this by ‘long pressing’ on the yellow socket of a node in the pipeline.
+ The upper portion of the app, the Viewer, displays the effect of applying all the filters on our pipeline (node graph) on the image. The Viewer can be set to display the effect of the pipeline up to a specific node. We do this by ‘long pressing’ on the yellow socket of a node on the pipeline.
  
  <img src="https://user-images.githubusercontent.com/47021297/186768648-f083b4ea-2d64-4cd0-88c1-3e5a208a812e.png" width="30%" height="30%">
 
 In the above, after 'long pressing' on the yellow color socket of Node 1, the Viewer displays the rendered output of Node 1 instead of the output of the entire pipeline. The yellow color socket turns blue to indicate where the Viewer is set to. The Viewer will automatically reset back to display the output of the entire pipeline when we exit the Pipeline screen.
 
-Setting the Viewer from the top to the bottom of the pipeline, one after another enables us to view the effect of each node on our image. This can help us quickly understand the progression steps we have taken in achieving the result we require. This process is known as Viewer Cycling.
+Setting the Viewer from the top to the bottom of the pipeline, one after another enables us to view the effect of each node on our image. This can help us quickly understand the progression steps we have taken to achieve the desired result. This process is known as Viewer Cycling.
 
 

@@ -31,6 +31,39 @@ An open-source node-based photo filters and effects compositor is created to tes
 
 ### [Swift Library for chaining, blending, and compositing Core Image CIFilters](documentation/ChainingBlendingCompositingCoreImageCIFilters.md) 
 
+This is an open source wrapper library for Core Image CIFilters, written in Swift, created to support the compositing ideas proposed above. 
+
+#### It gets you from chaining CIFilters
+
+    func chainFilters(_ inputImage: UIImage) -> UIImage {
+        
+        let filters = FiltersX()
+        filters.add(filterHolder: filters.getFilterWithHolder("Sepia Tone"))
+        filters.add(filterHolder: filters.getFilterWithHolder("Zoom Blur"))
+        return filters.applyFilters(image: inputImage)
+        
+    }
+
+#### To node compositing CIFilters
+
+    func compositingFilters(_ inputImage: UIImage) -> UIImage {
+
+        let filters = FiltersX()
+
+        filters.size=CGSize(width:inputImage.size.width, height:inputImage.size.height)
+
+        filters.add(filterHolder: filters.getFilterWithHolder("Color Monochrome")) //Node 1
+        filters.add(filterHolder: filters.getFilterWithHolder("Checkerboard Generator")) //Node 2
+
+        let fxHolder=filters.getFilterWithHolder("Multiply Blend Mode")
+        (fxHolder.filter as! MultiplyBlendModeFX).inputImageAlias = "2"
+        (fxHolder.filter as! MultiplyBlendModeFX).backgroundImageAlias = "1"
+        filters.add(filterHolder: fxHolder)
+
+        return filters.applyFilters(image: inputImage)
+
+    }
+
 ### [Nodef - Photo Filters & Effects](photofiltersandeffects.md) 
 
 A node-based image filter compositor that is bundled with a collection of 150+ filters and effects. It uses the Node Pipeline editor to enable a productive, flexible, and complete node graph compositing experience on a mobile device.

@@ -127,3 +127,17 @@ The Swift code for the above.
         return filters.applyFilters(image: inputImage)
         
     }
+    
+    
+## Compiling the Source
+
+### Prerequisites
+
+* XCode 13
+* iOS 15
+
+### Build
+
+* Download the Source
+* Launch XCode and load Nodef.xcodeproj
+Build and run on iPhone Simulator or Device

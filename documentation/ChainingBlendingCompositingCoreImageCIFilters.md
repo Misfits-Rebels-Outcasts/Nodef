@@ -106,6 +106,7 @@ Finally, multiply blend the output of the color monochrome with the output of th
 
     CIMultipleBlendMode (CIColorMonochrome, CITriangleTile)
     
+The Swift code for the above.
 
     func nodeGraphFilters(_ inputImage: UIImage) -> UIImage {
         

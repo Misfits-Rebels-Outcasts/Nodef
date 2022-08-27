@@ -96,15 +96,16 @@ Apply a CIMultiplyBlendMode with a CIColorMonochrome version of the original ima
 
 First, chain the original image with the following filters.
 
-Original Image -> CILineScreen -> CIColorMonochrome
+    Original Image -> CILineScreen -> CIColorMonochrome
 
 Next, generate a checkboard and then apply a triangle tile.
 
-CheckboardGenerator -> CITriangleTile
+    CheckboardGenerator -> CITriangleTile
 
 Finally, multiply blend the output of the color monochrome with the output of the triangle tile.
 
-CIMultipleBlendMode (CIColorMonochrome, CITriangleTile)
+    CIMultipleBlendMode (CIColorMonochrome, CITriangleTile)
+    
 
     func nodeGraphFilters(_ inputImage: UIImage) -> UIImage {
         

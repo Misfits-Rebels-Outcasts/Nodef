@@ -1,5 +1,9 @@
 # Chaining, blending, and Compositing Core Image CIFilters
 
+### Original Image
+
+<img src="https://user-images.githubusercontent.com/47021297/187051741-049939e6-0371-47b3-951c-cc83d8a1bffb.JPG" width="15%" height="15%">
+
 ### Create a CIColorMonochrome filter
 
     func createOneFilter(_ inputImage: UIImage) -> UIImage {
@@ -9,6 +13,12 @@
         return filters.applyFilters(image: inputImage)
         
     }
+
+<span>
+<img src="https://user-images.githubusercontent.com/47021297/187051741-049939e6-0371-47b3-951c-cc83d8a1bffb.JPG" width="15%" height="15%">
+ -----> 
+<img src="https://user-images.githubusercontent.com/47021297/187051787-0888162e-5a25-4b64-996d-1518f656d281.JPG" width="15%" height="15%">
+</span>
 
 ### Chain a CISepiaTone filter and CIZoomBlur filter
 
@@ -23,6 +33,15 @@ CISepiaTone takes the original image as the input image and CIZoomBlur takes the
         
     }
 
+<span>
+<img src="https://user-images.githubusercontent.com/47021297/187051741-049939e6-0371-47b3-951c-cc83d8a1bffb.JPG" width="15%" height="15%">
+ -----> 
+<img src="https://user-images.githubusercontent.com/47021297/187051982-f760e1e9-d7d3-4150-9c24-99573374483c.JPG" width="15%" height="15%">
+ -----> 
+<img src="https://user-images.githubusercontent.com/47021297/187051826-937ed8c1-8be3-4863-8299-8b904cbf40a0.JPG" width="15%" height="15%">
+</span>
+
+    
 ### Apply a CIDotScreen filter and then CISubtractBlendMode it with the original image
 
 CISubtractBlendMode takes the output of CIDotScreen as the inputImage and the original image as the backgroundImage
@@ -37,7 +56,26 @@ CISubtractBlendMode takes the output of CIDotScreen as the inputImage and the or
         return filters.applyFilters(image: inputImage)
         
     }
-    
+
+<span>
+<img src="https://user-images.githubusercontent.com/47021297/187051741-049939e6-0371-47b3-951c-cc83d8a1bffb.JPG" width="15%" height="15%">
+ --------> 
+<img src="https://user-images.githubusercontent.com/47021297/187052027-8f5318f1-064a-492d-9508-b4fc86e9e5f1.JPG" width="15%" height="15%">
+</span>
+<div></div>
+
+<span>
+<img src="https://user-images.githubusercontent.com/47021297/187051741-049939e6-0371-47b3-951c-cc83d8a1bffb.JPG" width="15%" height="15%">
+ &nbspSubtract&nbsp
+<img src="https://user-images.githubusercontent.com/47021297/187052027-8f5318f1-064a-492d-9508-b4fc86e9e5f1.JPG" width="15%" height="15%">
+ -----> 
+<img src="https://user-images.githubusercontent.com/47021297/187052025-9bfa7b49-915c-4fc5-85e4-a3b177f70141.JPG" width="15%" height="15%">
+</span>
+
+
+
+
+
 ### Create a CICheckboardGenerator filter 
     
 CICheckboardGenerator requires no inputImage
@@ -52,6 +90,7 @@ CICheckboardGenerator requires no inputImage
         return filters.applyFilters(image: inputImage)
         
     }
+
 
 ### Changing CIFilter properties through the wrapper class.
     

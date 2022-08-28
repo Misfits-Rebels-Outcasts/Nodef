@@ -29,40 +29,23 @@ The ideas and user interface proposed here are based on some random thoughts of 
 
 An open-source node-based photo filters and effects compositor is created to test the ideas above.
 
-### [Swift Library for chaining, blending, and compositing Core Image CIFilters](documentation/ChainingBlendingCompositingCoreImageCIFilters.md) 
+### [Swift Library for Chaining, Blending, and Compositing Core Image CIFilters](documentation/ChainingBlendingCompositingCoreImageCIFilters.md) 
 
 This is an open source wrapper library for Core Image CIFilters, written in Swift, created to support the compositing ideas proposed above. 
 
-#### It gets you from chaining CIFilters
+#### It gets you from Chaining CIFilters
 
-    func chainFilters(_ inputImage: UIImage) -> UIImage {
-        
-        let filters = FiltersX()
-        filters.add(filterHolder: filters.getFilterWithHolder("Sepia Tone"))
-        filters.add(filterHolder: filters.getFilterWithHolder("Zoom Blur"))
-        return filters.applyFilters(image: inputImage)
-        
-    }
+    filters.add(filterHolder: filters.getFilterWithHolder("Sepia Tone"))
+    filters.add(filterHolder: filters.getFilterWithHolder("Zoom Blur"))
 
-#### To node compositing CIFilters
+#### To Node-based Compositing CIFilters
 
-    func compositingFilters(_ inputImage: UIImage) -> UIImage {
-
-        let filters = FiltersX()
-
-        filters.size=CGSize(width:inputImage.size.width, height:inputImage.size.height)
-
-        filters.add(filterHolder: filters.getFilterWithHolder("Color Monochrome")) //Node 1
-        filters.add(filterHolder: filters.getFilterWithHolder("Checkerboard Generator")) //Node 2
-
-        let fxHolder=filters.getFilterWithHolder("Multiply Blend Mode")
-        (fxHolder.filter as! MultiplyBlendModeFX).inputImageAlias = "2"
-        (fxHolder.filter as! MultiplyBlendModeFX).backgroundImageAlias = "1"
-        filters.add(filterHolder: fxHolder)
-
-        return filters.applyFilters(image: inputImage)
-
-    }
+    filters.add(filterHolder: filters.getFilterWithHolder("Color Monochrome")) //Node 1
+    filters.add(filterHolder: filters.getFilterWithHolder("Checkerboard Generator")) //Node 2
+    let fxHolder=filters.getFilterWithHolder("Multiply Blend Mode")
+    (fxHolder.filter as! MultiplyBlendModeFX).inputImageAlias = "2"
+    (fxHolder.filter as! MultiplyBlendModeFX).backgroundImageAlias = "1"
+    filters.add(filterHolder: fxHolder)
 
 ### [Nodef - Photo Filters & Effects](photofiltersandeffects.md) 
 

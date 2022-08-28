@@ -72,10 +72,6 @@ CISubtractBlendMode takes the output of CIDotScreen as the inputImage and the or
 <img src="https://user-images.githubusercontent.com/47021297/187052025-9bfa7b49-915c-4fc5-85e4-a3b177f70141.JPG" width="15%" height="15%">
 </span>
 
-
-
-
-
 ### Create a CICheckboardGenerator filter 
     
 CICheckboardGenerator requires no inputImage
@@ -133,7 +129,19 @@ Apply a CIMultiplyBlendMode with a CIColorMonochrome version of the original ima
         return filters.applyFilters(image: inputImage)
         
     }
-    
+
+<span>
+<img src="https://user-images.githubusercontent.com/47021297/187051741-049939e6-0371-47b3-951c-cc83d8a1bffb.JPG" width="15%" height="15%">
+ -----> 
+<img src="https://user-images.githubusercontent.com/47021297/187051787-0888162e-5a25-4b64-996d-1518f656d281.JPG" width="15%" height="15%">
+ Multiply 
+<img src="https://user-images.githubusercontent.com/47021297/187052198-f182ca6f-ea23-4487-bcb4-4c92bfe0d58f.JPG" width="15%" height="15%">
+ -----> 
+<img src="https://user-images.githubusercontent.com/47021297/187052461-b61e5505-a8e3-4ec5-b0a0-7ff9db0b8e06.JPG" width="15%" height="15%">
+</span>
+
+
+
 ### Node Graph Compositing CIFilters
 
 First, chain the original image with the following filters.

@@ -1,4 +1,4 @@
-# Chaining, blending, and Compositing Core Image CIFilters
+# Chaining, Blending, and Compositing Core Image CIFilters
 
 ### Original Image
 

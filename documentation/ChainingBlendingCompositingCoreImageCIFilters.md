@@ -1,6 +1,6 @@
 # From Chaining and Blending to Node-based Compositing Core Image CIFilters
 
-Core Image is a powerful iOS framework that makes makes hardware-accelerated image manipulation easy. Oftentimes, we use it to add graphical effects to an image in our app. The process usually involves choosing a right CIFilter, setting the parameters, and applying the filter to our image. Sometimes, the process involves chaining several filters to get the desired result. For example, we can first use a CIColorControls to adjust the brightness, contrast, and saturation of an image followed by applying a Vignette filter to add a dark fading border around the edges of our image.
+Core Image is a powerful iOS framework that makes makes hardware-accelerated image manipulation easy. Oftentimes, we use it to add graphical effects to an image in our app with the process involving choosing a right CIFilter, setting parameters, and applying the filter to the image. Sometimes, the process involves chaining several filters to get the desired result. For example, we may use a CIColorControls to first adjust the brightness, contrast, and saturation of an image followed by applying a Vignette filter to add a dark fading border around the edges.
 
 <span>
 <img src="https://user-images.githubusercontent.com/47021297/187051741-049939e6-0371-47b3-951c-cc83d8a1bffb.JPG" width="15%" height="15%">

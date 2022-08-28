@@ -36,37 +36,38 @@ Core Image is already a powerful library that should be used on its own. To find
 
 Assuming we have the following filters:
 
-A
-B
-C -> D -> E (a filter chain)
+    A
+    B
+    C -> D -> E (a filter chain)
 
 In Node-based Compositing, we may want to blend or composite in the following ways:
 
 Blend E with A
 
-A------------>
-C -> D -> E -> F
+    A------------>
+    C -> D -> E -> F
 
 and the output we want to blend/composite it with D:
 
-A------------>
-C -> D -> E -> F ->
-     -------------> G  
+    A------------>
+    C -> D -> E -> F ->
+         -------------> G  
      
 and after chaining G with more filters such as H and I:
 
-A------------>
-C -> D -> E -> F ->
-     -------------> G -> H -> I 
+    A------------>
+    C -> D -> E -> F ->
+         -------------> G -> H -> I 
 
 We want to finnaly composite it place it over A and apply B as the mask.
 
-A------------>
-C -> D -> E -> F ->
-     -------------> G -> H -> I -> 
-A--------------------------------> 
-B--------------------------------> J
+    A------------>
+    C -> D -> E -> F ->
+         -------------> G -> H -> I -> 
+    A--------------------------------> 
+    B--------------------------------> J
 
+This is what the Nodef CIFilter wrapper library provide. On top of that, the library is used for the implementation of Nodef, an app that tests out the Node Pipeline concept. So it also provides the init values, binding with SwiftUI, and the Codable protcol to save the parameters in the node graph.
 
 ### Original Image
 

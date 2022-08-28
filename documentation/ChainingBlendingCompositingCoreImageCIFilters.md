@@ -91,6 +91,7 @@ CICheckboardGenerator requires no inputImage
         
     }
 
+<img src="https://user-images.githubusercontent.com/47021297/187052198-f182ca6f-ea23-4487-bcb4-4c92bfe0d58f.JPG" width="15%" height="15%">
 
 ### Changing CIFilter properties through the wrapper class.
     
@@ -108,6 +109,8 @@ Changing the width of CICheckboardGenerator
         return filters.applyFilters(image: inputImage)
         
     }
+    
+<img src="https://user-images.githubusercontent.com/47021297/187052202-55b768c9-a836-45a9-8be5-e770a18436fb.JPG" width="15%" height="15%">
 
 ### Compositing CIFilters
 

@@ -44,7 +44,7 @@ CISepiaTone takes the original image as the input image and CIZoomBlur takes the
     
 ### Apply a CIDotScreen filter and then CISubtractBlendMode it with the original image
 
-CISubtractBlendMode takes the output of CIDotScreen as the inputImage and the original image as the backgroundImage
+First apply a CIDotScreen filter.
 
     func blendFilters(_ inputImage: UIImage) -> UIImage {
         
@@ -64,10 +64,13 @@ CISubtractBlendMode takes the output of CIDotScreen as the inputImage and the or
 </span>
 <div></div>
 
+CISubtractBlendMode takes the output of CIDotScreen as the inputImage and the original image as the backgroundImage
+
+
 <span>
-<img src="https://user-images.githubusercontent.com/47021297/187051741-049939e6-0371-47b3-951c-cc83d8a1bffb.JPG" width="15%" height="15%">
- &nbspSubtract&nbsp
 <img src="https://user-images.githubusercontent.com/47021297/187052027-8f5318f1-064a-492d-9508-b4fc86e9e5f1.JPG" width="15%" height="15%">
+ &nbspSubtract&nbsp
+<img src="https://user-images.githubusercontent.com/47021297/187051741-049939e6-0371-47b3-951c-cc83d8a1bffb.JPG" width="15%" height="15%">
  -----> 
 <img src="https://user-images.githubusercontent.com/47021297/187052025-9bfa7b49-915c-4fc5-85e4-a3b177f70141.JPG" width="15%" height="15%">
 </span>

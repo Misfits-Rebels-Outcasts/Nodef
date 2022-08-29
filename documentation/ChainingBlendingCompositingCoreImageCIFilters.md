@@ -1,6 +1,6 @@
-# A library for Node-compositing Core Image CIFilter
+# A library for Node-based Compositing Core Image CIFilter
 
-## From Chaining/Blending to Node-based Compositing Core Image CIFilters
+## From Chaining/Blending to Compositing CIFilter
 
 Core Image is a powerful iOS framework that makes makes hardware-accelerated image manipulation easy. Oftentimes, we use it to add graphical effects to an image in our app. The process involves choosing a right CIFilter, setting parameters, and applying the filter to the image. 
 

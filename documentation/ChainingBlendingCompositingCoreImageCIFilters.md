@@ -12,23 +12,23 @@ Sometimes, the process may involve chaining several filters to get the desired r
 <img src="https://user-images.githubusercontent.com/47021297/187098124-0282542b-b176-4de2-8f1d-ad3e7765084e.JPG" width="15%" height="15%">
 </span>
 
-## Why a wrapper Library?
+## Background for a wrapper Library
 
-Core Image is already a library that should be used on its own. Furthermore, if we have implementation questions, we can usually sought out the open-source [Filterpedia](https://github.com/FlexMonkey/Filterpedia) project by Simon Gladman to gather details on filter implementation. 
+Core Image CIFilter is already a library that should be used on its own. Furthermore, if we have implementation questions, we can usually sought out the open-source [Filterpedia](https://github.com/FlexMonkey/Filterpedia) project by Simon Gladman to gather implmentation details.  
 
-However, there may be times, when we need to chain beyond just a simple few CIFilter. We may need to chain filters, blend it with another image, and then apply more filters to achieve a desired result. Or in other words, we may need to apply some kind of node graph to get the effect we wanted. Furthermore, we often find ourselves repeating this chaining and blending process. 
+However, there may be times, when we need to go beyond just chaining a few CIFilter. We may need to chain filters, blend it with another image, and then apply more filters to achieve a desired result. Or in other words, we may need to apply some kind of node graph to get the effect we wanted. As a developer, we often find ourselves in this programmatical chaining and blending process repeatedly. 
 
-For example, a CIEdgeWork filter produces a stylized black-and-white rendition of an image that looks similar to a woodblock cutout. The output of this filter, however, requires a background image to visualize. This requires a composite filter, CISourceAtopCompositing, to place the output of CIEdgeWork over a constant color background. 
+For example, a CIEdgeWork filter produces a stylized black-and-white rendition of an image that looks similar to a woodblock cutout. The output of this filter, however, requires a background image to visualize. This requires a composite filter, CISourceAtopCompositing, to place the output of CIEdgeWork over a constant color background. We often will test this out in our programming code.  
 <p></p>
 <img src="https://user-images.githubusercontent.com/47021297/187098089-17b8df82-5110-4ba3-9a88-666e7707bc7b.JPG" width="15%" height="15%">
 <p></p>
 Beyond this, we may want to twirl the output, and then further apply an Addition composite/blend with another image.
 
-### Nodef CIFilter Library
+### Nodef library
 
-The Nodef library aims to provide a simple wrapper for Core Image CIFilter to apply a node graph (of CIFilter) on an image easily. The library is used in an iPhone app to perform compositing image filters with the aim of testing out the [Node Pipeline](NodePipeline.md) ideas to enable digital compositing on a mobile device elegantly.
+The Nodef library aims to provide a simple wrapper for Core Image CIFilter to apply a node graph (of CIFilter) on an image easily. The library is the same library used in the open-source Nodef app that aims to provide compositing capabilities on a mobile device, and at the same time, test out the [Node Pipeline](NodePipeline.md) ideas.
 
-The library provides node based compositing capabilities through a simple referencing model described below. It also provides default values for the different filters and implements the Codabale protocol to enable saving and loading of the node graph in JSON. This will be useful in compositing on a mobile device and then loading the node graph on desktop or command line to render the actual video clip. 
+Besides providng a library for node based compositing through a simple referencing model described below, the library also provides default values for each of the different filters, and implements the Codabale protocol to enable saving and loading of the node graph in JSON. Nodef aims to provides creative compositing on a mobile device and loading of the node graph on desktop or command line to render the final video clip.
 
 ## Sample Usage
 

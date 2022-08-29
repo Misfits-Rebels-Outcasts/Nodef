@@ -1,5 +1,7 @@
 # Node Pipeline for Node Graph
  
+Note - Please see the [Node-based Compositing on a Mobile device](NodeBasedCompositingOnMobile.md) article for a good background.
+ 
 A node graph is commonly represented as a flowchart with a Directed Acyclic Graph (DAG) in most digital compositing software. This is shown below:
   
      Read media  Read media

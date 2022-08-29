@@ -196,7 +196,7 @@ First, chain the original image with the following filters.
 </span>
 <p></p>
 Next, generate a checkboard and then apply a triangle tile.
-
+<p></p>
     CheckboardGenerator -> CITriangleTile
 <p></p>
 

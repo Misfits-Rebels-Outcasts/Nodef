@@ -94,9 +94,10 @@ First apply a CIDotScreen filter.
  --------> 
 <img src="https://user-images.githubusercontent.com/47021297/187052027-8f5318f1-064a-492d-9508-b4fc86e9e5f1.JPG" width="15%" height="15%">
 </span>
-<div></div>
+<p></p>
 
 CISubtractBlendMode takes the output of CIDotScreen as the inputImage and the original image as the backgroundImage
+<p></p>
 
 
 <span>
@@ -194,16 +195,19 @@ First, chain the original image with the following filters.
 Next, generate a checkboard and then apply a triangle tile.
 
     CheckboardGenerator -> CITriangleTile
+<p></p>
 
 <span>
 <img src="https://user-images.githubusercontent.com/47021297/187052659-9d2ba373-e45f-4f29-bf4c-6755bc615196.JPG" width="15%" height="15%">
  --------> 
 <img src="https://user-images.githubusercontent.com/47021297/187052660-ec33f346-1164-4f24-88e4-6a71e6baa05a.JPG" width="15%" height="15%">
 </span>
+<p></p>
 
 Finally, multiply blend the output of the color monochrome with the output of the triangle tile.
 
-    Appl CIMultiplyBlendMode on the output of CIColorMonochrome and CITriangleTile
+    CIMultiplyBlendMode on CIColorMonochrome and CITriangleTile
+<p></p>
     
 <span>
 <img src="https://user-images.githubusercontent.com/47021297/187052744-7bb58e3d-167d-46e3-8aed-b7c9cbf4b75c.JPG" width="15%" height="15%">
@@ -212,9 +216,11 @@ Multiply
  --------> 
 <img src="https://user-images.githubusercontent.com/47021297/187052661-0fa73541-a1f2-41a3-a1da-f27b8b1cf9ce.JPG" width="15%" height="15%">
 </span>
+<p></p>
 
 
-The Swift code for node graph compositing above.
+The Swift code for the node graph above.
+<p></p>
 
     func nodeGraphFilters(_ inputImage: UIImage) -> UIImage {
         

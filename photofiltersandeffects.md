@@ -26,3 +26,6 @@ Or you can apply a Stylize Filter: Bloom, Comic Effect, Convolution Matrix, Crys
 
 Finally, you can also apply different image transitions such as Bars Swipe, Copy Machine, Disintegrate With Mask, Dissolve, Flash, Mod, Page Curl, Ripple, or Swipe, and then extract image information with a Histogram, Area Average, Row Average, Column Average, Area Maximum and Area Minimum.
 
+<img src=https://user-images.githubusercontent.com/47021297/187184236-32b9797b-a0ee-4caa-b05d-a6c36dc554bd.png width="70%" height="70%" />
+
+

@@ -191,7 +191,7 @@ First, chain the original image with the following filters.
  --------> 
 <img src="https://user-images.githubusercontent.com/47021297/187052744-7bb58e3d-167d-46e3-8aed-b7c9cbf4b75c.JPG" width="15%" height="15%">
 </span>
-
+<p></p>
 Next, generate a checkboard and then apply a triangle tile.
 
     CheckboardGenerator -> CITriangleTile

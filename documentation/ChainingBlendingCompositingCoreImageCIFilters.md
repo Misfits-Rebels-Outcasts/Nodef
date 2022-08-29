@@ -1,6 +1,10 @@
-# From Chaining and Blending to Node-based Compositing Core Image CIFilters
+# Node-compositing Core Image CIFilters Library
 
-Core Image is a powerful iOS framework that makes makes hardware-accelerated image manipulation easy. Oftentimes, we use it to add graphical effects to an image in our app with the process involving choosing a right CIFilter, setting parameters, and applying the filter to the image. Sometimes, the process involves chaining several filters to get the desired result. For example, we may use a CIColorControls to first adjust the brightness, contrast, and saturation of an image followed by applying a Vignette filter to add a dark fading border around the edges.
+## From Chaining/Blending to Node-based Compositing Core Image CIFilters
+
+Core Image is a powerful iOS framework that makes makes hardware-accelerated image manipulation easy. Oftentimes, we use it to add graphical effects to an image in our app. The process involves choosing a right CIFilter, setting parameters, and applying the filter to the image. 
+
+Sometimes, the process may involve chaining several filters to get the desired result. For example, we can use a CIColorControls to first adjust the saturation of an image followed by applying a Vignette filter to add a dark fading border around the edges.
 
 <span>
 <img src="https://user-images.githubusercontent.com/47021297/187051741-049939e6-0371-47b3-951c-cc83d8a1bffb.JPG" width="15%" height="15%">
@@ -8,66 +12,25 @@ Core Image is a powerful iOS framework that makes makes hardware-accelerated ima
 <img src="https://user-images.githubusercontent.com/47021297/187098124-0282542b-b176-4de2-8f1d-ad3e7765084e.JPG" width="15%" height="15%">
 </span>
 
-Or the process may involve blending images. For example, the CIEdgeWork filter produces a stylized black-and-white rendition of an image that looks similar to a woodblock cutout. The output of this filter, however, requires a background image to visualize. This requires a Source Atop Compositing filter to place the output of CIEdgeWork over a constant color background.
+## Why a wrapper Library?
 
+Core Image is already a library that should be used on its own. Furthermore, if we have implementation questions, we can usually sought out the open-source [Filterpedia](https://github.com/FlexMonkey/Filterpedia) project by Simon Gladman to gather details on filter implementation. 
+
+However, there may be times, when we need to chain beyond just a simple few CIFilter. We may need to chain filters, blend it with another image, and then apply more filters to achieve a desired result. Or in other words, we may need to apply some kind of node graph to get the effect we wanted. Furthermore, we often find ourselves repeating this chaining and blending process. 
+
+For example, a CIEdgeWork filter produces a stylized black-and-white rendition of an image that looks similar to a woodblock cutout. The output of this filter, however, requires a background image to visualize. This requires a composite filter, CISourceAtopCompositing, to place the output of CIEdgeWork over a constant color background. 
+<p></p>
 <img src="https://user-images.githubusercontent.com/47021297/187098089-17b8df82-5110-4ba3-9a88-666e7707bc7b.JPG" width="15%" height="15%">
+<p></p>
+Beyond this, we may want to twirl the output, and then further apply an Addition composite/blend with another image.
 
-Sample Code on using Core Image CIFilter
+### Nodef CIFilter Library
 
-    let inputImage = UIImage(named: "taylor-swift")!
-    let context = CIContext(options: nil)
+The Nodef library aims to provide a simple wrapper for Core Image CIFilter to apply a node graph (of CIFilter) on an image easily. The library is used in an iPhone app to perform compositing image filters with the aim of testing out the [Node Pipeline](NodePipeline.md) ideas to enable digital compositing on a mobile device elegantly.
 
-    if let currentFilter = CIFilter(name: "CIColorMonochrome") {
-        let beginImage = CIImage(image: inputImage)
-        currentFilter.setValue(beginImage, forKey: kCIInputImageKey)
-        currentFilter.setValue(0.8, forKey: kCIInputIntensityKey)
+The library provides node based compositing capabilities through a simple referencing model described below. It also provides default values for the different filters and implements the Codabale protocol to enable saving and loading of the node graph in JSON. This will be useful in compositing on a mobile device and then loading the node graph on desktop or command line to render the actual video clip. 
 
-        if let output = currentFilter.outputImage {
-            if let cgimg = context.createCGImage(output, from: output.extent) {
-                let processedImage = UIImage(cgImage: cgimg)
-
-            }
-        }
-    }
-
-## Node-compositing Core Image CIFilters Library
-
-Core Image is already a powerful library that should be used on its own. To find out on how to implmement many of the filters, we can sought out the Filterpedia project by Simon Gladman to find a comprehensive collection of sample CIFilter implementation. This library provides a simple wrapper to enable us to chain, blend, and even perform node-based compositing on filters easily. Many of the chaining and blending tasks are even provided by CIFilter, the wrapper provides node-compositing capabilities.
-
-Assuming we have the following filters:
-
-    A
-    B
-    C -> D -> E (a filter chain)
-
-In Node-based Compositing, we may want to blend or composite in the following ways:
-
-Blend E with A
-
-    A------------>
-    C -> D -> E -> F
-
-and the output we want to blend/composite it with D:
-
-    A------------>
-    C -> D -> E -> F ->
-         -------------> G  
-     
-and after chaining G with more filters such as H and I:
-
-    A------------>
-    C -> D -> E -> F ->
-         -------------> G -> H -> I 
-
-We want to finnaly composite it place it over A and apply B as the mask.
-
-    A------------>
-    C -> D -> E -> F ->
-         -------------> G -> H -> I -> 
-    A--------------------------------> 
-    B--------------------------------> J
-
-This is what the Nodef CIFilter wrapper library provide. On top of that, the library is used for the implementation of Nodef, an app that tests out the Node Pipeline concept. So it also provides the init values, binding with SwiftUI, and the Codable protcol to save the parameters in the node graph.
+## Sample Usage
 
 ### Original Image
 

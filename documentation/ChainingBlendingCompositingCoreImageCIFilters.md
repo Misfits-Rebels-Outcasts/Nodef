@@ -1,4 +1,4 @@
-# Node-compositing Core Image CIFilters Library
+# A library for Node-compositing Core Image CIFilter
 
 ## From Chaining/Blending to Node-based Compositing Core Image CIFilters
 

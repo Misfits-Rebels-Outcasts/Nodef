@@ -14,9 +14,10 @@ Sometimes, the process may involve chaining several filters to get the desired r
 
 ## Background for a wrapper Library
 
-Core Image CIFilter is already a library that should be used on its own. Furthermore, if we have implementation questions, we can usually sought out the open-source [Filterpedia](https://github.com/FlexMonkey/Filterpedia) project by Simon Gladman to gather implmentation details.  
+Core Image CIFilter is already a library that should be used on its own. Furthermore, for implementation details, we often find outselves referring to 
+the open-source [Filterpedia](https://github.com/FlexMonkey/Filterpedia) project by Simon Gladman. So, why do we need library for Core Image CIFilter?  
 
-However, there may be times, when we need to go beyond just chaining a few CIFilter. We may need to chain filters, blend it with another image, and then apply more filters to achieve a desired result. Or in other words, we may need to apply some kind of node graph to get the effect we wanted. As a developer, we often find ourselves in this programmatical chaining and blending process repeatedly. 
+There may be times, when we need to go beyond just chaining a few CIFilter. We may need to chain filters, blend it with another image, and then apply more filters to achieve a desired result. Or in other words, we may need to apply some kind of node graph to get the effect we wanted. As a graphics developer, we often find ourselves in this programmatical chaining and blending process repeatedly. 
 
 For example, a CIEdgeWork filter produces a stylized black-and-white rendition of an image that looks similar to a woodblock cutout. The output of this filter, however, requires a background image to visualize. This requires a composite filter, CISourceAtopCompositing, to place the output of CIEdgeWork over a constant color background.  
 <p></p>
@@ -26,9 +27,11 @@ Beyond this, we may want to twirl the output, and then further apply an Addition
 
 ### Nodef library
 
-The Nodef library aims to provide a simple wrapper for Core Image CIFilter to apply a node graph (of CIFilter) on an image easily. The library is the same library used in the open-source Nodef app that aims to provide compositing capabilities on a mobile device. With the app, we can peform many of the compositing behavior without changing programming code. At the same time, the Nodef app, is used to test out a [Node Pipeline](NodePipeline.md) idea, to reimagine node-based compositing on a mobile device.
+The Nodef library aims to provide a simple wrapper for Core Image CIFilter to apply a node graph (of CIFilter) on an image easily. The library is the same library used in the open-source [Nodef](https://github.com/Misfits-Rebels-Outcasts/Nodef/blob/main/photofiltersandeffects.md) app that aims to provide elegant compositing capabilities on a mobile device. With the app, we can peform many of the compositing behavior without changing a line of code. At the same time, the Nodef app, is used to test out a [Node Pipeline](NodePipeline.md) idea, that reimagines node-based compositing on a mobile device.
 
-Besides providng a library for node based compositing, the library also provides default values for each of the different filters, and implements the Codabale protocol to enable saving and loading of the node graph in JSON. Nodef aims to allow you to creatively perform compositing on a mobile device and then load the node graph on your desktop or command line to render the final video clip.
+Besides providng a library for node based compositing, the library also provides default values for each of the different filters, and implements the Codabale protocol to enable saving and loading of the node graph in JSON. Nodef imagines that we can be creatively compositing on a mobile device and then loading the node graph on our desktop or command line to render the final video clip.
+
+Happy Compositing!
 
 ## Sample Usage
 

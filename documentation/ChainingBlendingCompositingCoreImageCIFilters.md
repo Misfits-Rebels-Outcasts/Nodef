@@ -27,11 +27,11 @@ Beyond this, we may want to twirl the output, and then further apply an Addition
 
 ### Nodef library
 
-The Nodef library is a very simple wrapper for applying a node graph (of CIFilter) on an image. The library is the same library used in the open-source [Nodef](https://github.com/Misfits-Rebels-Outcasts/Nodef/blob/main/photofiltersandeffects.md) app that aims to provide elegant compositing capabilities on a mobile device. The app enables us to perform many of the compositing behavior we desire without changing a line of code. At the same time, the Nodef app is used to test out a [Node Pipeline](NodePipeline.md) idea, that reimagines node-based compositing on a mobile device.
+The Nodef library is a very simple wrapper for applying a node graph (of CIFilter) on an image. The library is the same library used in the open-source [Nodef](https://github.com/Misfits-Rebels-Outcasts/Nodef/blob/main/photofiltersandeffects.md) app that that reimagines node-based compositing on a mobile device with an innovative [Node Pipeline](NodePipeline.md). The app enables us to perform many of the compositing behavior we desire without changing a single line of code.
 
-Besides providing a library for node-based compositing, the library also provides default values for each of the different filters and implements the 'Codable' protocol to enable the saving and loading of the node graph in JSON. Nodef imagines that we can be creatively be compositing on a mobile device and then loading the node graph on our desktop or command line to render the final video clip.
+Besides providing a library for node-based compositing, the library also provides default values for each of the different filters and implements the 'Codable' protocol for saving and loading a node graph in JSON. Using the JSON file, we can be creatively compositing on a mobile device, saving the composite as a file and then loading it on our desktop computer with an application or command line tool.
 
-Happy Compositing!
+Happy Compositing on Mobile!
 
 ## Sample Usage
 

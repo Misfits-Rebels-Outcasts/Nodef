@@ -2,7 +2,7 @@
 
 ## From Chaining/Blending to Compositing CIFilter
 
-Core Image is a powerful iOS framework that makes makes hardware-accelerated image manipulation easy. Oftentimes, we use it to add graphical effects to an image in our app. The process involves choosing a right CIFilter, setting parameters, and applying the filter to the image. 
+Core Image is a powerful iOS framework that makes makes hardware-accelerated image manipulation easy. Oftentimes, we use it to add graphical effects to  images in our app. The process involves choosing a right CIFilter, setting parameters, and applying the filter to an image. 
 
 Sometimes, the process may involve chaining several filters to get the desired result. For example, we can use a CIColorControls to first adjust the saturation of an image followed by applying a Vignette filter to add a dark fading border around the edges.
 
@@ -15,7 +15,7 @@ Sometimes, the process may involve chaining several filters to get the desired r
 ## Background for a wrapper Library
 
 Core Image CIFilter is already a library that should be used on its own. Furthermore, for implementation details, we often find outselves referring to 
-the open-source [Filterpedia](https://github.com/FlexMonkey/Filterpedia) project by Simon Gladman. So, why do we need library for Core Image CIFilter?  
+the open-source [Filterpedia](https://github.com/FlexMonkey/Filterpedia) project by Simon Gladman. We have everything that we need. So, why do we need library for Core Image CIFilter?  
 
 There may be times, when we need to go beyond just chaining a few CIFilter. We may need to chain filters, blend it with another image, and then apply more filters to achieve a desired result. Or in other words, we may need to apply some kind of node graph to get the effect we wanted. As a graphics developer, we often find ourselves in this programmatical chaining and blending process repeatedly. 
 

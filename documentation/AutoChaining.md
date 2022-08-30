@@ -15,7 +15,7 @@ Furthermore, if a node (New Rotate) is added between node 5 and 6, they can be j
     6. New Rotate       (input 5)     >
     7. Gaussian Blur    (input 6)     >
   
-We can easily reorder the nodes resulting in a new composite. For example, we can also easily shift node 6 Gaussian Blur to occur before node 5 Transform. The compositing software can automatically reassign the input nodes.
+We can easily reorder the nodes resulting in a new composite. For example, we can shift node 6 Gaussian Blur to occur before node 5 Transform. The compositing software can automatically reassign the input nodes.
 
     3. Read media       (input none)  >
     4. Color Correction (input 3)     >

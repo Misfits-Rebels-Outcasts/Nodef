@@ -30,7 +30,7 @@ The Pipeline screen contains a pipeline of filter nodes (node graph) to apply on
 
 ## Filters Compositing
  
- Compositing is the process of combining multiple seemingly simple nodes, in our case image filters, to render, and achieve a desirable composite effect. The process involves adding and compositing nodes in a node graph. In Nodef, we have designed from the ground up a 'Mobile First' Node Pipeline to streamline, simplify, and manage the node graph easily.
+ Compositing is the process of combining multiple seemingly simple nodes, in our case image filters, to achieve a desired composite effect. The process involves adding and compositing nodes in a node graph. In Nodef, we have designed from the ground up a 'Mobile First' Node Pipeline to streamline, simplify, and manage the node graph easily.
  
 ### Adding Filters
  

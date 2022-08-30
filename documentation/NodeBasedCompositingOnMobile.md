@@ -1,11 +1,11 @@
 # Node-based Compositing on Mobile
 
-Node-based Compositing is the process of combining multiple seemingly simple nodes to render and achieve a desirable result. This process has wide applications in the graphics software industry, especially in procedural image generation, motion graphics, animation, 3D modeling, and visual effects VFX.
+Node-based Compositing is the process of combining multiple seemingly simple nodes to render and achieve a desired result. This process has wide applications in the graphics software industry, especially in procedural image generation, motion graphics, animation, 3D modeling, and visual effects VFX.
 
-The paradigm of a node-based tool involves linking basic media objects onto a procedural map or node graph and then intuitively laying out each of the steps in a sequential progression of inputs and outputs. Any parameters from an earlier step can be modified to change the outcome, with the results instantly being visible to you, and each of the nodes, being procedural, can be easily reused, saving time and effort.
+The paradigm of a node-based tool involves linking basic media objects onto a procedural map or node graph and then intuitively laying out each of the steps in a sequential progression of inputs and outputs. Any parameters from an earlier step can be modified to change the final outcome, with the results instantly being visible to you, and each of the nodes, being procedural, can be easily reused, saving time and effort.
 
-To visualize what it looks like, the user interface of such a graphics software, that is involved in making changes to multiple video/image sources and then merging them into one outcome, is represented as a sequential progression of steps in a node graph - Directed Acyclic Graph (DAG) is shown below:
-  
+To visualize what it looks like, the user interface of a node compositing software is shown below. Videos or images are first read in and then processed by  a sequence of operations before being merge into one final outcome. The sequence of operations, the node graph - Directed Acyclic Graph (DAG), is represented by a flowchart.
+
      Read media  Read media
      |           |     
      V           V     
@@ -23,7 +23,7 @@ To visualize what it looks like, the user interface of such a graphics software,
            V
          Viewer
 
-As the number of nodes increases, the node graph, together with a large monitor screen, provides an overview of what is happening while also enabling one to focus on a particular progression step (node) and make changes to the step to achieve the desired results.
+As the number of nodes increases, the node graph, together with a large monitor screen, provides an overview of what is happening while also enabling one to focus on a particular progression step (node) and make changes to that step to achieve the end results.
  
 ### The Small Screen Problem on mobile
  

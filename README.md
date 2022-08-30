@@ -29,7 +29,7 @@ The ideas and user interface proposed here are based on some random thoughts of 
 
 An open-source node-based photo filters and effects compositor is created to test the ideas above.
 
-### [Swift Library for Chaining, Blending, and Compositing Core Image CIFilters](documentation/ChainingBlendingCompositingCoreImageCIFilters.md) 
+### [Swift Library for Chaining, Blending, and Compositing Core Image CIFilter](documentation/ChainingBlendingCompositingCoreImageCIFilters.md) 
 
 This is an open source wrapper library for Core Image CIFilters, written in Swift, created to support the compositing ideas proposed above. 
 

@@ -149,7 +149,7 @@ Changing the width of CICheckboardGenerator
 
 ### Compositing CIFilters
 
-Apply a CIMultiplyBlendMode with a CIColorMonochrome version of the original image with a CICheckboardGenerator.
+Apply a CIMultiplyBlendMode on the CIColorMonochrome version of the original image with a CICheckboardGenerator.
 
     func compositingFilters(_ inputImage: UIImage) -> UIImage {
         

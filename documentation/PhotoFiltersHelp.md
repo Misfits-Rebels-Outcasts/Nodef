@@ -8,7 +8,7 @@ Click on the [video](https://www.youtube.com/watch?v=dlnh_09_rvA) below to get a
 
 ### Basics
 
-Get an overview on adding nodes, chaining nodes, selecting nodes as input - [The Basics](PhotoFiltersBasics.md)
+How to add filter nodes, chain nodes, change node properties, and select nodes as input? - [The Basics](PhotoFiltersBasics.md)
 
 ### Tutorials
 

@@ -10,6 +10,16 @@ On top of that, the app features an innovative and unique Node Pipeline, node-ba
 
 https://github.com/Misfits-Rebels-Outcasts/Nodef
 
+### Source Code (GPL)
+
+Nodef Library
+
+[Source Code](https://github.com/Misfits-Rebels-Outcasts/Nodef/tree/main/code/Nodef%20Filters%20Library)
+
+Nodef App
+
+GPL Source Code Coming soon...
+
 ### You are truly only limited by your imagination!
 
 With Nodef Photo Filters & Effects, you can create a Gradient, Tile, Star light, QR Code, or Sunbeam, and then distort it with a Bump, Circle Splash, Circular Wrap, Droste, Torus Lens, Twirl distortion, and finally, blend it with an Addition Blend, Subtract Blend, Difference Blend, Divide Blend, Luminosity Blend, Pin Light Blend, Saturation Blend, Color Burn Blend, Overlay Blend, Color Dodge Blend, Darken Blend, Source Atop, Source In, Source Out, or Source Over composite filter with the original or a different image.

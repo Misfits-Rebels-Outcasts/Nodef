@@ -48,7 +48,7 @@ For example, the node graph above can be represented as a **simple list** below:
      V
      Viewer
   
-Note the break from the first series after the 'Premult' node and the second break after the 'Gaussian Blur' node. From here, we will refer to the above arrangement as a pipeline (or Node Pipeline with breaks).
+Note the break from the first series after the 'Premult' node and the second break after the 'Gaussian Blur' node. From here, we will refer to the above arrangement as a **pipeline** (or **Node Pipeline** with breaks).
 
 This arrangement has the obvious advantage of being represented easily on a mobile device with a simple list as shown below.
   

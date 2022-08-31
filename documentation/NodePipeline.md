@@ -114,3 +114,4 @@ The pipeline approach leads to other interesting productivity gains in compositi
 In the above, we will address how to join nodes by Auto Chaining and Reverse Compositing, ponder further on linking node properties, and also about setting the Viewer to a selected intermediate node on the pipeline.
 
 
+

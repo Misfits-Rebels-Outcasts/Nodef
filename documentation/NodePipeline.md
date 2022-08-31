@@ -107,6 +107,6 @@ The pipeline approach leads further to other interesting productivity gains in c
   * [Viewer Cycling](ViewerCycling.md)
   * [Directed Acyclic Graph (DAG) Generation/Import](DirectedAcyclicGraphGeneration.md)
  
-Here, we will address how to join nodes by Auto Chaining and Reverse Compositing, ponder further on linking node properties, and also about setting the Viewer to a selected intermediate nodes in the pipeline.
+In the above, we will address how to join nodes by Auto Chaining and Reverse Compositing, ponder further on linking node properties, and also about setting the Viewer to a selected intermediate nodes in the pipeline.
 
 

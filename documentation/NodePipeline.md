@@ -91,7 +91,7 @@ Simplifying it further
 
 ## Implications
 
-With the above, let's think a little further about the implications if we use a node pipeline as the user interface for managing a node graph on a small screen mobile device. 
+With the above, let's think a little further about the implications if we use a node pipeline as the user interface for managing a node graph on a small-screen mobile device. 
 
 1. A node pipeline will require a shift in thinking when you are using it to manage the node graph. Instead of three parallel series of nodes in the node graph above, a pipeline has three sequences (or series) of nodes. The lines joining nodes in a node graph are now represented by the target node referencing input nodes. For example, node 2 references node 1 (as the input). Node 7 references node 2 and 6.
 
@@ -99,7 +99,7 @@ With the above, let's think a little further about the implications if we use a 
  
 3. A pipeline makes it easy to navigate the node graph on a small screen as you can quickly scroll up and down the list. Tapping on any item in the list (a node) can further bring up a screen for changing node properties. This user interface should be familiar to many mobile users as it is similar to the user interface for managing mobile phone 'Settings'.
 
-4. The contextual overload of a user frequently panning a flow-chart-like node graph on a small screen is significantly reduced. This will improve the usability and ease of managing a node graph on a small screen. 
+4. The contextual overload of a user frequently panning a flowchart-like node graph on a small screen is significantly reduced. This will improve the usability and ease of managing a node graph on a small screen. 
 
 5. The referencing model for linking nodes in a pipeline is similar to using a spreadsheet. 'Merge' below is like a formula applying to cell 2 and 6. 
 
@@ -111,6 +111,6 @@ The pipeline approach leads to other interesting productivity gains in compositi
   * [Viewer Cycling](ViewerCycling.md)
   * [Directed Acyclic Graph (DAG) Generation/Import](DirectedAcyclicGraphGeneration.md)
  
-In the above, we will address how to join nodes by Auto Chaining and Reverse Compositing, ponder further on linking node properties, and also about setting the Viewer to a selected intermediate nodes on the pipeline.
+In the above, we will address how to join nodes by Auto Chaining and Reverse Compositing, ponder further on linking node properties, and also about setting the Viewer to a selected intermediate node on the pipeline.
 
 

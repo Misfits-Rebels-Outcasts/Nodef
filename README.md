@@ -35,7 +35,7 @@ A node-based image filter compositor that is bundled with a collection of 150+ f
 
 ![Photo Filters & Effects](https://github.com/Misfits-Rebels-Outcasts/Nodef/blob/main/documentation/photofilterseffects.png?raw=true)
 
-Or see a [video](https://www.youtube.com/watch?v=dlnh_09_rvA) to get an overview of the Node Pipeline.
+See a [video](https://www.youtube.com/watch?v=dlnh_09_rvA) to get an overview of the Node Pipeline or the [Nodef Photo Filters & Effects - Help File](documentation/PhotoFiltersHelp.md).
 
 Platform
 * iOS
@@ -45,10 +45,7 @@ Platform
 Programming Language
 * Swift
 
-### Help File
-[Nodef Photo Filters & Effects - Help File](documentation/PhotoFiltersHelp.md)
-
-### [Swift Library for Chaining, Blending, and Compositing Core Image CIFilter](documentation/ChainingBlendingCompositingCoreImageCIFilters.md) 
+### [Open Source Library for Chaining, Blending, and Compositing Core Image CIFilter](documentation/ChainingBlendingCompositingCoreImageCIFilters.md) 
 
 This is an open source wrapper library for Core Image CIFilters, in Swift, created to support the app and compositing ideas proposed above. 
 
@@ -65,7 +62,15 @@ This is an open source wrapper library for Core Image CIFilters, in Swift, creat
     (fxHolder.filter as! MultiplyBlendModeFX).inputImageAlias = "2"
     (fxHolder.filter as! MultiplyBlendModeFX).backgroundImageAlias = "1"
     filters.add(filterHolder: fxHolder)
-    
+
+Platform
+* iOS
+* iPadOS
+* Mac
+
+Programming Language
+* Swift
+
 ### Sister Project
 
 The [WYSIWYG Draw User Interface based on SwiftUI](https://github.com/Misfits-Rebels-Outcasts/SwiftUI-WYSIWYG-Draw) for Nodef.

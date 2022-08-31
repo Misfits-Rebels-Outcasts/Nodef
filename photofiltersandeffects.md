@@ -18,7 +18,7 @@ Nodef Library
 
 Nodef App
 
-GPL Source Code Coming soon...
+GPL Source Code Coming Soon...
 
 ### You are truly only limited by your imagination!
 

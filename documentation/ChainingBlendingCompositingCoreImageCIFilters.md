@@ -245,6 +245,52 @@ The Swift code for the node graph above.
         
     }
     
+### Saving the Node Graph as a JSON string
+
+        let filters = FiltersX()
+        filters.add(filterHolder: filters.getFilterWithHolder("Color Controls"))
+        filters.add(filterHolder: filters.getFilterWithHolder("Sepia Tone"))
+        filters.add(filterHolder: filters.getFilterWithHolder("Zoom Blur"))
+        pageSettings.filters = filters
+        
+        let encoder=JSONEncoder()
+        encoder.outputFormatting = .prettyPrinted
+
+        let pageSettingsData = (try? encoder.encode(pageSettings))!
+        let pageSettingsDataStr = String(data: pageSettingsData, encoding: .utf8)!
+
+        var jsonObject: [String: String] = [String: String]()
+        var savedJSONStr = ""
+        jsonObject["page_settings"]=pageSettingsDataStr
+
+        
+        if let jsonData = try? encoder.encode(jsonObject) {
+            if let jsonString = String(data: jsonData, encoding: .utf8) {
+
+                var jsonLabel: [String: String] = [String: String]()
+                jsonLabel["nodef"]=jsonString
+                
+                if let jsonLabelData = try? encoder.encode(jsonLabel) {
+                    if let jsonLabelString = String(data: jsonLabelData, encoding: .utf8) {
+                        savedJSONStr=jsonLabelString
+                    }
+                }
+            }
+        }
+        
+### Loading the JSON String for initializing the node graph
+
+        if let data = savedJSONStr.data(using: .utf8) {
+                    let labelDictionary : [String: Any] = (try? JSONSerialization.jsonObject(with: data, options: []) as? [String: Any])!
+                    let labelStr = labelDictionary["nodef"] as? String
+                    
+                    if let attributesData = labelStr!.data(using: .utf8) {
+                        let attributesDictionary : [String: Any] = (try? JSONSerialization.jsonObject(with: attributesData, options: []) as? [String: Any])!
+                        let loadedPageSettingsStr = attributesDictionary["page_settings"] as? String
+                        
+                        print(loadedPageSettingsStr as Any)
+                    }
+        }    
     
 ## Compiling the Source
 

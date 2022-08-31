@@ -2,7 +2,7 @@
 
 ## From Chaining/Blending to Compositing CIFilter
 
-Core Image is a powerful iOS framework that makes hardware-accelerated image manipulation easy. Oftentimes, we use it to add graphical effects to  images in our app. The typical process involves choosing a right CIFilter, setting parameters, and applying the filter to an image. 
+Core Image is a powerful iOS framework that makes hardware-accelerated image manipulation easy. Oftentimes, as developers, we use it to add graphical effects to images in our app. The typical process involves choosing a right CIFilter, setting parameters, and applying the filter to an image. 
 
 Sometimes, the process may involve chaining several filters to get the desired result. For example, we can use a CIColorControls filter to first adjust the saturation of an image followed by applying a Vignette filter to add a dark fading border around the edges.
 
@@ -14,8 +14,8 @@ Sometimes, the process may involve chaining several filters to get the desired r
 
 ## Background for a wrapper Library
 
-Core Image CIFilter is already a library that we should use on its own. Furthermore, we often find ourselves referring to 
-the open-source [Filterpedia](https://github.com/FlexMonkey/Filterpedia) project by Simon Gladman for implementation details. We already have everything that we need. So, why bother with a library?  
+Core Image CIFilter by itself is already a full fledged library that we are able to use independently. Furthermore, we often find ourselves referring to 
+the open-source [Filterpedia](https://github.com/FlexMonkey/Filterpedia) project by Simon Gladman for implementation details. With these, we should already have everything that we need. So, why bother with another library?  
 
 There may be times when we need to go beyond just chaining a few CIFilter. We may need to chain filters, blend the output with another image, and then apply more filters to achieve the desired result. Or in other words, we may need to apply some kind of node graph to get the effect we wanted. As graphics developers, we often find ourselves in this programmatical chaining and blending process repeatedly. 
 
@@ -23,7 +23,7 @@ For example, a CIEdgeWork filter produces a stylized black-and-white rendition o
 <p></p>
 <img src="https://user-images.githubusercontent.com/47021297/187098089-17b8df82-5110-4ba3-9a88-666e7707bc7b.JPG" width="20%" height="20%">
 <p></p>
-Beyond this, we may want to twirl the output, and then further apply an Addition composite/blend with another image. We often need to test this out in programming code. 
+Beyond this, we may want to twirl the output, and then further apply an Addition composition/blend with another image. We often need to test this out in programming code. 
 
 ### Nodef library
 

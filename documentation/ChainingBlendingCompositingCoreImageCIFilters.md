@@ -278,6 +278,7 @@ The Swift code for the node graph above.
             }
         }
         
+        
 ### Loading the JSON String for initializing the node graph
 
         if let data = savedJSONStr.data(using: .utf8) {
@@ -291,7 +292,42 @@ The Swift code for the node graph above.
                         print(loadedPageSettingsStr as Any)
                     }
         }    
-    
+
+will give you
+
+       {  
+       filters : {    
+        filterList : [      
+        {
+          type : CIColorControls,      
+          alias : "",        
+          inputImageAlias : "",        
+          backgroundImageAlias : "",        
+          brightness : 0,        
+          saturation : 1,        
+          contrast : 1        
+        },      
+        {
+          type : CISepiaTone,        
+          alias : "",        
+          inputImageAlias : "",        
+          backgroundImageAlias : "",        
+          intensity : 1      
+        },      
+        {        
+         type : CIZoomBlur,      
+         alias : "",        
+         inputImageAlias : "",        
+         backgroundImageAlias : "",        
+         centerX : 0,        
+         centerY : 0,        
+         amount : 20        
+        }    
+        ],    
+        size : [0,0]  
+        }
+       }
+
 ## Compiling the Source
 
 ### Prerequisites

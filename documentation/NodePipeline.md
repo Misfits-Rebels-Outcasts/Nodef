@@ -103,7 +103,7 @@ With the above, let's think a little further about the implications if we use a 
 
 5. The referencing model for linking nodes in a pipeline is similar to using a spreadsheet. 'Merge' below is like a formula applying to cell 2 and 6. Some desktop node-based tool users may also find this model familiar as it is similar to the 'Link-To' capability for linking properties.
 
-    7. Merge            (2,6)   >
+     7. Merge            (2,6)   >
  
 The pipeline approach leads to other interesting productivity gains in compositing on a mobile device. Please check out the following:
  

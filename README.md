@@ -63,6 +63,8 @@ This is an open-source wrapper library for Core Image CIFilters, in Swift, creat
     (fxHolder.filter as! MultiplyBlendModeFX).backgroundImageAlias = "1"
     filters.add(filterHolder: fxHolder)
 
+[Source Code](https://github.com/Misfits-Rebels-Outcasts/Nodef/tree/main/code/Nodef%20Filters%20Library)
+
 Platform
 * iOS
 * iPadOS

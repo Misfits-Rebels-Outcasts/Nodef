@@ -29,24 +29,6 @@ The ideas and user interface proposed here are based on some random thoughts of 
 
 An open-source node-based photo filters and effects compositor is created to test the ideas above.
 
-### [Swift Library for Chaining, Blending, and Compositing Core Image CIFilter](documentation/ChainingBlendingCompositingCoreImageCIFilters.md) 
-
-This is an open source wrapper library for Core Image CIFilters, written in Swift, created to support the compositing ideas proposed above. 
-
-#### It gets you from Chaining CIFilters
-
-    filters.add(filterHolder: filters.getFilterWithHolder("Sepia Tone"))
-    filters.add(filterHolder: filters.getFilterWithHolder("Zoom Blur"))
-
-#### To Node-based Compositing CIFilters
-
-    filters.add(filterHolder: filters.getFilterWithHolder("Color Monochrome")) //Node 1
-    filters.add(filterHolder: filters.getFilterWithHolder("Checkerboard Generator")) //Node 2
-    let fxHolder=filters.getFilterWithHolder("Multiply Blend Mode")
-    (fxHolder.filter as! MultiplyBlendModeFX).inputImageAlias = "2"
-    (fxHolder.filter as! MultiplyBlendModeFX).backgroundImageAlias = "1"
-    filters.add(filterHolder: fxHolder)
-
 ### [Nodef - Photo Filters & Effects](photofiltersandeffects.md) 
 
 A node-based image filter compositor that is bundled with a collection of 150+ filters and effects. It uses the Node Pipeline editor to enable a productive, flexible, and complete node graph compositing experience on a mobile device.
@@ -66,7 +48,25 @@ Programming Language
 ### Help File
 [Nodef Photo Filters & Effects - Help File](documentation/PhotoFiltersHelp.md)
 
-## Sister Project
+### [Swift Library for Chaining, Blending, and Compositing Core Image CIFilter](documentation/ChainingBlendingCompositingCoreImageCIFilters.md) 
+
+This is an open source wrapper library for Core Image CIFilters, written in Swift, created to support the compositing ideas proposed above. 
+
+#### It gets you from Chaining CIFilters
+
+    filters.add(filterHolder: filters.getFilterWithHolder("Sepia Tone"))
+    filters.add(filterHolder: filters.getFilterWithHolder("Zoom Blur"))
+
+#### To Node-based Compositing CIFilters
+
+    filters.add(filterHolder: filters.getFilterWithHolder("Color Monochrome")) //Node 1
+    filters.add(filterHolder: filters.getFilterWithHolder("Checkerboard Generator")) //Node 2
+    let fxHolder=filters.getFilterWithHolder("Multiply Blend Mode")
+    (fxHolder.filter as! MultiplyBlendModeFX).inputImageAlias = "2"
+    (fxHolder.filter as! MultiplyBlendModeFX).backgroundImageAlias = "1"
+    filters.add(filterHolder: fxHolder)
+    
+### Sister Project
 
 The [WYSIWYG Draw User Interface based on SwiftUI](https://github.com/Misfits-Rebels-Outcasts/SwiftUI-WYSIWYG-Draw) for Nodef.
 

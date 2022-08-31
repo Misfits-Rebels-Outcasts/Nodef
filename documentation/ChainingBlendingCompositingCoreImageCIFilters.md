@@ -17,7 +17,7 @@ Sometimes, the process may involve chaining several filters to get the desired r
 Core Image CIFilter by itself is already a full fledged library that we are able to use independently. Furthermore, we often find ourselves referring to 
 the open-source [Filterpedia](https://github.com/FlexMonkey/Filterpedia) project by Simon Gladman for implementation details. With these, we should already have everything that we need. So, why bother with another library?  
 
-There may be times when we need to go beyond just chaining a few CIFilter. We may need to chain filters, blend the output with another image, and then apply more filters to achieve the desired result. Or in other words, we may need to apply some kind of node graph to get the effect we wanted. As graphics developers, we often find ourselves in this programmatical chaining and blending process repeatedly. 
+There may be times when we need to go beyond just chaining a few CIFilter. We may need to chain filters, blend the output with another image, and then apply more filters to achieve the desired result. Or in other words, we may need to apply some kind of node graph to get the effect we wanted. As developers, we often find ourselves in this programmatical chaining and blending process repeatedly. 
 
 For example, a CIEdgeWork filter produces a stylized black-and-white rendition of an image that looks similar to a woodblock cutout. The output of this filter, however, requires a background image to visualize. This requires a composite filter, CISourceAtopCompositing, to place the output of CIEdgeWork over a constant color background (CIConstantColor).  
 <p></p>

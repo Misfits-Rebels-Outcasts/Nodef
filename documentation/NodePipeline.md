@@ -88,7 +88,9 @@ Simplifying it further
   
     7. Merge            (2,6)   >
     8. Viewer           (7)     >
-  
+
+## Implications
+
 With the above, let's think a little further about the implications if we use the above as the user interface for a node graph on a mobile device. First, it will require a (slight) shift in thinking. Instead of three parallel series of nodes in a node graph, it now has three sequences (or series) of nodes in a pipeline. The lines joining nodes in a node graph are now represented by the target node referencing input nodes. For example, node 2 uses node 1 as the input and thus references it. Node 7 references node 2 and 6.
 
 Mathematically, the node graph, which is a Directed Acyclic Graph, can be decomposed to the above without any loss of information. This means a node pipeline can be as flexible as a flowchart-like node graph.

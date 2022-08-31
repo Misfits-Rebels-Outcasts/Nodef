@@ -91,17 +91,17 @@ Simplifying it further
 
 ## Implications
 
-With the above, let's think a little further about the implications if we use a node pipeline as the user interface for a node graph on a mobile device. 
+With the above, let's think a little further about the implications if we use a node pipeline as the user interface for managing a node graph on a small screen mobile device. 
 
-1. A node pipeline will require a shift in thinking when you are using it. Instead of three parallel series of nodes in a node graph, it now has three sequences (or series) of nodes on a pipeline. The lines joining nodes in a node graph are now represented by the target node referencing input nodes. For example, node 2 references node 1 (as the input). Node 7 references node 2 and 6.
+1. A node pipeline will require a shift in thinking when you are using to manage the node graph. Instead of three parallel series of nodes in a node graph, it now has three sequences (or series) of nodes on a pipeline. The lines joining nodes in a node graph are now represented by the target node referencing input nodes. For example, node 2 references node 1 (as the input). Node 7 references node 2 and 6.
 
-2. Mathematically, the node graph, which is a Directed Acyclic Graph, can be decomposed to the above without any loss of information. This means a node pipeline can be as flexible as a flowchart-like node graph.
+2. Mathematically, a node graph, which is a Directed Acyclic Graph, can be decomposed to the above (node pipeline) without any loss of information. This means a pipeline user interface can be as flexible as a flowchart-like node graph.
  
 3. A pipeline makes it easy to navigate the node graph on a small screen as you can quickly scroll up and down the list. Tapping on any item in the list (a node) can further bring up a screen for changing node properties. This user interface should be familiar to many mobile users as it is similar to the user interface for managing mobile phone 'Settings'.
 
-4. The contextual overload of a user frequently panning a flow-chart-like node graph on a small screen is significantly reduced. This will improve the ease of use when managing a node graph on a small screen.
+4. The contextual overload of a user frequently panning a flow-chart-like node graph on a small screen is significantly reduced. This will improve the ease of use when managing a node graph on a small screen. This is especially the case when managing a node graph that that is invovled mainly in chaining a sequence of operations.
 
-5. The referencing model for linking nodes in a pipeline is similar to using a spreadsheet. 'Merge' below is like a formula applying to cell 2 and 6.
+5. The referencing model for linking nodes in a pipeline is similar to using a spreadsheet. 'Merge' below is like a formula applying to cell 2 and 6. Some desktop node-based tool users may also find this model familiar as it is similar to the 'Link-To' capability for linking properties.
 
     7. Merge            (2,6)   >
  

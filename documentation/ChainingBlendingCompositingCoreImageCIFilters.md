@@ -337,6 +337,6 @@ will give you
 
 ### Build
 
-* Download the Source
+* Download the [Source Code](https://github.com/Misfits-Rebels-Outcasts/Nodef/tree/main/code/Nodef%20Filters%20Library)
 * Launch XCode and load Nodef.xcodeproj
 Build and run on iPhone Simulator or Device

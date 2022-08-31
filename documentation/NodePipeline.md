@@ -91,24 +91,26 @@ Simplifying it further
 
 ## Implications
 
-With the above, let's think a little further about the implications if we use the above as the user interface for a node graph on a mobile device. First, it will require a (slight) shift in thinking. Instead of three parallel series of nodes in a node graph, it now has three sequences (or series) of nodes in a pipeline. The lines joining nodes in a node graph are now represented by the target node referencing input nodes. For example, node 2 uses node 1 as the input and thus references it. Node 7 references node 2 and 6.
+With the above, let's think a little further about the implications if we use a node pipeline as the user interface for a node graph on a mobile device. 
 
-Mathematically, the node graph, which is a Directed Acyclic Graph, can be decomposed to the above without any loss of information. This means a node pipeline can be as flexible as a flowchart-like node graph.
-  
-A pipeline user interface should be familiar to many mobile users as it is as simple as managing mobile phone Settings. A pipeline makes it easy to navigate the node graph on a small screen as you can quickly scroll up and down the list. Tapping on any item in the list (a node) can further bring up a screen for changing node properties. 
+1. A node pipeline will require a shift in thinking when you are using it. Instead of three parallel series of nodes in a node graph, it now has three sequences (or series) of nodes on a pipeline. The lines joining nodes in a node graph are now represented by the target node referencing input nodes. For example, node 2 references node 1 (as the input). Node 7 references node 2 and 6.
 
-Most importantly, the contextual overload of a user frequently panning a flow-chart-like node graph on a small screen is significantly reduced. Of course, this productivity can only occur, when one becomes familiar with the pipeline.  
+2. Mathematically, the node graph, which is a Directed Acyclic Graph, can be decomposed to the above without any loss of information. This means a node pipeline can be as flexible as a flowchart-like node graph.
+ 
+3. A pipeline makes it easy to navigate the node graph on a small screen as you can quickly scroll up and down the list. Tapping on any item in the list (a node) can further bring up a screen for changing node properties. This user interface should be familiar to many mobile users as it is similar to the user interface for managing mobile phone 'Settings'.
 
-Finally, the referencing model for linking nodes in a pipeline is similar to using a spreadsheet. 'Merge' below is like a formula applying to cell 2 and 6.
+4. The contextual overload of a user frequently panning a flow-chart-like node graph on a small screen is significantly reduced. This will improve the ease of use when managing a node graph on a small screen.
+
+5. The referencing model for linking nodes in a pipeline is similar to using a spreadsheet. 'Merge' below is like a formula applying to cell 2 and 6.
 
     7. Merge            (2,6)   >
  
-The pipeline approach leads further to other interesting productivity gains in compositing on a mobile device. Please check out the following:
+The pipeline approach leads to other interesting productivity gains in compositing on a mobile device. Please check out the following:
  
   * [Auto Chaining](AutoChaining.md) & [Reverse Compositing](ReverseCompositing.md)
   * [Viewer Cycling](ViewerCycling.md)
   * [Directed Acyclic Graph (DAG) Generation/Import](DirectedAcyclicGraphGeneration.md)
  
-In the above, we will address how to join nodes by Auto Chaining and Reverse Compositing, ponder further on linking node properties, and also about setting the Viewer to a selected intermediate nodes in the pipeline.
+In the above, we will address how to join nodes by Auto Chaining and Reverse Compositing, ponder further on linking node properties, and also about setting the Viewer to a selected intermediate nodes on the pipeline.
 
 

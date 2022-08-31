@@ -31,7 +31,7 @@ An open-source node-based photo filters and effects compositor is created to tes
 
 ### [Nodef - Photo Filters & Effects](photofiltersandeffects.md) 
 
-A node-based image filter compositor that is bundled with a collection of 150+ filters and effects. It uses the Node Pipeline editor to enable a productive, flexible, and complete node graph compositing experience on a mobile device.
+An open-source node-based image filter compositor that is bundled with a collection of 150+ filters and effects. It uses the Node Pipeline editor to enable a productive, flexible, and complete node graph compositing experience on a mobile device.
 
 ![Photo Filters & Effects](https://github.com/Misfits-Rebels-Outcasts/Nodef/blob/main/documentation/photofilterseffects.png?raw=true)
 
@@ -47,7 +47,7 @@ Programming Language
 
 ### [Open Source Library for Chaining, Blending, and Compositing Core Image CIFilter](documentation/ChainingBlendingCompositingCoreImageCIFilters.md) 
 
-This is an open source wrapper library for Core Image CIFilters, in Swift, created to support the app and compositing ideas proposed above. 
+This is an open-source wrapper library for Core Image CIFilters, in Swift, created to support the app and compositing ideas proposed above. 
 
 #### It gets you from Chaining CIFilters
 

@@ -52,4 +52,16 @@ Click on the [video](https://www.youtube.com/watch?v=dlnh_09_rvA) below to get a
 
 <img src="https://user-images.githubusercontent.com/47021297/187810135-720aec6f-4742-4308-8288-0cf24d73d173.JPG" width="20%" height="20%">
 
+### How to use a Color Matrix to create a grayscale image? - In Progress
 
+### How to use a Color Matrix to extract the Red/Green/Blue channel of an image? - In Progress
+
+### How to blend your Photo with a Gradient? - In Progress
+
+### How to Pointillize/Pixellate your Photo? - In Progress
+
+### How to mix your Photo with another Image? - In Progress
+
+### How to add a Vortex or Twirl effect on your Photo? - In Progress
+
+### How to Zoom Blur your Photo? - In Progress

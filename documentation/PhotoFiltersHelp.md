@@ -32,3 +32,7 @@ Click on the [video](https://www.youtube.com/watch?v=dlnh_09_rvA) below to get a
 
 <img src="https://user-images.githubusercontent.com/47021297/187808237-131ab00b-a6c8-405d-96ce-022937c77b09.JPG" width="20%" height="20%">
 
+### [How to remove a color from your Photo?](RemoveColorFromPhoto.md) - Coming Soon...
+
+<img src="https://user-images.githubusercontent.com/47021297/187809672-93e60956-d41f-458d-a735-511fb8d7618f.JPG" width="20%" height="20%">
+

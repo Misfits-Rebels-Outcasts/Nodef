@@ -16,7 +16,7 @@ Click on the [video](https://www.youtube.com/watch?v=dlnh_09_rvA) below to get a
 
 <img src="https://user-images.githubusercontent.com/47021297/187807292-6a121cc0-38f8-4578-8e46-5e73fa39a1dc.JPG" width="20%" height="20%">
 
-### [How to simulate a Lens Flare on your Photo?](LensFlare.md) - Coming Soon...
+### [How to simulate a Lens Flare on your Photo?](LensFlare.md) - Full Tutorial Coming Soon...
 
 <img src="https://user-images.githubusercontent.com/47021297/187807096-261bbc1c-c991-44e7-af64-393043774dee.JPG" width="20%" height="20%">
 
@@ -35,4 +35,11 @@ Click on the [video](https://www.youtube.com/watch?v=dlnh_09_rvA) below to get a
 ### [How to remove a color from your Photo?](RemoveColorFromPhoto.md) - Coming Soon...
 
 <img src="https://user-images.githubusercontent.com/47021297/187809672-93e60956-d41f-458d-a735-511fb8d7618f.JPG" width="20%" height="20%">
+
+### [How to tile your Photo with an Affine Transform?](AffineTile.md) - Coming Soon...
+
+<img src="https://user-images.githubusercontent.com/47021297/187809930-e1d0c245-4e47-4445-8e27-24f68a315678.JPG" width="20%" height="20%">
+
+
+
 

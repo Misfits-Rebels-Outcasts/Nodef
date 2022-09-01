@@ -2,7 +2,7 @@
 
 1. Launch the Node Pipeline and add a Histogram Filter node.
 
-   <img src="https://user-images.githubusercontent.com/47021297/188025633-ad1e164d-3ec2-4051-8fc4-c8a8ffdccf03.jpeg" width="20%" height="20%">
+   <img src="https://user-images.githubusercontent.com/47021297/188025633-ad1e164d-3ec2-4051-8fc4-c8a8ffdccf03.jpeg" width="250">
 
 This generates a histogram image of your Photo. The properties of the Histogram Filter are described below:
 

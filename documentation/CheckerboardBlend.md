@@ -1,12 +1,12 @@
 # How to blend a Checkerboard with your Photo?
 
-The process of combining two or more image is right at the heart of any compositing tool. These image-combination tools are sometimes known as multisource operators. There are many different types such as Add, Multiply, Subtract, or Divide operators and you can add them with 'ADD COMPOSITE FILTER NODE' in the Node Pipeline screen. In this article, we will look at how to combine a Checkerboard with our image using a Color Dodge Blend operator. 
+The process of combining two or more images is right at the heart of any compositing tool. These image-combination tools are sometimes known as multisource operators. There are many different types such as Add, Multiply, Subtract, or Divide operators and you can add them with 'ADD COMPOSITE FILTER NODE' in the Node Pipeline screen. In this article, we will look at how to combine a Checkerboard with our image using a Color Dodge Blend operator. 
 
-1. Launch the Node Pipeline and add a Checkerboard Generator node. A Checkboard Generator generates a pattern of square of alternating colors. You can specify the size, colors, and the sharpness of the pattern. The smaller the sharpness value, the more blurry the pattern.
+1. Launch the Node Pipeline and add a Checkerboard Generator node. A Checkboard Generator generates a pattern of squares of alternating colors. You can specify the size, colors, and sharpness of the pattern. The smaller the sharpness value, the more blurry the pattern.
    
    <img src="https://user-images.githubusercontent.com/47021297/187803975-2c043928-9fd9-4ba8-876e-5f6a826f54f2.PNG" width="250" >
 
-2. Next, add a Gaussian Blur node and change the Radius to 20 to soften the checkboard. The Gaussian Blur is automatically applied to the output of the the Checkerboard Generator. A Gaussian Blur spreads the source pixels by an amount specified by a Gaussian distribution with the Radius determining how many pixels are used to create the blur. The larger the radius, the blurrier the result.
+2. Next, add a Gaussian Blur node and change the Radius to 20 to soften the checkboard. The Gaussian Blur is automatically applied to the output of the Checkerboard Generator. A Gaussian Blur spreads the source pixels by an amount specified by a Gaussian distribution with the Radius determining how many pixels are used to create the blur. The larger the radius, the blurrier the result.
 
    <img src="https://user-images.githubusercontent.com/47021297/187803968-391e909f-3a31-48fd-8cb6-6948572988ce.PNG" width="250" >
 

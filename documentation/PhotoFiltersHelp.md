@@ -19,3 +19,10 @@ Click on the [video](https://www.youtube.com/watch?v=dlnh_09_rvA) below to get a
 ### [How to simulate a Lens Flare on your Photo?](LensFlare.md)
 
 <img src="https://user-images.githubusercontent.com/47021297/187807096-261bbc1c-c991-44e7-af64-393043774dee.JPG" width="20%" height="20%">
+
+### [How to generate Edges and Source Atop it on a Constant Color background?](EdgeWork.md)
+
+<img src="https://user-images.githubusercontent.com/47021297/187807886-4af12ea4-92f6-4122-a8c7-2d9a0b69b5aa.JPG" width="20%" height="20%">
+
+<img src="https://user-images.githubusercontent.com/47021297/187807894-deb28d9b-3454-4762-a3fd-f8c530cf6045.PNG" width="20%" height="20%">
+

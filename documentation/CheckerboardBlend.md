@@ -1,13 +1,15 @@
 # How to blend a Checkerboard with your Photo?
 
-1. Launch the Node Pipeline and add a Checkerboard Generator node.
+The process of combining two or more image is right at the heart of any compositing tool. These image-combination tools are sometimes known as multisource operators. There are many different types such as Add, Multiply, Subtract, or Divide operators and they are available in the Node Pipeline screen in 'ADD COMPSITE FILTER NODE'. In this section, we will look at how to combine a Checkboard with our image with a Color Dodge Blend. 
+
+1. Launch the Node Pipeline and add a Checkerboard Generator node. A Checkboard Generator generates a pattern of square of alternating colors. You can specify the size, colors, and the sharpness of the pattern. The smaller the sharpness value, the more blurry the pattern.
    
    <img src="https://user-images.githubusercontent.com/47021297/187803975-2c043928-9fd9-4ba8-876e-5f6a826f54f2.PNG" width="20%" height="20%">
 
-2. Next, add a Gaussian Blur node and change the Radius to 20 to soften the checkboard. The Gaussian Blur node automatically chains to the Checkerboard Generator.
+2. Next, add a Gaussian Blur node and change the Radius to 20 to soften the checkboard. The Gaussian Blur node is automatically applied to the output of the the Checkerboard Generator. The Gaussian Blur node spreads the source pixels by an amount specified by a Gaussian distribution. The Radius determines how many pixels are used to create the blur. The larger the radius, the blurrier the result.
 
    <img src="https://user-images.githubusercontent.com/47021297/187803968-391e909f-3a31-48fd-8cb6-6948572988ce.PNG" width="20%" height="20%">
 
-3. Next, add a Color Dodge Blend Mode node to blend the gaussian blurred checkerboard with the original image.
+3. Next, add a Color Dodge Blend Mode node to blend the gaussian blurred checkerboard with the original image. The Colord Dodge Blend brightens the background image samples to reflect the source image samples.
 
    <img src="https://user-images.githubusercontent.com/47021297/187803950-a92bfbd4-4b09-4af2-b3e4-573d3c6e9d03.PNG" width="20%" height="20%">

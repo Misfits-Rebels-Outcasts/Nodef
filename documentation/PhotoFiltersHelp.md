@@ -26,3 +26,16 @@ Click on the [video](https://www.youtube.com/watch?v=dlnh_09_rvA) below to get a
 
 <img src="https://user-images.githubusercontent.com/47021297/187807894-deb28d9b-3454-4762-a3fd-f8c530cf6045.PNG" width="20%" height="20%">
 
+### [How to compare your original Photo with a filtered one?](Pagecurl.md)
+
+<img src="https://user-images.githubusercontent.com/47021297/187808511-ad9bbe93-5e8d-4171-9364-3807de9d682d.JPG" width="20%" height="20%">
+
+<img src="https://user-images.githubusercontent.com/47021297/187808514-0bbdc973-aa2d-44d2-89c9-58921746a978.PNG" width="20%" height="20%">
+
+
+### [How to add a Page Curl Transition Effect to your Photo?](Pagecurl.md)
+
+<img src="https://user-images.githubusercontent.com/47021297/187808237-131ab00b-a6c8-405d-96ce-022937c77b09.JPG" width="20%" height="20%">
+
+<img src="https://user-images.githubusercontent.com/47021297/187808242-1edb017d-a7ae-4933-b282-2a93db9c6749.PNG" width="20%" height="20%">
+

@@ -48,7 +48,7 @@ Click on the [video](https://www.youtube.com/watch?v=dlnh_09_rvA) below to get a
 
 <img src="https://user-images.githubusercontent.com/47021297/187809930-e1d0c245-4e47-4445-8e27-24f68a315678.JPG" width="20%" height="20%">
 
-### [How to generate a Historgram of your Photo?](HistogramFilter.md) - Coming Soon...
+### [How to generate a Histogram of your Photo?](HistogramFilter.md) - Coming Soon...
 
 <img src="https://user-images.githubusercontent.com/47021297/187810135-720aec6f-4742-4308-8288-0cf24d73d173.JPG" width="20%" height="20%">
 

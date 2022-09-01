@@ -12,6 +12,8 @@ Click on the [video](https://www.youtube.com/watch?v=dlnh_09_rvA) below to get a
 
 ## Tutorials
 
+Please note the following pages are optimized for viewing on a mobile device. 
+
 ### [How to blend a Checkerboard with your Photo?](CheckerboardBlend.md) - In Progress
 
 <img src="https://user-images.githubusercontent.com/47021297/187807292-6a121cc0-38f8-4578-8e46-5e73fa39a1dc.JPG" width="20%" height="20%">

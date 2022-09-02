@@ -29,7 +29,7 @@ The ideas and user interface proposed here are based on some random thoughts of 
 
 An open-source node-based photo filters and effects compositor is created to test the ideas above.
 
-### [Nodef - Photo Filters & Effects](photofiltersandeffects.md) 
+### [Nodef - Photo Filters & Effects](PhotoFiltersAndEffects.md) 
 
 An open-source node-based image filter compositor that is bundled with a collection of 150+ filters and effects. It uses the Node Pipeline editor to enable a productive, flexible, and complete node graph compositing experience on a mobile device.
 

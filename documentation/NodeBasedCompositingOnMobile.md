@@ -29,7 +29,7 @@ As the number of nodes increases, the node graph, together with a large monitor 
  
 On a mobile device, a pure node-based app is not common. Resource constraint is one limiting issue. Putting that aside, since mobile has come a long way, with mobile chips enabling one to do many advanced image and video capabilities, the other limiting issue is the small screen size of a mobile device for displaying the node-based user interface.
  
-As a start, the arrangement of the multiple node properties screen, the node graph, the dope sheet, and the curve editor together in one small screen presents a problem. Compositing a node graph with a flowchart-like user interface is also more difficult especially when trying to connect nodes while panning the small screen frequently. This is made worst when you need to connect to a distant node with multiple inputs; or if you needs to link node properties, which may involve the timeline, for tracking, animating objects, or rotoscoping.
+As a start, the arrangement of the multiple node properties screen, the node graph, the dope sheet, and the curve editor together in one small screen presents a problem. Compositing a node graph with a flowchart-like user interface is also more difficult especially when trying to connect nodes while panning the small screen frequently. This is made worst when you need to connect to a distant node with multiple inputs; or if you need to link node properties, which may involve the timeline, for tracking, animating objects, or rotoscoping.
  
 ### Main Idea
  

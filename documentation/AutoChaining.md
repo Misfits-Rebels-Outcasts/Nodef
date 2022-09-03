@@ -1,6 +1,6 @@
  # Auto chaining
   
-Each of the nodes in the pipeline that requires an input is, by default, assumed to be taking the output of the previous node automatically. For example, below, the input to node 4 comes from the output of node 3. When we add a node, this auto-chaining behavior can occur automatically. This replicates the behavior of existing digital compositing software of "adding a node to the node graph by first selecting an existing node".
+Each of the nodes on the pipeline that requires an input is, by default, assumed to be taking the output of the previous node automatically. For example, below, the input to node 4 comes from the output of node 3. When we add a node, this auto-chaining behavior can occur automatically. This replicates the behavior of existing digital compositing software of "adding a node to the node graph by first selecting an existing node".
   
     3. Read media       (input none)  >
     4. Color Correction (input 3)     >

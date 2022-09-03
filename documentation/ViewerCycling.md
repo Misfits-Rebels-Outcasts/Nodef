@@ -1,6 +1,6 @@
 # Viewer Cycling
 
-A node graph, using a flowchart-like interface on a large screen, can easily display a thumbnail ('postage stamp') beside each node. This aids you in visualizing the result from each progression of steps. On top of that, you can easily set the Viewer on any of the nodes in the graph easily.
+A node graph, using a flowchart-like interface on a large screen, can easily display a thumbnail ('postage stamp') beside each node. This aids you in visualizing the result from each progression of steps. On top of that, you can easily set the Viewer on any of the nodes in the node graph easily.
  
 On a device with a limited screen size, we can do this by setting the Viewer on the pipeline. You can imagine having the Viewer be on top of the pipeline on a mobile device as shown below:
   

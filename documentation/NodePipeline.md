@@ -101,7 +101,7 @@ With the above, let's think a little further about the implications if we use a 
 
 4. The contextual overload of a user frequently panning a flowchart-like node graph on a small screen is significantly reduced. This will improve the usability and ease of managing a node graph on a small screen. 
 
-5. The referencing model for linking nodes in a pipeline is similar to using a spreadsheet. 'Merge' below is like a formula applying to cell 2 and 6. 
+5. The referencing model for linking nodes on a pipeline is similar to using a spreadsheet. 'Merge' below is like a formula applying to cell 2 and 6. 
 
      <span>7. Merge            (2,6)   ></span>
 

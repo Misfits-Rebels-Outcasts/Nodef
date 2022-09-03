@@ -22,7 +22,7 @@ We can easily reorder the nodes resulting in a new composite. For example, we ca
     5. Gaussian Blur    (input 4)     >
     6. Transform        (input 5)     >
 
-By enabling this seemless chaining and reordering of nodes, auto chaining makes it easy for us to test out our creative ideas quickly and productively.
+By enabling this seemless chaining and reordering of nodes, auto chaining makes it easy for us to test out our digital compositing ideas quickly and productively.
 
 Now, you may ask, what happens if you do not want to use the previous node as your input? Or what if, you need more than one input node such as a background or a mask? 
 

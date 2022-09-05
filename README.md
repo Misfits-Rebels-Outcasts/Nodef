@@ -31,7 +31,7 @@ An open-source node-based photo filters and effects compositor is created to tes
 
 ### [Nodef - Photo Filters & Effects](PhotoFiltersAndEffects.md) 
 
-Download **[Nodef](https://apps.apple.com/us/app/nodef-photo-filters-effects/id1640788489)**
+Download **[Nodef](https://apps.apple.com/us/app/nodef-photo-filters-effects/id1640788489)** on the App Store
 
 An open-source node-based image filter compositor that is bundled with a collection of 150+ filters and effects. It uses the Node Pipeline editor to enable a productive, flexible, and complete node graph compositing experience on a mobile device.
 

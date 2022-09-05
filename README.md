@@ -76,7 +76,10 @@ Programming Language
 * Swift
 
 
-### Nodef for Motion Graphics & Animation - Particle Effects Project
+### Nodef for Motion Graphics & Animation 
+
+This is a Nodef project exploring the use of Apple Metal on Particle Effects.
+
 <span>
 <img src="https://user-images.githubusercontent.com/47021297/188427475-fc604438-7642-4774-a9ba-eed4bb033717.JPG" width="150" >
 &nbsp;

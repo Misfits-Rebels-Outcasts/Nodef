@@ -76,9 +76,9 @@ Programming Language
 
 ### Nodef for Motion Graphics & Animation - Particle Effects (Experiment Project)
 <span>
-<img src="https://user-images.githubusercontent.com/47021297/188427475-fc604438-7642-4774-a9ba-eed4bb033717.JPG" width="100" >
+<img src="https://user-images.githubusercontent.com/47021297/188427475-fc604438-7642-4774-a9ba-eed4bb033717.JPG" width="150" >
 &nbsp;
-<img src="https://user-images.githubusercontent.com/47021297/188427485-979910ea-19b7-46db-8813-922ca9f3a11f.JPG" width="100" >
+<img src="https://user-images.githubusercontent.com/47021297/188427485-979910ea-19b7-46db-8813-922ca9f3a11f.JPG" width="150" >
 </span>
 
 

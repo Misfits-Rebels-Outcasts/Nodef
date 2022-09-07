@@ -20,7 +20,7 @@ Nodef Library
 
 Nodef App
 
-Coming Soon...
+[Source Code](https://github.com/Misfits-Rebels-Outcasts/Nodef/tree/main/code/Nodef) - [Notes](code/Readme.md)
 
 ### You are truly only limited by your imagination!
 

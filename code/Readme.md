@@ -21,9 +21,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 * Nodef is listed in Apple app store by the full copyright owner of the source code. 
 
-* Nodef implements In-App Subscription to keep the project sustainable. 
-
-* The implementation of the In-App Subscription uses code from Apple, available in a different license, is removed from the release source code.
+* Nodef implements In-App Subscription to keep the project sustainable. The implementation of In-App Subscription uses code from Apple that is available in a different license. This In-App Subscirption code has been removed from the GPLv2 source code.
 
 # Acknowledgements
 
@@ -31,6 +29,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 * [https://stackoverflow.com/questions/56726663/how-to-add-a-textfield-to-alert-in-swiftui](https://stackoverflow.com/questions/56726663/how-to-add-a-textfield-to-alert-in-swiftui)
 
-* I have definitely refered to many more Github repos and stackoverflow answers.
+* I have definitely refered to many more Github repos and stackoverflow answers. 
 
 * Y and J. Thank you for always being there for me.

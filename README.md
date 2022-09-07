@@ -47,6 +47,8 @@ Platform
 Programming Language
 * Swift
 
+[Source Code](https://github.com/Misfits-Rebels-Outcasts/Nodef/code/Nodef)
+
 ### [Open Source Library for Chaining, Blending, and Compositing Core Image CIFilter](documentation/ChainingBlendingCompositingCoreImageCIFilters.md) 
 
 This is an open-source wrapper library for Core Image CIFilters, in Swift, created to support the app and compositing ideas proposed above. 

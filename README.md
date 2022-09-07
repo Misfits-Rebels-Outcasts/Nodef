@@ -1,4 +1,4 @@
-# Node-based Image/Video Compositing on Mobile 
+# Digital Compositing on Mobile 
  
 Nodef - No definition or node definition.
 

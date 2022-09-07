@@ -35,11 +35,12 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 # Compile
 
-Prerequisites
+### Prerequisites
 
 * XCode 13
 * iOS 15
-* Build
+
+### Build
 
 Download the Source Code
 Launch XCode and load Nodef.xcodeproj Build and run on iPhone Simulator or Device

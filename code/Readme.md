@@ -35,13 +35,13 @@ This projects owes a big debt to the following:
 
 * [Sunflowers](https://en.wikipedia.org/wiki/File:Vincent_van_Gogh_-_Sunflowers_-_VGM_F458.jpg) by Vincent van Gogh available in public domain.
 
-* Digital Compositing for Film and Video by Steve Wright
+* ** Digital Compositing for Film and Video** by Steve Wright
 
-* The Art and Science of Digital Compositing: Techniques for Visual Effects, Animation and Motion Graphics Paperback by Brinkmann, Ron
+* **The Art and Science of Digital Compositing: Techniques for Visual Effects, Animation and Motion Graphics** by Brinkmann, Ron
 
 * And of course Y and J. Thank you for always being there.
 
-* Any resemblance to actual an place is purely NOT coincidental. The Pipeline is a surf reef break located in Hawaii, on O'ahu's North Shore. 
+* Any resemblance to an actual place is purely NOT coincidental. The **Pipeline** is a surf reef break located in Hawaii, on O'ahu's North Shore. 
 
 # Compile
 

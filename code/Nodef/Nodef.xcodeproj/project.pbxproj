@@ -366,8 +366,8 @@
 		206617A028C93D72004135E6 /* FilesViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2066179C28C93D72004135E6 /* FilesViewX.swift */; };
 		206617A328C94338004135E6 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206617A228C94338004135E6 /* StringExtensions.swift */; };
 		206617A428C94338004135E6 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206617A228C94338004135E6 /* StringExtensions.swift */; };
-		206617A628C950A6004135E6 /* GPLv2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 206617A528C950A6004135E6 /* GPLv2.txt */; };
-		206617A728C950A6004135E6 /* GPLv2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 206617A528C950A6004135E6 /* GPLv2.txt */; };
+		206617A928C9622A004135E6 /* GPLv2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 206617A828C9622A004135E6 /* GPLv2.txt */; };
+		206617AA28C9622A004135E6 /* GPLv2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 206617A828C9622A004135E6 /* GPLv2.txt */; };
 		206CA351288DE6B500BCEFDA /* TemperatureAndTintPropertiesViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206CA350288DE6B500BCEFDA /* TemperatureAndTintPropertiesViewX.swift */; };
 		206CA352288DE6B500BCEFDA /* TemperatureAndTintPropertiesViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206CA350288DE6B500BCEFDA /* TemperatureAndTintPropertiesViewX.swift */; };
 		206CA354288DF17700BCEFDA /* VibrancePropertiesViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206CA353288DF17700BCEFDA /* VibrancePropertiesViewX.swift */; };
@@ -955,7 +955,7 @@
 		2066179B28C93D72004135E6 /* AlertWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertWrapper.swift; sourceTree = "<group>"; };
 		2066179C28C93D72004135E6 /* FilesViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilesViewX.swift; sourceTree = "<group>"; };
 		206617A228C94338004135E6 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
-		206617A528C950A6004135E6 /* GPLv2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GPLv2.txt; path = "../../Nodef Filters Library/Shared/GPLv2.txt"; sourceTree = "<group>"; };
+		206617A828C9622A004135E6 /* GPLv2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GPLv2.txt; sourceTree = "<group>"; };
 		206CA350288DE6B500BCEFDA /* TemperatureAndTintPropertiesViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureAndTintPropertiesViewX.swift; sourceTree = "<group>"; };
 		206CA353288DF17700BCEFDA /* VibrancePropertiesViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VibrancePropertiesViewX.swift; sourceTree = "<group>"; };
 		206CA356288DF58D00BCEFDA /* ToneCurvePropertiesViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToneCurvePropertiesViewX.swift; sourceTree = "<group>"; };
@@ -1199,8 +1199,8 @@
 				200415DB27FE96E5002F71C9 /* Nodef */,
 				01626BC825C163D7001D69F4 /* Assets.xcassets */,
 				01626BC625C163D6001D69F4 /* NodefApp.swift */,
-				206617A528C950A6004135E6 /* GPLv2.txt */,
 				2084EFA9287E18A500B54B03 /* Vincent_van_Gogh_-_Sunflowers_-_VGM_F458.jpg */,
+				206617A828C9622A004135E6 /* GPLv2.txt */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -2110,7 +2110,7 @@
 			files = (
 				01626BF325C163D7001D69F4 /* Assets.xcassets in Resources */,
 				2084EFAA287E18A500B54B03 /* Vincent_van_Gogh_-_Sunflowers_-_VGM_F458.jpg in Resources */,
-				206617A628C950A6004135E6 /* GPLv2.txt in Resources */,
+				206617A928C9622A004135E6 /* GPLv2.txt in Resources */,
 				205E6F2A28B03138006D5775 /* NodeLaunch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2121,7 +2121,7 @@
 			files = (
 				01626BF425C163D7001D69F4 /* Assets.xcassets in Resources */,
 				205E6F2B28B03138006D5775 /* NodeLaunch Screen.storyboard in Resources */,
-				206617A728C950A6004135E6 /* GPLv2.txt in Resources */,
+				206617AA28C9622A004135E6 /* GPLv2.txt in Resources */,
 				2084EFAB287E18A500B54B03 /* Vincent_van_Gogh_-_Sunflowers_-_VGM_F458.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

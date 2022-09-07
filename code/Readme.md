@@ -19,7 +19,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 # Notes
 
-* Nodef is listed in Apple app store by the full copyright owner of the source code. 
+* Nodef is listed in Apple app store by the original copyright owner of the source code. 
 
 * Nodef implements In-App Subscription to keep the project sustainable. The implementation uses code, available in a different license, from Apple. This code is removed from the GPLv2 source code.
 

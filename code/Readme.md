@@ -27,7 +27,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 This projects owes a big debt to the following:
 
-* [https://github.com/FlexMonkey/Filterpedia](https://github.com/FlexMonkey/Filterpedia) - Dear Simon, Thank you for the "Core Image for Swift" book.
+* [https://github.com/FlexMonkey/Filterpedia](https://github.com/FlexMonkey/Filterpedia) - Thank you for the "Core Image for Swift" book.
 
 * [TextField Alert by tanzolone in stackoverflow](https://stackoverflow.com/questions/56726663/how-to-add-a-textfield-to-alert-in-swiftui) - I have definitely referred to many more Github repos and stackoverflow answers than I can remember. 
 

@@ -32,3 +32,15 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 * I have definitely refered to many more Github repos and stackoverflow answers. 
 
 * And of course Y and J. Thank you for always being there for me.
+
+# Compile
+
+Prerequisites
+
+* XCode 13
+* iOS 15
+* Build
+
+Download the Source Code
+Launch XCode and load Nodef.xcodeproj Build and run on iPhone Simulator or Device
+

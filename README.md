@@ -47,7 +47,7 @@ Platform
 Programming Language
 * Swift
 
-[Source Code](https://github.com/Misfits-Rebels-Outcasts/Nodef/tree/main/code/Nodef)
+[Source Code](https://github.com/Misfits-Rebels-Outcasts/Nodef/tree/main/code/Nodef) - [Notes](code/Readme.md)
 
 ### [Open Source Library for Chaining, Blending, and Compositing Core Image CIFilter](documentation/ChainingBlendingCompositingCoreImageCIFilters.md) 
 

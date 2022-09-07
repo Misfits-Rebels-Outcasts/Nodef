@@ -27,11 +27,15 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 * [https://github.com/FlexMonkey/Filterpedia](https://github.com/FlexMonkey/Filterpedia) 
 
-* [https://stackoverflow.com/questions/56726663/how-to-add-a-textfield-to-alert-in-swiftui](https://stackoverflow.com/questions/56726663/how-to-add-a-textfield-to-alert-in-swiftui)
+* [TextField Alert by tanzolone in stackoverflow](https://stackoverflow.com/questions/56726663/how-to-add-a-textfield-to-alert-in-swiftui)
 
-* I have definitely refered to many more Github repos and stackoverflow answers. 
+* I have definitely referred to many more Github repos and stackoverflow answers. 
 
-* And of course Y and J. Thank you for always being there for me.
+* [The Mona Lisa](https://en.wikipedia.org/wiki/File:Mona_Lisa.jpg) by Leonardo da Vinci available in public domain.
+
+* [Sunflowers](https://en.wikipedia.org/wiki/File:Vincent_van_Gogh_-_Sunflowers_-_VGM_F458.jpg) by Vincent van Gogh available in public domain.
+
+* And of course Y and J. Thank you for always being there.
 
 # Compile
 

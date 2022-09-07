@@ -27,13 +27,17 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 This projects owes a big debt to the following:
 
-* [https://github.com/FlexMonkey/Filterpedia](https://github.com/FlexMonkey/Filterpedia) 
+* [https://github.com/FlexMonkey/Filterpedia](https://github.com/FlexMonkey/Filterpedia) - Dear Simon, Thank you for the "Core Image for Swift" book.
 
 * [TextField Alert by tanzolone in stackoverflow](https://stackoverflow.com/questions/56726663/how-to-add-a-textfield-to-alert-in-swiftui) - I have definitely referred to many more Github repos and stackoverflow answers than I can remember. 
 
 * [The Mona Lisa](https://en.wikipedia.org/wiki/File:Mona_Lisa.jpg) by Leonardo da Vinci available in public domain.
 
 * [Sunflowers](https://en.wikipedia.org/wiki/File:Vincent_van_Gogh_-_Sunflowers_-_VGM_F458.jpg) by Vincent van Gogh available in public domain.
+
+* Digital Compositing for Film and Video by Steve Wright
+
+* The Art and Science of Digital Compositing: Techniques for Visual Effects, Animation and Motion Graphics Paperback by Brinkmann, Ron
 
 * And of course Y and J. Thank you for always being there.
 

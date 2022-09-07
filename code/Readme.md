@@ -41,6 +41,8 @@ This projects owes a big debt to the following:
 
 * And of course Y and J. Thank you for always being there.
 
+* Any resemblance to actual an place is purely NOT coincidental. The Pipeline is a surf reef break located in Hawaii, on O'ahu's North Shore. 
+
 # Compile
 
 ### Prerequisites

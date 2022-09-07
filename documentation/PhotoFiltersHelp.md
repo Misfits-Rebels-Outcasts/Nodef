@@ -1,5 +1,7 @@
 # Nodef - Photo Filters & Effects Help
 
+## Overview Video
+
 ### Overview Video
 
 Click on the [video](https://www.youtube.com/watch?v=dlnh_09_rvA) below to get a quick overview of the app:
@@ -9,6 +11,11 @@ Click on the [video](https://www.youtube.com/watch?v=dlnh_09_rvA) below to get a
 ### The Basics
 
 [How to add filter nodes, chain nodes, change node properties, and select nodes as input?](PhotoFiltersBasics.md)
+
+### The Design
+
+* [Digital Compositing on Mobile](NodeBasedCompositingOnMobile.md)
+* [Node Pipeline](NodePipeline.md) for representing Node Graph
 
 ## Tutorials
 

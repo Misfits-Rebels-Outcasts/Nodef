@@ -1,6 +1,6 @@
 # Nodef - Photo Filters & Effects Help
 
-## Overview Video
+## Overview
 
 ### Overview Video
 

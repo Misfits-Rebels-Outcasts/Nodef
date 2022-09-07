@@ -42,7 +42,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 ### Build
 
-Download the Source Code
-Launch XCode and load Nodef.xcodeproj 
-Build and run on iPhone Simulator or Device
+* Download the Source Code
+* Launch XCode and load Nodef.xcodeproj 
+* Build and run on iPhone Simulator or Device
 

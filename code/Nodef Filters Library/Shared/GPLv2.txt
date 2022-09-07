@@ -1,4 +1,4 @@
-Nodef CIFilter Compositing Library
+Nodef - No Definition or Node Definition
 Copyright (C) 2022 James Boo 
 
 This program is free software; you can redistribute it and/or

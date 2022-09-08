@@ -35,7 +35,7 @@ This projects owes a big debt to the following:
 
 * [Sunflowers](https://en.wikipedia.org/wiki/File:Vincent_van_Gogh_-_Sunflowers_-_VGM_F458.jpg) by Vincent van Gogh available in public domain.
 
-* ** Digital Compositing for Film and Video** by Steve Wright
+* **Digital Compositing for Film and Video** by Steve Wright
 
 * **The Art and Science of Digital Compositing: Techniques for Visual Effects, Animation and Motion Graphics** by Brinkmann, Ron
 

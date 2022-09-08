@@ -4,7 +4,7 @@ Nodef - No definition or node definition.
 
 ### Proposed Ideas
  
-This repo proposes the following ideas as the basis for node-based compositing on a mobile device. It is by no means a complete consideration but with the hope of ideation and feedback.
+This repo proposes the following ideas as the basis for digital (node-based) compositing on a mobile device. It is by no means a complete consideration but with the hope of ideation and feedback.
 
 Background
 

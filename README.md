@@ -63,7 +63,7 @@ Platform
 
 ## Free App in App Store
 
-* [Open Digital Compositing Pipeline](https://apps.apple.com/us/app/pipeline-digital-compositing/id1640788489)
+* [Pipeline](https://apps.apple.com/us/app/pipeline-digital-compositing/id1640788489)
 
 ## Videos
 

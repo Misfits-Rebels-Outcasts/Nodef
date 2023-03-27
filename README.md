@@ -34,9 +34,7 @@ to
     7. Merge            (2,6)  
     8. Viewer           (7)     
 
-Note - The brackets e.g. "(1)" is used to refer to the input node or image.
-
-by Nodef - No definition or node definition.
+Note - The brackets e.g. "(1)" refers to the input node or image.
 
 ## Digital Compositing Pipeline (node graph as a list)
 
@@ -75,4 +73,6 @@ Platform
 
 * [Digital Compositing Photo Filters & Effects](https://www.youtube.com/watch?v=dlnh_09_rvA).
 
+...
 
+Nodef - No definition or node definition.

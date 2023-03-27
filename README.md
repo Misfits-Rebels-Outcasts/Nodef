@@ -34,7 +34,7 @@ to
     7. Merge            (2,6)  
     8. Viewer           (7)     
 
-Note - The brackets e.g. "(1)" refers to the input node or image.
+Note - The brackets e.g. "(1)" is used to refer to the input node or image.
 
 by Nodef - No definition or node definition.
 

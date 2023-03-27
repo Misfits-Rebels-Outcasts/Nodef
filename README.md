@@ -36,13 +36,13 @@ to
 
 Note - The brackets e.g. "(1)" refers to the input node or image.
 
-## Digital Compositing Pipeline (node graph as a list)
-
 ### What is Digital Compositing?
 
 Digital Compositing (node-based) is the process of combining multiple seemingly simple nodes to render and achieve a desired result. The paradigm of a node-based tool involves linking basic media objects onto a procedural map or node graph and then intuitively laying out each of the steps in a sequential progression of inputs and outputs. Any parameters from an earlier step can be modified to change the outcome, with the results instantly being visible to you, and each of the nodes, being procedural, can be easily reused, saving time and effort.
 
-### Background: [Digital Compositing on Mobile](documentation/NodeBasedCompositingOnMobile.md)
+## Digital Compositing Pipeline (node graph as a list)
+
+### [Digital Compositing on Mobile](documentation/NodeBasedCompositingOnMobile.md)
 
 * [Digital Compositing Pipeline](documentation/NodePipeline.md) for representing Node Graph
 * [Auto Chaining](documentation/AutoChaining.md) & [Reverse Compositing](documentation/ReverseCompositing.md)

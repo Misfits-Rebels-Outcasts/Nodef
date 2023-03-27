@@ -38,7 +38,7 @@ Note - The brackets e.g. "(1)" is used to refer to the input node or image.
 
 by Nodef - No definition or node definition.
 
-## Digital Compositing Pipeline (with a list)
+## Digital Compositing Pipeline (node graph as a list)
 
 ### What is Digital Compositing?
 

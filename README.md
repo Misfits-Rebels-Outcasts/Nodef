@@ -1,6 +1,6 @@
 # Digital Compositing with a List on a Mobile Phone
 
-This repo proposes the idea of **displaying a digital compositing node graph succinctly in English as a list of steps**. A list of steps is easy to understand and a succinct medium for display on a device with a limited screen space (mobile phone). It is also easy to create and be conveniently used for discussion in a document or book.
+This repo proposes the idea of **displaying a digital compositing node graph succinctly in English as a list of steps**. A list of steps is easy to understand due to its sequential nature and a succinct medium for display on a device with a limited screen space (mobile phone). It is also easy to create and can be conveniently typed into a document or used for discussion in a book.
 
 ### What is Digital Compositing?
 

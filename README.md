@@ -49,8 +49,6 @@ Digital Compositing (node-based) is the process of combining multiple seemingly 
 * [Viewer Cycling](documentation/ViewerCycling.md)
 * [Direct Acyclic Graph Generation/Import](documentation/DirectedAcyclicGraphGeneration.md)
 
-by Nodef - No definition or node definition Open Digital Compositing Pipeline.
-
 ## Open-Source Projects (GPL)
 
 * [ShaderMuse](https://github.com/Misfits-Rebels-Outcasts/ShaderMuse) - **Latest Source for Digital Compositing Shaders, Filters, and Effects**
@@ -67,8 +65,12 @@ Platform
 
 ## Videos
 
-* Digital Compositing [Shaders and Filters](https://www.youtube.com/shorts/8rLejlmGEKI).
+* [Shaders and Filters](https://www.youtube.com/shorts/8rLejlmGEKI)
 
-* Digital Compositing [Photo Filters & Effects](https://www.youtube.com/watch?v=dlnh_09_rvA).
+* [Photo Filters & Effects](https://www.youtube.com/watch?v=dlnh_09_rvA)
+
+## Open Digital Compositing Pipeline
+
+by Nodef - No definition or node definition.
 
 

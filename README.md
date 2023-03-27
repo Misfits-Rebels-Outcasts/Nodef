@@ -1,6 +1,6 @@
 # Digital Compositing with a List on a Mobile Phone
 
-This repo proposes the idea of displaying a Digital Compositing node graph **succintly in English as a list of steps**. A list of steps is succint, easy to understand, and convenient to create, making it an excellent medium for display on a mobile phone with limited screen space or discussion in a text document.
+This repo proposes the idea of displaying a digital compositing node graph **succintly in English as a list of steps**. A list of steps is succint, easy to understand, and convenient to create, making it an excellent medium for display on a mobile phone with limited screen space or discussion in a text document.
 
 ## TLDR;
 
@@ -38,14 +38,17 @@ Note - The brackets e.g. "(1)" is used to refer to the input node or image.
 
 by Nodef - No definition or node definition.
 
-## Digital Compositing with a List - Proposed Ideas
+## Digital Compositing Pipeline (with a list)
 
 ### What is Digital Compositing?
 
 Digital Compositing (node-based) is the process of combining multiple seemingly simple nodes to render and achieve a desired result. The paradigm of a node-based tool involves linking basic media objects onto a procedural map or node graph and then intuitively laying out each of the steps in a sequential progression of inputs and outputs. Any parameters from an earlier step can be modified to change the outcome, with the results instantly being visible to you, and each of the nodes, being procedural, can be easily reused, saving time and effort.
+
+### Background
+
 [Digital Compositing on Mobile](documentation/NodeBasedCompositingOnMobile.md)
 
-## Ideas
+### Proposed Ideas
 
 * [Digital Compositing Pipeline](documentation/NodePipeline.md) for representing Node Graph
 * [Auto Chaining](documentation/AutoChaining.md) & [Reverse Compositing](documentation/ReverseCompositing.md)

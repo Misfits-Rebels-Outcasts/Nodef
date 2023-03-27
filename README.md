@@ -2,10 +2,6 @@
 
 This repo proposes the idea of displaying a Digital Compositing node graph **succintly in English as a list of steps**. A list of steps is succint, easy to understand, and convenient to create making it an excellent medium for expression on a device with limited screen space (mobile phone) or discussion in a text document.
 
-### What is Digital Compositing?
-
-Digital Compositing (node-based) is the process of combining multiple seemingly simple nodes to render and achieve a desired result. The paradigm of a node-based tool involves linking basic media objects onto a procedural map or node graph and then intuitively laying out each of the steps in a sequential progression of inputs and outputs. Any parameters from an earlier step can be modified to change the outcome, with the results instantly being visible to you, and each of the nodes, being procedural, can be easily reused, saving time and effort.
-
 ## TLDR;
 
      Read photo  Read photo
@@ -27,24 +23,29 @@ Digital Compositing (node-based) is the process of combining multiple seemingly 
          
 to
 
-    1. Read photo       (none)
+    1. Read photo       
     2. Exposure         (1)    
   
-    3. Read photo       (none) 
+    3. Read photo       
     4. Color Correction (3)     
     5. Retouch.         (4)     
     6. Gaussian Blur    (5)     
   
     7. Merge            (2,6)  
     8. Viewer           (7)     
-    
+
+Note - The brackets e.g. "(1)" refers to the input node or image.
+
 by Nodef - No definition or node definition.
 
 ## Digital Compositing with a List - Proposed Ideas
- 
+
+### What is Digital Compositing?
+
+Digital Compositing (node-based) is the process of combining multiple seemingly simple nodes to render and achieve a desired result. The paradigm of a node-based tool involves linking basic media objects onto a procedural map or node graph and then intuitively laying out each of the steps in a sequential progression of inputs and outputs. Any parameters from an earlier step can be modified to change the outcome, with the results instantly being visible to you, and each of the nodes, being procedural, can be easily reused, saving time and effort.
 [Digital Compositing on Mobile](documentation/NodeBasedCompositingOnMobile.md)
 
-Ideas
+## Ideas
 
 * [Digital Compositing Pipeline](documentation/NodePipeline.md) for representing Node Graph
 * [Auto Chaining](documentation/AutoChaining.md) & [Reverse Compositing](documentation/ReverseCompositing.md)

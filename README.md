@@ -67,8 +67,8 @@ Platform
 
 ## Videos
 
-* [Digital Compositing Shaders and Filters](https://www.youtube.com/shorts/8rLejlmGEKI).
+* Digital Compositing [Shaders and Filters](https://www.youtube.com/shorts/8rLejlmGEKI).
 
-* [Digital Compositing Photo Filters & Effects](https://www.youtube.com/watch?v=dlnh_09_rvA).
+* Digital Compositing [Photo Filters & Effects](https://www.youtube.com/watch?v=dlnh_09_rvA).
 
 

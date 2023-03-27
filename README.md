@@ -32,7 +32,7 @@ to
   
     3. Read photo       
     4. Color Correction (3)     
-    5. Retouch.         (4)     
+    5. Retouch          (4)     
     6. Gaussian Blur    (5)     
   
     7. Merge            (2,6)  

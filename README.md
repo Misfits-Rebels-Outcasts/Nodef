@@ -73,6 +73,6 @@ Platform
 
 * [Digital Compositing Photo Filters & Effects](https://www.youtube.com/watch?v=dlnh_09_rvA).
 
-...
+## Nodef
 
-Nodef - No definition or node definition.
+No definition or node definition Open Digital Compositing Pipeline.

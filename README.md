@@ -1,6 +1,6 @@
 # Digital Compositing with a List on Mobile 
 
-This repo proposes the idea of displaying a Digital Compositing node-graph succintly in English as a list of steps. Displaying a node graph as a list of steps, a **Digital Compositing Pipeline**, is very useful in circumstances when there is limited screen space. For example, in times when we need to view or change a node graph on a mobile device.
+This repo proposes the idea of displaying a Digital Compositing node graph **succintly in English as a list of steps**. A list of steps is succint, easy to understand, and convenient to create making it an excellent medium for expression on a device with limited screen space (mobile phone) or discussion in a text document.
 
 ### What is Digital Compositing?
 
@@ -8,13 +8,13 @@ Digital Compositing (node-based) is the process of combining multiple seemingly 
 
 ## TLDR;
 
-     Read media  Read media
+     Read photo  Read photo
      |           |     
      V           V     
-     Premult     Color Correction
+     Exposure    Color Correction 
      |           |
      |           V
-     |           Transform
+     |           Retouch
      |           |
      |           V
      |           Gaussian Blur
@@ -27,12 +27,12 @@ Digital Compositing (node-based) is the process of combining multiple seemingly 
          
 to
 
-    1. Read media       (none)
-    2. Premult          (1)    
+    1. Read photo       (none)
+    2. Exposure         (1)    
   
-    3. Read media       (none) 
+    3. Read photo       (none) 
     4. Color Correction (3)     
-    5. Transform        (4)     
+    5. Retouch.         (4)     
     6. Gaussian Blur    (5)     
   
     7. Merge            (2,6)  

@@ -2,6 +2,10 @@
 
 This repo proposes the idea of **displaying a digital compositing node graph succinctly in English as a list of steps**. A list of steps is easy to understand and a succinct medium for display on a device with a limited screen space (mobile phone). It is also easy to create and be conveniently used for discussion in a document or book.
 
+### What is Digital Compositing?
+
+Digital Compositing (node-based) is the process of combining multiple seemingly simple nodes to render and achieve a desired result. The paradigm of a node-based tool involves linking basic media objects onto a procedural map or node graph and then intuitively laying out each of the steps in a sequential progression of inputs and outputs. Any parameters from an earlier step can be modified to change the outcome, with the results instantly being visible to you, and each of the nodes, being procedural, can be easily reused, saving time and effort.
+
 ## TLDR;
 
      Read photo  Read photo
@@ -35,10 +39,6 @@ to
     8. Viewer           (7)     
 
 Note - The brackets e.g. "(1)" refers to the input node or image.
-
-### What is Digital Compositing?
-
-Digital Compositing (node-based) is the process of combining multiple seemingly simple nodes to render and achieve a desired result. The paradigm of a node-based tool involves linking basic media objects onto a procedural map or node graph and then intuitively laying out each of the steps in a sequential progression of inputs and outputs. Any parameters from an earlier step can be modified to change the outcome, with the results instantly being visible to you, and each of the nodes, being procedural, can be easily reused, saving time and effort.
 
 ## Digital Compositing Pipeline (node graph as a list)
 

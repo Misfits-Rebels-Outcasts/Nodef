@@ -51,7 +51,7 @@ Express a node grap as a list with a Digital Compositing Pipeline.
 * [Viewer Cycling](documentation/ViewerCycling.md)
 * [Direct Acyclic Graph Generation](documentation/DirectedAcyclicGraphGeneration.md)
 
-## Open-Source Projects (GPL)
+## Open-Source Projects (GPLv2)
 
 * [ShaderMuse](https://github.com/Misfits-Rebels-Outcasts/ShaderMuse) - **Latest Source for Digital Compositing Shaders, Filters, and Effects**
 * [Library for Chaining, Blending, and Compositing Core Image CIFilter](documentation/ChainingBlendingCompositingCoreImageCIFilters.md) 

@@ -47,7 +47,7 @@ Note - The brackets e.g. "(1)" refers to the input node or image.
 * [Digital Compositing Pipeline](documentation/NodePipeline.md) for representing Node Graph
 * [Auto Chaining](documentation/AutoChaining.md) & [Reverse Compositing](documentation/ReverseCompositing.md)
 * [Viewer Cycling](documentation/ViewerCycling.md)
-* [Direct Acyclic Graph Generation/Import](documentation/DirectedAcyclicGraphGeneration.md)
+* [Direct Acyclic Graph Generation](documentation/DirectedAcyclicGraphGeneration.md)
 
 ## Open-Source Projects (GPL)
 

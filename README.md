@@ -40,7 +40,9 @@ to
 
 Note - The brackets e.g. "(1)" refers to the input node or image.
 
-## Digital Compositing Pipeline (node graph as a list)
+## Proposed Ideas
+
+Express a node grap as a list with a Digital Compositing Pipeline.
 
 ### [Digital Compositing on Mobile](documentation/NodeBasedCompositingOnMobile.md)
 

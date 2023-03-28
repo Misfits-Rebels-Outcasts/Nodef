@@ -51,7 +51,9 @@ Node graph as a list with a Digital Compositing Pipeline.
 
 ## Open-Source Projects (GPLv2)
 
-* [ShaderMuse](https://github.com/Misfits-Rebels-Outcasts/ShaderMuse) - **Latest Source for Digital Compositing Shaders, Filters, and Effects**
+The latest source code is in ShaderMuse. 
+
+* [ShaderMuse](https://github.com/Misfits-Rebels-Outcasts/ShaderMuse) - Digital Compositing Shaders, Filters, and Effects**
 * [Library for Chaining, Blending, and Compositing Core Image CIFilter](documentation/ChainingBlendingCompositingCoreImageCIFilters.md) 
 * [SwiftUI WYSIWYG Draw](https://github.com/Misfits-Rebels-Outcasts/SwiftUI-WYSIWYG-Draw) for Nodef in the future.
 * [Photo Filters & Effects](code/Nodef) - Source Code for v0.1 [Notes](code/Readme.md)

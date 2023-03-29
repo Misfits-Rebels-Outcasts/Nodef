@@ -69,6 +69,8 @@ Platform
 
 * [Shaders and Filters](https://www.youtube.com/shorts/8rLejlmGEKI)
 
+* [Add a Smoke Effect to a Photo](https://www.youtube.com/watch?v=8rLejlmGEKI)
+
 * [Photo Filters & Effects](https://www.youtube.com/watch?v=dlnh_09_rvA)
 
 ## Open Digital Compositing Pipeline

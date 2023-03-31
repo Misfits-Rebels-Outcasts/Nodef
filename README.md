@@ -63,8 +63,10 @@ Platform
 
 ## Free App in App Store
 
-* [Pipeline](https://apps.apple.com/us/app/pipeline-digital-compositing/id1640788489)
+* [Pipeline: Digital Compositing](https://apps.apple.com/us/app/pipeline-digital-compositing/id1640788489)
 
+  <img src="documentation/sigmanode3.png" width="8%" height="8%">
+     
 ## Videos
 
 * [Shaders and Filters](https://www.youtube.com/shorts/8rLejlmGEKI)

@@ -65,7 +65,7 @@ Platform
 
 * [Pipeline: Digital Compositing](https://apps.apple.com/us/app/pipeline-digital-compositing/id1640788489)
 
-  <img src="documentation/sigmanode3.png" width="8%" height="8%">
+  <img src="documentation/sigmanode3.png" width="12%" height="12%">
      
 ## Videos
 

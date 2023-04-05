@@ -47,7 +47,7 @@ ad mea perpetuum deducite tempora carmen. (Ovid)'*
 
 ### Node graph as a list of steps
 
-* [Digital Compositing on Mobile](documentation/NodeBasedCompositingOnMobile.md)
+* Background: [Digital Compositing on Mobile](documentation/NodeBasedCompositingOnMobile.md)
 * [Digital Compositing Pipeline](documentation/NodePipeline.md) for representing Node Graph
 * [Auto Chaining](documentation/AutoChaining.md) & [Reverse Compositing](documentation/ReverseCompositing.md)
 * Soft and Hard Reference

@@ -40,10 +40,14 @@ Note - The brackets e.g. "(1)" refers to the input node or image.
 
 ## Proposed Ideas
 
-Node graph as a list with a Digital Compositing Pipeline.
+*'In nova fert animus mutatas dicere formas
+corpora; di, coeptis (nam vos mutastis et illas)
+adspirate meis primaque ab origine mundi
+ad mea perpetuum deducite tempora carmen. (Ovid)'* 
 
-### [Digital Compositing on Mobile](documentation/NodeBasedCompositingOnMobile.md)
+### Node graph as a list with a Digital Compositing Pipeline.
 
+* [Digital Compositing on Mobile](documentation/NodeBasedCompositingOnMobile.md)
 * [Digital Compositing Pipeline](documentation/NodePipeline.md) for representing Node Graph
 * [Auto Chaining](documentation/AutoChaining.md) & [Reverse Compositing](documentation/ReverseCompositing.md)
 * [Viewer Cycling](documentation/ViewerCycling.md)

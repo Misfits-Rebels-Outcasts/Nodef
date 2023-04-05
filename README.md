@@ -38,14 +38,12 @@ to
 
 Note - The brackets e.g. "(1)" refers to the input node or image.
 
-## Proposed Ideas
+## Proposed Idea: Node graph as a list of steps
 
 *'In nova fert animus mutatas dicere formas
 corpora; di, coeptis (nam vos mutastis et illas)
 adspirate meis primaque ab origine mundi
 ad mea perpetuum deducite tempora carmen. (Ovid)'* 
-
-### Node graph as a list of steps
 
 * Background: [Digital Compositing on Mobile](documentation/NodeBasedCompositingOnMobile.md)
 * [Digital Compositing Pipeline](documentation/NodePipeline.md) for representing Node Graph

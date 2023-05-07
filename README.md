@@ -56,11 +56,12 @@ ad mea perpetuum deducite tempora carmen. (Ovid)'*
 
 The latest source code is in ShaderMuse. 
 
-* [Photo Curves](https://github.com/Misfits-Rebels-Outcasts/Photo-Curves) - Photo Curves, Tone Curves, and RGB Curves.
+* [Photo Curves](https://github.com/Misfits-Rebels-Outcasts/Photo-Curves) - Photo Curves, Tone Curves, and RGB Curves component.
 * [ShaderMuse](https://github.com/Misfits-Rebels-Outcasts/ShaderMuse) - Digital Compositing Shaders, Filters, and Effects (Source v0.2).
 * [Library for Chaining, Blending, and Compositing Core Image CIFilter](documentation/ChainingBlendingCompositingCoreImageCIFilters.md) 
 * [SwiftUI WYSIWYG Draw](https://github.com/Misfits-Rebels-Outcasts/SwiftUI-WYSIWYG-Draw) for Nodef in the future.
 * [Photo Filters & Effects](code/Nodef) - Source Code for v0.1 [Notes](code/Readme.md)
+* [Photo Reality AR](https://photorealityar.com) - Augmented Reality Photo AR.
 
 Platform
 * iOS, iPadOS, or Mac with Swift and Metal

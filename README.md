@@ -4,7 +4,7 @@ Digital Compositing (node-based) is the process of combining multiple seemingly 
 
 This repo proposes the idea of **displaying a digital compositing node graph succinctly in English as a list of steps**. A list of steps is easy to understand due to its sequential nature and a succinct medium for display on a device with a limited screen space (mobile phone). It is also easy to create and can be conveniently typed into a document or used for discussion in a book.
 
-## TLDR;
+## TL;DR
 
      Read photo  Read photo
      |           |     
@@ -38,14 +38,17 @@ to
 
 Note - The brackets e.g. "(1)" refers to the input node or image.
 
-## Proposed Ideas
+## Proposed Idea: Node graph as a list of steps
 
-Node graph as a list with a Digital Compositing Pipeline.
+*'In nova fert animus mutatas dicere formas
+corpora; di, coeptis (nam vos mutastis et illas)
+adspirate meis primaque ab origine mundi
+ad mea perpetuum deducite tempora carmen. (Ovid)'* 
 
-### [Digital Compositing on Mobile](documentation/NodeBasedCompositingOnMobile.md)
-
+* Background: [Digital Compositing on Mobile](documentation/NodeBasedCompositingOnMobile.md)
 * [Digital Compositing Pipeline](documentation/NodePipeline.md) for representing Node Graph
 * [Auto Chaining](documentation/AutoChaining.md) & [Reverse Compositing](documentation/ReverseCompositing.md)
+* Soft and Hard Reference
 * [Viewer Cycling](documentation/ViewerCycling.md)
 * [Direct Acyclic Graph Generation](documentation/DirectedAcyclicGraphGeneration.md)
 
@@ -53,10 +56,12 @@ Node graph as a list with a Digital Compositing Pipeline.
 
 The latest source code is in ShaderMuse. 
 
+* [Photo Curves](https://github.com/Misfits-Rebels-Outcasts/Photo-Curves) - Photo Curves, Tone Curves, and RGB Curves component.
 * [ShaderMuse](https://github.com/Misfits-Rebels-Outcasts/ShaderMuse) - Digital Compositing Shaders, Filters, and Effects (Source v0.2).
 * [Library for Chaining, Blending, and Compositing Core Image CIFilter](documentation/ChainingBlendingCompositingCoreImageCIFilters.md) 
 * [SwiftUI WYSIWYG Draw](https://github.com/Misfits-Rebels-Outcasts/SwiftUI-WYSIWYG-Draw) for Nodef in the future.
 * [Photo Filters & Effects](code/Nodef) - Source Code for v0.1 [Notes](code/Readme.md)
+* [Photo Reality AR](https://photorealityar.com) - Augmented Reality Photo AR.
 
 Platform
 * iOS, iPadOS, or Mac with Swift and Metal
@@ -65,7 +70,7 @@ Platform
 
 * [Pipeline: Digital Compositing](https://apps.apple.com/us/app/pipeline-digital-compositing/id1640788489)
 
-  <img src="documentation/sigmanode3.png" width="8%" height="8%">
+  <img src="documentation/sigmanode3.png" width="12%" height="12%">
      
 ## Videos
 

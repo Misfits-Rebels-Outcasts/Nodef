@@ -59,4 +59,8 @@ Pipeline
 
 * We even expand this to Augmented Reality (AR) by adding a Model Entity node. A Model Entity node enables us to add a 3D geometry object. This AR object can reference the photo image, video, or animation (MetaMorph) in our Pipeline. 
 
-* A programmer can easily join the pipeline by adding a node to the Pipeline. 
+## Additional Benefits
+
+* A software programmer can easily join the pipeline by adding a node by programming to the Pipeline. Remember it is an Open-source Pipeline.
+* We can easily describe the operations we are performing to our image or Photo without saying step 1, go to here and click this. Step 2, refer to the screenshot. We can elegantly express all of this Succintly with a Pipeline.
+

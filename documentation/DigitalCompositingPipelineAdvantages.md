@@ -4,54 +4,50 @@
  
 The following is the basic user interface we ever need for getting started with Nodef Digital Compositing Pipeline.
 
-Pipeline
-
-1. Color Controls
+     Pipeline
+     1. Color Controls
  
-+Add Node
+     +Add Node
  
 * Every photo operation, image post-processing, filters, or effects starts with  a node. The rest is build on top of others. For example, in the above, we added a Color Controls node which enables us to change the Brightness, Constrast, or Saturation of a Photo.
 
 
-Pipeline
-
-1. Photo Curves
-. 
-. 
+     Pipeline
+     1. Photo Curves
  
-+Add Node
+     +Add Node
  
 * Alternatively, if we need to perform a Photo Curves on our photo, we add a Photo Curves node to the Pipeline. This enables us to lighten our photo, reduce contrast, or increase the shadows.
 * After applying a Photo Curves node, if we need to enhance the Depth of Field, we simply add a Depth of Field node.
 
-Pipeline
+     Pipeline
 
-1. Photo Curves
-2. Depth of Field
-.
+     1. Photo Curves
+     2. Depth of Field
+     .
  
-+Add Node
+     +Add Node
  
 * When we add a node, we build upon the previous step. 
 
-Pipeline
+     Pipeline
 
-1. Photo Curves
-2. Depth of Field
-3. Color Monochrome (0)
+     1. Photo Curves
+     2. Depth of Field
+     3. Color Monochrome (0)
  
-+Add Node
+     +Add Node
 
 * We can also reference any of the steps in the Pipeline. For example, the Color Monochrome node references the original image (Node 0) to perform the operation. We can also reorder the operations or add/remove any of the steps.
 
-Pipeline
+     Pipeline
 
-1. Photo Curves
-2. Depth of Field
-3. Color Monochrome (0)
-4. Mix (2,3)
+     1. Photo Curves
+     2. Depth of Field
+     3. Color Monochrome (0)
+     4. Mix (2,3)
  
-+Add Node
+     +Add Node
 
 * We can also mix any of the previous steps with a Blend node. We can choose from many of the blend operations such as Subtract Blend, Mix, Multiplication Blend, or many others. And these Blend operations are also available as a node.
 

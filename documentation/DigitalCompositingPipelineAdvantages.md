@@ -39,7 +39,8 @@ When we add a node, we build upon the previous step.
  
      +Add Node
 
-Besides the previous step, we can also reference any of the steps in the Pipeline. For example, the Color Monochrome node references the original image (Node 0) to perform the operation. We can also reorder the operations or add/remove any of the steps, and the Pipeline will automatically adjust (Auto Chaining)[https://github.com/Misfits-Rebels-Outcasts/Nodef/blob/main/documentation/AutoChaining.md] itself.
+Besides the previous step, we can also reference any of the steps in the Pipeline. For example, the Color Monochrome node references the original image (Node 0) to perform the operation. We can also reorder the operations or add/remove any of the steps, and the Pipeline will automatically adjust 
+[Auto Chaining](https://github.com/Misfits-Rebels-Outcasts/Nodef/blob/main/documentation/AutoChaining.md) itself.
 
      Pipeline
 

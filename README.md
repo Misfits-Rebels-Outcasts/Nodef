@@ -50,11 +50,11 @@ ad mea perpetuum deducite tempora carmen. (Ovid)'*
 * [Auto Chaining](documentation/AutoChaining.md) & [Reverse Compositing](documentation/ReverseCompositing.md)
 * Node and Position Reference
 * [Viewer Cycling](documentation/ViewerCycling.md)
-* [Metamorphosis](documentation/Metamorphosis.md)
+* [Metamorphosis](documentation/Metamorphosis.md) - Under Construction
 * [Direct Acyclic Graph Generation](documentation/DirectedAcyclicGraphGeneration.md)
 
 ## Advantages of Digital Compositing Pipeline
-* [Elegant Simplicity of a Digital Compositing Pipeline](documentation/DigitalCompositingPipelineAdvantages.md)
+* [Elegant Simplicity of a Digital Compositing Pipeline](documentation/DigitalCompositingPipelineAdvantages.md) - Under Construction
 
 ## Open-Source Projects (GPLv2)
 

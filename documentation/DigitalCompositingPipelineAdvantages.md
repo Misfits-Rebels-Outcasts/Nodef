@@ -17,6 +17,7 @@ Every photo operation, image post-processing, filters, or effects starts with  a
  
      +Add Node
  
+ 
 Alternatively, if we need to perform [Photo Curves](https://github.com/Misfits-Rebels-Outcasts/Photo-Curves) on our photo, we add a Photo Curves node to the Pipeline. This enables us to lighten our photo, reduce contrast, or increase the shadows.
 After applying a Photo Curves node, if we need to enhance the Depth of Field, we simply add a Depth of Field node.
 

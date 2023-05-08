@@ -7,8 +7,6 @@ The following is the basic user interface we ever need for getting started with 
 Pipeline
 
 1. Color Controls
-.
-.
  
 +Add Node
  
@@ -18,8 +16,8 @@ Pipeline
 Pipeline
 
 1. Photo Curves
-.
-.
+. 
+. 
  
 +Add Node
  

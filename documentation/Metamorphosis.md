@@ -2,7 +2,7 @@
 
 Metamorphosis is used to describe a change of physical form, structure, or substance. In Nodef Digital Compositing Pipeline, we use Metamorphosis for animating objects or motion graphics. We simply add a MetaMorph node to the Pipeline to perform MetaMorphosis.
 
-## MetaMorph NOde
+## MetaMorph Node
 
 A MetaMorph node is a node in the Pipeline that is used to change the properties of another node. This appears unintuitive initially, since we can change the properties of the node directly. For example, if we use a Color Control node to change the Brightness of our photo with the following:
 
@@ -17,7 +17,7 @@ Pipeline
 1. Color Control
 2. MetaMorph (1) : change = Brightness
 
-Why then do we want to do that?
+Why do we want to do that?
 
 The reason is a MetaMorph node have access to other useful variables such as the Time variable of a video and a Math Formula Field.
 
@@ -28,4 +28,6 @@ This enables us to perform many interesting operations such as animating the bri
 * change = Color Control -> Brightness
 * Duration: Start Time and Stop Time
 * Math Formula = Sin(Time or Frame during the Duration) * Brightness
+
+Instead of a Math Formula, we can also use a Mathematical Curve to express how we want to perform our animation.
 

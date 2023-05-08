@@ -6,16 +6,16 @@ Metamorphosis is used to describe a change of physical form, structure, or subst
 
 A MetaMorph node is a node in the Pipeline that is used to change the properties of another node. This appears unintuitive initially, since we can change the properties of the node directly. For example, if we use a Color Control node to change the Brightness of our photo with the following:
 
-Pipeline
+     Pipeline
 
-1. Color Control (0) : Brightness = 50
+     1. Color Control (0) : Brightness = 50
 
 We can add a MetaMorph node to the Pipeline to achieve the same thing:
 
-Pipeline
+     Pipeline
 
-1. Color Control
-2. MetaMorph (1) : change = Brightness
+     1. Color Control
+     2. MetaMorph (1) : change = Brightness
 
 Why do we want to do that?
 

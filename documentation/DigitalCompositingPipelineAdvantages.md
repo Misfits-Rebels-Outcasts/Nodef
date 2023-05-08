@@ -57,7 +57,7 @@ This can be expanded to 3D or Augmented Reality (AR) by adding a Model Entity no
 
 * We can easily describe the operations we are performing to our image or photo without a lengthy tutorial with screenshots. For example, conventionally, we need to say "Step 1, go to the menu here and click this operation" and also "Step 2, refer to the screenshot below etc.". We can elegantly express all of this Succinctly with a Pipeline.
 
-## Extending the Pipeline
+## Ease of Extending the Open Pipeline
 
 * A software programmer can easily join the pipeline by adding a node with programming to the Open-source Pipeline. With an Elegantly Simple user interface, the design of graphical operations becomes modular. A programmer can come up with an innovative way of performing a graphical operation by providing codes modularly without affecting or knowing about existing operations.
 

@@ -19,11 +19,9 @@ We can add a Metamorph node to the Pipeline to achieve the same thing:
 
 Why do we want to do that?
 
-The reason is a Metamorph node have access to other useful variables such as the Time variable of a video and a Math Formula Field.
+The reason is a Metamorph node have access to other useful variables such as the Time variable of a video and a Math Formula Field. This enables us to perform many interesting operations such as animating the brightness of our Photo with respect to time of a sine curve or other mathematical function.
 
 ## Properties of Metamorph Node
-
-This enables us to perform many interesting operations such as animating the brightness of our Photo with respect to time of a sine curve or other mathematical function.
 
 * change = Color Control -> Brightness
 * Duration: Start Time and Stop Time

@@ -1,0 +1,1 @@
+# Digital Compositing Pipeline Advantages

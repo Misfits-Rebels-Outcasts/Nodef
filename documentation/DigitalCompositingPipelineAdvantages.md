@@ -17,7 +17,7 @@ Every photo operation, image post-processing, filters, or effects starts with  a
  
      +Add Node
  
-Alternatively, if we need to perform (Photo Curves)[https://github.com/Misfits-Rebels-Outcasts/Photo-Curves] on our photo, we add a Photo Curves node to the Pipeline. This enables us to lighten our photo, reduce contrast, or increase the shadows.
+Alternatively, if we need to perform [Photo Curves](https://github.com/Misfits-Rebels-Outcasts/Photo-Curves) on our photo, we add a Photo Curves node to the Pipeline. This enables us to lighten our photo, reduce contrast, or increase the shadows.
 After applying a Photo Curves node, if we need to enhance the Depth of Field, we simply add a Depth of Field node.
 
      Pipeline
@@ -59,6 +59,5 @@ This can be expanded to 3D or Augmented Reality (AR) by adding a Model Entity no
 
 ## Ease of Extending the Open Pipeline
 
-* A software programmer can easily join the pipeline by adding a node with programming to the Open-source Pipeline. With an Elegantly Simple user interface, the design of graphical operations becomes modular. A programmer can come up with an innovative way of performing a graphical operation by providing codes modularly without affecting or knowing about existing operations.
-
+* A software programmer can easily join the pipeline by adding a node with programming to the Open-source Pipeline. With an Elegantly Simple user interface, the design of graphical operations becomes modular. A programmer can come up with an innovative way of performing a graphical operation by providing codes modularly without affecting or knowing about existing operations. See the [Photo Curves](https://github.com/Misfits-Rebels-Outcasts/Photo-Curves) project to see how to add a node to the Pipeline.
 

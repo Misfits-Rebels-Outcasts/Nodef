@@ -1,8 +1,8 @@
 # Elegant Simplicity (Under Construction)
  
-## One User Interface for Everything and Anything
+## One Simple User Interface for Everything and Anything
  
-The following is the basic user interface we ever need for getting started with Nodef Digital Compositing Pipeline.
+The following is the basic user interface we ever need for getting started with a Digital Compositing Pipeline. The screen of the user interface below is simply a list of nodes in a sequential manner. We can tap on Add Node to add a node to the Pipeline. We can tap on any of the nodes to change its properties or swipe to delete the node. This is an Elegant Simple way to express our user interface while enabling complex operations to be carried out by working on a series of steps through the Pipeline.
 
      Pipeline
      1. Color Controls

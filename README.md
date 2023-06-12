@@ -60,6 +60,7 @@ ad mea perpetuum deducite tempora carmen. (Ovid)'*
 
 The latest source code is in ShaderMuse. 
 
+* [RealityKit Terrain Shader](https://github.com/Misfits-Rebels-Outcasts/RealityKit-Terrain-Shader) - Use Fractal Brownian Motion (fBM) to generate an Augmented Reality (AR) Terrain using iOS RealityKit Custom Materials.
 * [Photo Curves](https://github.com/Misfits-Rebels-Outcasts/Photo-Curves) - Photo Curves, Tone Curves, and RGB Curves component.
 * [ShaderMuse](https://github.com/Misfits-Rebels-Outcasts/ShaderMuse) - Digital Compositing Shaders, Filters, and Effects (Source v0.2).
 * [Library for Chaining, Blending, and Compositing Core Image CIFilter](documentation/ChainingBlendingCompositingCoreImageCIFilters.md) 

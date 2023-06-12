@@ -1,0 +1,1211 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01626BE225C163D7001D69F4 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01626BE125C163D7001D69F4 /* Tests_iOS.swift */; };
+		01626BED25C163D7001D69F4 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01626BEC25C163D7001D69F4 /* Tests_macOS.swift */; };
+		01626BEF25C163D7001D69F4 /* SketchEffectsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01626BC625C163D6001D69F4 /* SketchEffectsApp.swift */; };
+		01626BF325C163D7001D69F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01626BC825C163D7001D69F4 /* Assets.xcassets */; };
+		01626BF425C163D7001D69F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01626BC825C163D7001D69F4 /* Assets.xcassets */; };
+		2019520E29DE4A0200934440 /* FilterPropertiesViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2019520B29DE4A0100934440 /* FilterPropertiesViewX.swift */; };
+		2019521129DE4BD500934440 /* ColorControlsFX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2019521029DE4BD500934440 /* ColorControlsFX.swift */; };
+		2019521329DE4BDA00934440 /* ImageFX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2019521229DE4BDA00934440 /* ImageFX.swift */; };
+		2019521529DE62F300934440 /* SettingsViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2019521429DE62F300934440 /* SettingsViewX.swift */; };
+		202DDD2828810ADF00D55FEA /* PhotoPHImagePickerX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202DDD2728810ADF00D55FEA /* PhotoPHImagePickerX.swift */; };
+		202DDD2928810ADF00D55FEA /* PhotoPHImagePickerX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202DDD2728810ADF00D55FEA /* PhotoPHImagePickerX.swift */; };
+		202F7E8229FA8462003823E5 /* External License Attribution.txt in Resources */ = {isa = PBXBuildFile; fileRef = 202F7E7529FA8462003823E5 /* External License Attribution.txt */; };
+		202F7E8329FA8462003823E5 /* External License Attribution.txt in Resources */ = {isa = PBXBuildFile; fileRef = 202F7E7529FA8462003823E5 /* External License Attribution.txt */; };
+		202F7E8429FA8462003823E5 /* SIMD+CGpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F7E7829FA8462003823E5 /* SIMD+CGpoint.swift */; };
+		202F7E8529FA8462003823E5 /* SIMD+CGpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F7E7829FA8462003823E5 /* SIMD+CGpoint.swift */; };
+		202F7E8629FA8462003823E5 /* CGRecct+TransformToFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F7E7929FA8462003823E5 /* CGRecct+TransformToFill.swift */; };
+		202F7E8729FA8462003823E5 /* CGRecct+TransformToFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F7E7929FA8462003823E5 /* CGRecct+TransformToFill.swift */; };
+		202F7E8829FA8462003823E5 /* SplineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F7E7A29FA8462003823E5 /* SplineView.swift */; };
+		202F7E8929FA8462003823E5 /* SplineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F7E7A29FA8462003823E5 /* SplineView.swift */; };
+		202F7E8A29FA8462003823E5 /* CubicSpline+Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F7E7B29FA8462003823E5 /* CubicSpline+Path.swift */; };
+		202F7E8B29FA8462003823E5 /* CubicSpline+Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F7E7B29FA8462003823E5 /* CubicSpline+Path.swift */; };
+		202F7E8C29FA8462003823E5 /* SplineShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F7E7C29FA8462003823E5 /* SplineShape.swift */; };
+		202F7E8D29FA8462003823E5 /* SplineShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F7E7C29FA8462003823E5 /* SplineShape.swift */; };
+		202F7E8E29FA8462003823E5 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F7E7E29FA8462003823E5 /* Array+Extensions.swift */; };
+		202F7E8F29FA8462003823E5 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F7E7E29FA8462003823E5 /* Array+Extensions.swift */; };
+		202F7E9029FA8462003823E5 /* CubicCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F7E7F29FA8462003823E5 /* CubicCurve.swift */; };
+		202F7E9129FA8462003823E5 /* CubicCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F7E7F29FA8462003823E5 /* CubicCurve.swift */; };
+		202F7E9229FA8462003823E5 /* CubicSpline+Callable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F7E8029FA8462003823E5 /* CubicSpline+Callable.swift */; };
+		202F7E9329FA8462003823E5 /* CubicSpline+Callable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F7E8029FA8462003823E5 /* CubicSpline+Callable.swift */; };
+		202F7E9429FA8462003823E5 /* CubicSpline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F7E8129FA8462003823E5 /* CubicSpline.swift */; };
+		202F7E9529FA8462003823E5 /* CubicSpline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F7E8129FA8462003823E5 /* CubicSpline.swift */; };
+		202F7E9929FA84BB003823E5 /* CurveHandleViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F7E9629FA84BB003823E5 /* CurveHandleViewX.swift */; };
+		202F7E9A29FA84BB003823E5 /* CurveHandleViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F7E9629FA84BB003823E5 /* CurveHandleViewX.swift */; };
+		202F7E9B29FA84BB003823E5 /* CurveViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F7E9729FA84BB003823E5 /* CurveViewX.swift */; };
+		202F7E9C29FA84BB003823E5 /* CurveViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F7E9729FA84BB003823E5 /* CurveViewX.swift */; };
+		202F7E9D29FA84BB003823E5 /* PhotoCurvePropertiesViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F7E9829FA84BB003823E5 /* PhotoCurvePropertiesViewX.swift */; };
+		202F7E9E29FA84BB003823E5 /* PhotoCurvePropertiesViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F7E9829FA84BB003823E5 /* PhotoCurvePropertiesViewX.swift */; };
+		202F7EA029FA8569003823E5 /* ToneCurvePropertiesViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F7E9F29FA8569003823E5 /* ToneCurvePropertiesViewX.swift */; };
+		202F7EA129FA8569003823E5 /* ToneCurvePropertiesViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F7E9F29FA8569003823E5 /* ToneCurvePropertiesViewX.swift */; };
+		202F7EA329FA8600003823E5 /* ToneCurveFX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F7EA229FA8600003823E5 /* ToneCurveFX.swift */; };
+		202F7EA429FA8600003823E5 /* ToneCurveFX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F7EA229FA8600003823E5 /* ToneCurveFX.swift */; };
+		202F7EAB29FA86FF003823E5 /* CIConvertHSVToRGBFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F7EA529FA86FE003823E5 /* CIConvertHSVToRGBFilter.swift */; };
+		202F7EAC29FA86FF003823E5 /* CIConvertHSVToRGBFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F7EA529FA86FE003823E5 /* CIConvertHSVToRGBFilter.swift */; };
+		202F7EAD29FA86FF003823E5 /* CombineRGB.metal in Sources */ = {isa = PBXBuildFile; fileRef = 202F7EA629FA86FE003823E5 /* CombineRGB.metal */; };
+		202F7EAE29FA86FF003823E5 /* CombineRGB.metal in Sources */ = {isa = PBXBuildFile; fileRef = 202F7EA629FA86FE003823E5 /* CombineRGB.metal */; };
+		202F7EAF29FA86FF003823E5 /* CICombineHSVFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F7EA729FA86FE003823E5 /* CICombineHSVFilter.swift */; };
+		202F7EB029FA86FF003823E5 /* CICombineHSVFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F7EA729FA86FE003823E5 /* CICombineHSVFilter.swift */; };
+		202F7EB129FA86FF003823E5 /* CombineHSV.metal in Sources */ = {isa = PBXBuildFile; fileRef = 202F7EA829FA86FE003823E5 /* CombineHSV.metal */; };
+		202F7EB229FA86FF003823E5 /* CombineHSV.metal in Sources */ = {isa = PBXBuildFile; fileRef = 202F7EA829FA86FE003823E5 /* CombineHSV.metal */; };
+		202F7EB329FA86FF003823E5 /* CICombineRGBFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F7EA929FA86FF003823E5 /* CICombineRGBFilter.swift */; };
+		202F7EB429FA86FF003823E5 /* CICombineRGBFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F7EA929FA86FF003823E5 /* CICombineRGBFilter.swift */; };
+		202F7EB529FA86FF003823E5 /* CIConvertRGBToHSVFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F7EAA29FA86FF003823E5 /* CIConvertRGBToHSVFilter.swift */; };
+		202F7EB629FA86FF003823E5 /* CIConvertRGBToHSVFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F7EAA29FA86FF003823E5 /* CIConvertRGBToHSVFilter.swift */; };
+		2031845D29F9F0790068138A /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2031845C29F9F0790068138A /* ViewExtensions.swift */; };
+		2031845E29F9F0790068138A /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2031845C29F9F0790068138A /* ViewExtensions.swift */; };
+		2033ABEC289146BE000F3D7C /* BaseTileFX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2033ABEB289146BE000F3D7C /* BaseTileFX.swift */; };
+		2033ABED289146BE000F3D7C /* BaseTileFX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2033ABEB289146BE000F3D7C /* BaseTileFX.swift */; };
+		205CB6CA29C6893A0012A3CE /* SharedExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205CB6C929C6893A0012A3CE /* SharedExtensions.swift */; };
+		205CB6CB29C6893A0012A3CE /* SharedExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205CB6C929C6893A0012A3CE /* SharedExtensions.swift */; };
+		205E6F2A28B03138006D5775 /* NodeLaunch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 205E6F2928B03138006D5775 /* NodeLaunch Screen.storyboard */; };
+		205E6F2B28B03138006D5775 /* NodeLaunch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 205E6F2928B03138006D5775 /* NodeLaunch Screen.storyboard */; };
+		206144C029358EB4004974CD /* GPLv2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 206144BF29358EB4004974CD /* GPLv2.txt */; };
+		206144C129358EB4004974CD /* GPLv2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 206144BF29358EB4004974CD /* GPLv2.txt */; };
+		20628BDD288FB3A800582FD7 /* PhotoRulerHViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20628BDC288FB3A800582FD7 /* PhotoRulerHViewX.swift */; };
+		20628BDE288FB3A800582FD7 /* PhotoRulerHViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20628BDC288FB3A800582FD7 /* PhotoRulerHViewX.swift */; };
+		20628BE0288FB3B800582FD7 /* PhotoRulerVViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20628BDF288FB3B800582FD7 /* PhotoRulerVViewX.swift */; };
+		20628BE1288FB3B800582FD7 /* PhotoRulerVViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20628BDF288FB3B800582FD7 /* PhotoRulerVViewX.swift */; };
+		206D3B5F2878D0DC002B3D16 /* BaseGeneratorFX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D3B5E2878D0DC002B3D16 /* BaseGeneratorFX.swift */; };
+		206D3B602878D0DC002B3D16 /* BaseGeneratorFX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D3B5E2878D0DC002B3D16 /* BaseGeneratorFX.swift */; };
+		20744ADD286E70CD0039751B /* PhotoMainViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20744ADC286E70CD0039751B /* PhotoMainViewX.swift */; };
+		20744ADE286E70CD0039751B /* PhotoMainViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20744ADC286E70CD0039751B /* PhotoMainViewX.swift */; };
+		20744AE1286E71560039751B /* PhotoDesignViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20744AE0286E71560039751B /* PhotoDesignViewX.swift */; };
+		20744AE2286E71560039751B /* PhotoDesignViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20744AE0286E71560039751B /* PhotoDesignViewX.swift */; };
+		20744AE4286E71E90039751B /* PhotoViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20744AE3286E71E90039751B /* PhotoViewX.swift */; };
+		20744AE5286E71E90039751B /* PhotoViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20744AE3286E71E90039751B /* PhotoViewX.swift */; };
+		20744AE7286E74210039751B /* PhotoMainPropertiesViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20744AE6286E74210039751B /* PhotoMainPropertiesViewX.swift */; };
+		20744AE8286E74210039751B /* PhotoMainPropertiesViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20744AE6286E74210039751B /* PhotoMainPropertiesViewX.swift */; };
+		20744AEA286E74400039751B /* PhotoToolbarViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20744AE9286E74400039751B /* PhotoToolbarViewX.swift */; };
+		20744AEB286E74400039751B /* PhotoToolbarViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20744AE9286E74400039751B /* PhotoToolbarViewX.swift */; };
+		20744AF0286E7EB60039751B /* PhotoMainSheetViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20744AEF286E7EB60039751B /* PhotoMainSheetViewX.swift */; };
+		20744AF1286E7EB60039751B /* PhotoMainSheetViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20744AEF286E7EB60039751B /* PhotoMainSheetViewX.swift */; };
+		207809312870514600E17084 /* ImageUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207809302870514600E17084 /* ImageUtil.swift */; };
+		207809322870514600E17084 /* ImageUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207809302870514600E17084 /* ImageUtil.swift */; };
+		207B9DF3286CF8520064A46E /* BaseBlendFX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207B9DF2286CF8520064A46E /* BaseBlendFX.swift */; };
+		207B9DF4286CF8520064A46E /* BaseBlendFX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207B9DF2286CF8520064A46E /* BaseBlendFX.swift */; };
+		207C2532287246010013E9DA /* FiltersX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207C2531287246010013E9DA /* FiltersX.swift */; };
+		207C2533287246010013E9DA /* FiltersX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207C2531287246010013E9DA /* FiltersX.swift */; };
+		207C2535287246270013E9DA /* FilterXHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207C2534287246270013E9DA /* FilterXHolder.swift */; };
+		207C2536287246270013E9DA /* FilterXHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207C2534287246270013E9DA /* FilterXHolder.swift */; };
+		207C253828724AB30013E9DA /* FilterPropertiesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207C253728724AB30013E9DA /* FilterPropertiesViewModel.swift */; };
+		207C253928724AB30013E9DA /* FilterPropertiesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207C253728724AB30013E9DA /* FilterPropertiesViewModel.swift */; };
+		207C253B28724AF00013E9DA /* FiltersPropertiesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207C253A28724AF00013E9DA /* FiltersPropertiesViewModel.swift */; };
+		207C253C28724AF00013E9DA /* FiltersPropertiesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207C253A28724AF00013E9DA /* FiltersPropertiesViewModel.swift */; };
+		207C253E287269E70013E9DA /* OptionsZoomToolbarViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207C253D287269E70013E9DA /* OptionsZoomToolbarViewX.swift */; };
+		207C253F287269E70013E9DA /* OptionsZoomToolbarViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207C253D287269E70013E9DA /* OptionsZoomToolbarViewX.swift */; };
+		207C254128726B360013E9DA /* PhotoPageToolbarViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207C254028726B360013E9DA /* PhotoPageToolbarViewX.swift */; };
+		207C254228726B360013E9DA /* PhotoPageToolbarViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207C254028726B360013E9DA /* PhotoPageToolbarViewX.swift */; };
+		209D46B027E1AB7F0001F369 /* PageSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209D46AF27E1AB7F0001F369 /* PageSettings.swift */; };
+		209D46B127E1AB7F0001F369 /* PageSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209D46AF27E1AB7F0001F369 /* PageSettings.swift */; };
+		209F2F7727E2BF80000B28A8 /* OptionSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209F2F7627E2BF80000B28A8 /* OptionSettings.swift */; };
+		209F2F7827E2BF80000B28A8 /* OptionSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209F2F7627E2BF80000B28A8 /* OptionSettings.swift */; };
+		20A99D1327EA8369005FDCCC /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A99D1227EA8369005FDCCC /* BaseViewModel.swift */; };
+		20A99D1427EA8369005FDCCC /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A99D1227EA8369005FDCCC /* BaseViewModel.swift */; };
+		20A99D1B27EA8534005FDCCC /* LabelTemplates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A99D1A27EA8534005FDCCC /* LabelTemplates.swift */; };
+		20A99D1C27EA8534005FDCCC /* LabelTemplates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A99D1A27EA8534005FDCCC /* LabelTemplates.swift */; };
+		20B25B4228908BF000724615 /* BaseTransitionFX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B25B4128908BF000724615 /* BaseTransitionFX.swift */; };
+		20B25B4328908BF000724615 /* BaseTransitionFX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B25B4128908BF000724615 /* BaseTransitionFX.swift */; };
+		20B87E9F28BEE228002F1E3F /* FiltersNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B87E9E28BEE228002F1E3F /* FiltersNames.swift */; };
+		20B87EA028BEE228002F1E3F /* FiltersNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B87E9E28BEE228002F1E3F /* FiltersNames.swift */; };
+		20C271AE2897F0FD00F325C9 /* Mona_Lisa_by_Leonardo_da_Vinci.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 20C271AD2897F0FD00F325C9 /* Mona_Lisa_by_Leonardo_da_Vinci.jpeg */; };
+		20C271AF2897F0FD00F325C9 /* Mona_Lisa_by_Leonardo_da_Vinci.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 20C271AD2897F0FD00F325C9 /* Mona_Lisa_by_Leonardo_da_Vinci.jpeg */; };
+		20D9B36529CA778C004DCFE8 /* ViewOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D9B36429CA778C004DCFE8 /* ViewOffset.swift */; };
+		20D9B36629CA778C004DCFE8 /* ViewOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D9B36429CA778C004DCFE8 /* ViewOffset.swift */; };
+		20E18DAC2A05B80C00BB5980 /* photocurves.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20E18DAB2A05B80C00BB5980 /* photocurves.jpg */; };
+		20E18DAD2A05B80C00BB5980 /* photocurves.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20E18DAB2A05B80C00BB5980 /* photocurves.jpg */; };
+		20E800D227E02322000A1FD1 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E800D127E02322000A1FD1 /* AppSettings.swift */; };
+		20E800D327E02322000A1FD1 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E800D127E02322000A1FD1 /* AppSettings.swift */; };
+		20ECA9B72861A04500C37762 /* FilterX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ECA9B62861A04500C37762 /* FilterX.swift */; };
+		20ECA9B82861A04500C37762 /* FilterX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ECA9B62861A04500C37762 /* FilterX.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01626BDE25C163D7001D69F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01626BC125C163D5001D69F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01626BCC25C163D7001D69F4;
+			remoteInfo = "SketchEffects (iOS)";
+		};
+		01626BE925C163D7001D69F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01626BC125C163D5001D69F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01626BD425C163D7001D69F4;
+			remoteInfo = "SketchEffects (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01626BC625C163D6001D69F4 /* SketchEffectsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SketchEffectsApp.swift; sourceTree = "<group>"; };
+		01626BC825C163D7001D69F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01626BCD25C163D7001D69F4 /* Photo Curves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo Curves.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01626BD025C163D7001D69F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01626BD525C163D7001D69F4 /* Photo Curves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo Curves.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01626BD725C163D7001D69F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01626BD825C163D7001D69F4 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		01626BDD25C163D7001D69F4 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01626BE125C163D7001D69F4 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		01626BE325C163D7001D69F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01626BE825C163D7001D69F4 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01626BEC25C163D7001D69F4 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		01626BEE25C163D7001D69F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01626C0725C163F1001D69F4 /* SketchEffects.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SketchEffects.entitlements; sourceTree = "<group>"; };
+		2019520B29DE4A0100934440 /* FilterPropertiesViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterPropertiesViewX.swift; sourceTree = "<group>"; };
+		2019521029DE4BD500934440 /* ColorControlsFX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorControlsFX.swift; sourceTree = "<group>"; };
+		2019521229DE4BDA00934440 /* ImageFX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFX.swift; sourceTree = "<group>"; };
+		2019521429DE62F300934440 /* SettingsViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewX.swift; sourceTree = "<group>"; };
+		202DDD2728810ADF00D55FEA /* PhotoPHImagePickerX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoPHImagePickerX.swift; sourceTree = "<group>"; };
+		202F7E7529FA8462003823E5 /* External License Attribution.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "External License Attribution.txt"; sourceTree = "<group>"; };
+		202F7E7829FA8462003823E5 /* SIMD+CGpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SIMD+CGpoint.swift"; sourceTree = "<group>"; };
+		202F7E7929FA8462003823E5 /* CGRecct+TransformToFill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRecct+TransformToFill.swift"; sourceTree = "<group>"; };
+		202F7E7A29FA8462003823E5 /* SplineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplineView.swift; sourceTree = "<group>"; };
+		202F7E7B29FA8462003823E5 /* CubicSpline+Path.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CubicSpline+Path.swift"; sourceTree = "<group>"; };
+		202F7E7C29FA8462003823E5 /* SplineShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplineShape.swift; sourceTree = "<group>"; };
+		202F7E7E29FA8462003823E5 /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		202F7E7F29FA8462003823E5 /* CubicCurve.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CubicCurve.swift; sourceTree = "<group>"; };
+		202F7E8029FA8462003823E5 /* CubicSpline+Callable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CubicSpline+Callable.swift"; sourceTree = "<group>"; };
+		202F7E8129FA8462003823E5 /* CubicSpline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CubicSpline.swift; sourceTree = "<group>"; };
+		202F7E9629FA84BB003823E5 /* CurveHandleViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurveHandleViewX.swift; sourceTree = "<group>"; };
+		202F7E9729FA84BB003823E5 /* CurveViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurveViewX.swift; sourceTree = "<group>"; };
+		202F7E9829FA84BB003823E5 /* PhotoCurvePropertiesViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCurvePropertiesViewX.swift; sourceTree = "<group>"; };
+		202F7E9F29FA8569003823E5 /* ToneCurvePropertiesViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToneCurvePropertiesViewX.swift; sourceTree = "<group>"; };
+		202F7EA229FA8600003823E5 /* ToneCurveFX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToneCurveFX.swift; sourceTree = "<group>"; };
+		202F7EA529FA86FE003823E5 /* CIConvertHSVToRGBFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIConvertHSVToRGBFilter.swift; sourceTree = "<group>"; };
+		202F7EA629FA86FE003823E5 /* CombineRGB.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = CombineRGB.metal; sourceTree = "<group>"; };
+		202F7EA729FA86FE003823E5 /* CICombineHSVFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CICombineHSVFilter.swift; sourceTree = "<group>"; };
+		202F7EA829FA86FE003823E5 /* CombineHSV.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = CombineHSV.metal; sourceTree = "<group>"; };
+		202F7EA929FA86FF003823E5 /* CICombineRGBFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CICombineRGBFilter.swift; sourceTree = "<group>"; };
+		202F7EAA29FA86FF003823E5 /* CIConvertRGBToHSVFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIConvertRGBToHSVFilter.swift; sourceTree = "<group>"; };
+		2031845C29F9F0790068138A /* ViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		2033ABEB289146BE000F3D7C /* BaseTileFX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTileFX.swift; sourceTree = "<group>"; };
+		205CB6C929C6893A0012A3CE /* SharedExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedExtensions.swift; sourceTree = "<group>"; };
+		205E6F2928B03138006D5775 /* NodeLaunch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "NodeLaunch Screen.storyboard"; sourceTree = "<group>"; };
+		206144BF29358EB4004974CD /* GPLv2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GPLv2.txt; sourceTree = "<group>"; };
+		20628BDC288FB3A800582FD7 /* PhotoRulerHViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoRulerHViewX.swift; sourceTree = "<group>"; };
+		20628BDF288FB3B800582FD7 /* PhotoRulerVViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoRulerVViewX.swift; sourceTree = "<group>"; };
+		206D3B5E2878D0DC002B3D16 /* BaseGeneratorFX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseGeneratorFX.swift; sourceTree = "<group>"; };
+		20744ADC286E70CD0039751B /* PhotoMainViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoMainViewX.swift; sourceTree = "<group>"; };
+		20744AE0286E71560039751B /* PhotoDesignViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDesignViewX.swift; sourceTree = "<group>"; };
+		20744AE3286E71E90039751B /* PhotoViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewX.swift; sourceTree = "<group>"; };
+		20744AE6286E74210039751B /* PhotoMainPropertiesViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoMainPropertiesViewX.swift; sourceTree = "<group>"; };
+		20744AE9286E74400039751B /* PhotoToolbarViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoToolbarViewX.swift; sourceTree = "<group>"; };
+		20744AEF286E7EB60039751B /* PhotoMainSheetViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoMainSheetViewX.swift; sourceTree = "<group>"; };
+		207809302870514600E17084 /* ImageUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageUtil.swift; sourceTree = "<group>"; };
+		207B9DF2286CF8520064A46E /* BaseBlendFX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseBlendFX.swift; sourceTree = "<group>"; };
+		207C2531287246010013E9DA /* FiltersX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiltersX.swift; sourceTree = "<group>"; };
+		207C2534287246270013E9DA /* FilterXHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterXHolder.swift; sourceTree = "<group>"; };
+		207C253728724AB30013E9DA /* FilterPropertiesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterPropertiesViewModel.swift; sourceTree = "<group>"; };
+		207C253A28724AF00013E9DA /* FiltersPropertiesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiltersPropertiesViewModel.swift; sourceTree = "<group>"; };
+		207C253D287269E70013E9DA /* OptionsZoomToolbarViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsZoomToolbarViewX.swift; sourceTree = "<group>"; };
+		207C254028726B360013E9DA /* PhotoPageToolbarViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoPageToolbarViewX.swift; sourceTree = "<group>"; };
+		209D46AF27E1AB7F0001F369 /* PageSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageSettings.swift; sourceTree = "<group>"; };
+		209F2F7627E2BF80000B28A8 /* OptionSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionSettings.swift; sourceTree = "<group>"; };
+		20A99D1227EA8369005FDCCC /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		20A99D1A27EA8534005FDCCC /* LabelTemplates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelTemplates.swift; sourceTree = "<group>"; };
+		20B25B4128908BF000724615 /* BaseTransitionFX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTransitionFX.swift; sourceTree = "<group>"; };
+		20B87E9E28BEE228002F1E3F /* FiltersNames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiltersNames.swift; sourceTree = "<group>"; };
+		20C271AD2897F0FD00F325C9 /* Mona_Lisa_by_Leonardo_da_Vinci.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mona_Lisa_by_Leonardo_da_Vinci.jpeg; sourceTree = "<group>"; };
+		20D9B36429CA778C004DCFE8 /* ViewOffset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewOffset.swift; sourceTree = "<group>"; };
+		20E18DAB2A05B80C00BB5980 /* photocurves.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photocurves.jpg; sourceTree = "<group>"; };
+		20E800D127E02322000A1FD1 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		20ECA9B62861A04500C37762 /* FilterX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterX.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01626BCA25C163D7001D69F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01626BD225C163D7001D69F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01626BDA25C163D7001D69F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01626BE525C163D7001D69F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01626BC025C163D5001D69F4 = {
+			isa = PBXGroup;
+			children = (
+				01626C0725C163F1001D69F4 /* SketchEffects.entitlements */,
+				01626BC525C163D6001D69F4 /* Shared */,
+				01626BCF25C163D7001D69F4 /* iOS */,
+				01626BD625C163D7001D69F4 /* macOS */,
+				01626BE025C163D7001D69F4 /* Tests iOS */,
+				01626BEB25C163D7001D69F4 /* Tests macOS */,
+				01626BCE25C163D7001D69F4 /* Products */,
+				205E6F2C28B04138006D5775 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		01626BC525C163D6001D69F4 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				206144BF29358EB4004974CD /* GPLv2.txt */,
+				200415DB27FE96E5002F71C9 /* Nodef */,
+				01626BC825C163D7001D69F4 /* Assets.xcassets */,
+				01626BC625C163D6001D69F4 /* SketchEffectsApp.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		01626BCE25C163D7001D69F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01626BCD25C163D7001D69F4 /* Photo Curves.app */,
+				01626BD525C163D7001D69F4 /* Photo Curves.app */,
+				01626BDD25C163D7001D69F4 /* Tests iOS.xctest */,
+				01626BE825C163D7001D69F4 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01626BCF25C163D7001D69F4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				01626BD025C163D7001D69F4 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		01626BD625C163D7001D69F4 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				01626BD725C163D7001D69F4 /* Info.plist */,
+				01626BD825C163D7001D69F4 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		01626BE025C163D7001D69F4 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				01626BE125C163D7001D69F4 /* Tests_iOS.swift */,
+				01626BE325C163D7001D69F4 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		01626BEB25C163D7001D69F4 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				01626BEC25C163D7001D69F4 /* Tests_macOS.swift */,
+				01626BEE25C163D7001D69F4 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		200415DB27FE96E5002F71C9 /* Nodef */ = {
+			isa = PBXGroup;
+			children = (
+				205E6F2928B03138006D5775 /* NodeLaunch Screen.storyboard */,
+				205CB6C429C6812D0012A3CE /* Common */,
+				20ECA9B52861A02500C37762 /* Filters */,
+				20744ADF286E70D40039751B /* Views */,
+				20551CAF2863F34000F1AEF0 /* FilterViews */,
+				202F7E7429FA8462003823E5 /* External */,
+				202CE13E29BEE96600811DB5 /* Image */,
+			);
+			path = Nodef;
+			sourceTree = "<group>";
+		};
+		200BC9F629C447E70013147C /* CIFilters */ = {
+			isa = PBXGroup;
+			children = (
+				2019521029DE4BD500934440 /* ColorControlsFX.swift */,
+				202F7EA229FA8600003823E5 /* ToneCurveFX.swift */,
+				2019521229DE4BDA00934440 /* ImageFX.swift */,
+				202F7EA729FA86FE003823E5 /* CICombineHSVFilter.swift */,
+				202F7EA929FA86FF003823E5 /* CICombineRGBFilter.swift */,
+				202F7EA529FA86FE003823E5 /* CIConvertHSVToRGBFilter.swift */,
+				202F7EAA29FA86FF003823E5 /* CIConvertRGBToHSVFilter.swift */,
+				202F7EA829FA86FE003823E5 /* CombineHSV.metal */,
+				202F7EA629FA86FE003823E5 /* CombineRGB.metal */,
+			);
+			path = CIFilters;
+			sourceTree = "<group>";
+		};
+		202CE13E29BEE96600811DB5 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				20E18DAB2A05B80C00BB5980 /* photocurves.jpg */,
+				20C271AD2897F0FD00F325C9 /* Mona_Lisa_by_Leonardo_da_Vinci.jpeg */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		202F7E7429FA8462003823E5 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				202F7E7529FA8462003823E5 /* External License Attribution.txt */,
+				202F7E7629FA8462003823E5 /* Curve */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		202F7E7629FA8462003823E5 /* Curve */ = {
+			isa = PBXGroup;
+			children = (
+				202F7E7729FA8462003823E5 /* CubicSplineUI */,
+				202F7E7D29FA8462003823E5 /* CubicSpline */,
+			);
+			path = Curve;
+			sourceTree = "<group>";
+		};
+		202F7E7729FA8462003823E5 /* CubicSplineUI */ = {
+			isa = PBXGroup;
+			children = (
+				202F7E7829FA8462003823E5 /* SIMD+CGpoint.swift */,
+				202F7E7929FA8462003823E5 /* CGRecct+TransformToFill.swift */,
+				202F7E7A29FA8462003823E5 /* SplineView.swift */,
+				202F7E7B29FA8462003823E5 /* CubicSpline+Path.swift */,
+				202F7E7C29FA8462003823E5 /* SplineShape.swift */,
+			);
+			path = CubicSplineUI;
+			sourceTree = "<group>";
+		};
+		202F7E7D29FA8462003823E5 /* CubicSpline */ = {
+			isa = PBXGroup;
+			children = (
+				202F7E7E29FA8462003823E5 /* Array+Extensions.swift */,
+				202F7E7F29FA8462003823E5 /* CubicCurve.swift */,
+				202F7E8029FA8462003823E5 /* CubicSpline+Callable.swift */,
+				202F7E8129FA8462003823E5 /* CubicSpline.swift */,
+			);
+			path = CubicSpline;
+			sourceTree = "<group>";
+		};
+		20551CAF2863F34000F1AEF0 /* FilterViews */ = {
+			isa = PBXGroup;
+			children = (
+				2019520B29DE4A0100934440 /* FilterPropertiesViewX.swift */,
+				202F7E9629FA84BB003823E5 /* CurveHandleViewX.swift */,
+				202F7E9729FA84BB003823E5 /* CurveViewX.swift */,
+				202F7E9F29FA8569003823E5 /* ToneCurvePropertiesViewX.swift */,
+				202F7E9829FA84BB003823E5 /* PhotoCurvePropertiesViewX.swift */,
+			);
+			path = FilterViews;
+			sourceTree = "<group>";
+		};
+		205CB6C429C6812D0012A3CE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				20A99D1527EA8371005FDCCC /* ViewModels */,
+				20A99D1927EA84FF005FDCCC /* Models */,
+				20B2A3B52810D34B00B7D4DB /* Util */,
+				205CB6C829C689040012A3CE /* Extensions */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		205CB6C829C689040012A3CE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2031845C29F9F0790068138A /* ViewExtensions.swift */,
+				205CB6C929C6893A0012A3CE /* SharedExtensions.swift */,
+				20D9B36429CA778C004DCFE8 /* ViewOffset.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		205E6F2C28B04138006D5775 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20744ADF286E70D40039751B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				20744ADC286E70CD0039751B /* PhotoMainViewX.swift */,
+				20744AE0286E71560039751B /* PhotoDesignViewX.swift */,
+				20744AE3286E71E90039751B /* PhotoViewX.swift */,
+				20744AE6286E74210039751B /* PhotoMainPropertiesViewX.swift */,
+				202DDD2728810ADF00D55FEA /* PhotoPHImagePickerX.swift */,
+				20744AEF286E7EB60039751B /* PhotoMainSheetViewX.swift */,
+				207C254028726B360013E9DA /* PhotoPageToolbarViewX.swift */,
+				20744AE9286E74400039751B /* PhotoToolbarViewX.swift */,
+				207C253D287269E70013E9DA /* OptionsZoomToolbarViewX.swift */,
+				20628BDC288FB3A800582FD7 /* PhotoRulerHViewX.swift */,
+				20628BDF288FB3B800582FD7 /* PhotoRulerVViewX.swift */,
+				2019521429DE62F300934440 /* SettingsViewX.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		20A99D1527EA8371005FDCCC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				20A99D1227EA8369005FDCCC /* BaseViewModel.swift */,
+				207C253A28724AF00013E9DA /* FiltersPropertiesViewModel.swift */,
+				207C253728724AB30013E9DA /* FilterPropertiesViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		20A99D1927EA84FF005FDCCC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				20E800D127E02322000A1FD1 /* AppSettings.swift */,
+				209F2F7627E2BF80000B28A8 /* OptionSettings.swift */,
+				209D46AF27E1AB7F0001F369 /* PageSettings.swift */,
+				20A99D1A27EA8534005FDCCC /* LabelTemplates.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		20B2A3B52810D34B00B7D4DB /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				207809302870514600E17084 /* ImageUtil.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		20ECA9B52861A02500C37762 /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				200BC9F629C447E70013147C /* CIFilters */,
+				20ECA9B62861A04500C37762 /* FilterX.swift */,
+				207C2534287246270013E9DA /* FilterXHolder.swift */,
+				207B9DF2286CF8520064A46E /* BaseBlendFX.swift */,
+				206D3B5E2878D0DC002B3D16 /* BaseGeneratorFX.swift */,
+				2033ABEB289146BE000F3D7C /* BaseTileFX.swift */,
+				20B25B4128908BF000724615 /* BaseTransitionFX.swift */,
+				207C2531287246010013E9DA /* FiltersX.swift */,
+				20B87E9E28BEE228002F1E3F /* FiltersNames.swift */,
+			);
+			path = Filters;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01626BCC25C163D7001D69F4 /* Photo Curves (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01626BF725C163D7001D69F4 /* Build configuration list for PBXNativeTarget "Photo Curves (iOS)" */;
+			buildPhases = (
+				01626BC925C163D7001D69F4 /* Sources */,
+				01626BCA25C163D7001D69F4 /* Frameworks */,
+				01626BCB25C163D7001D69F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Photo Curves (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "SketchEffects (iOS)";
+			productReference = 01626BCD25C163D7001D69F4 /* Photo Curves.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01626BD425C163D7001D69F4 /* Photo Curves (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01626BFA25C163D7001D69F4 /* Build configuration list for PBXNativeTarget "Photo Curves (macOS)" */;
+			buildPhases = (
+				01626BD125C163D7001D69F4 /* Sources */,
+				01626BD225C163D7001D69F4 /* Frameworks */,
+				01626BD325C163D7001D69F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Photo Curves (macOS)";
+			productName = "SketchEffects (macOS)";
+			productReference = 01626BD525C163D7001D69F4 /* Photo Curves.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01626BDC25C163D7001D69F4 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01626BFD25C163D7001D69F4 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				01626BD925C163D7001D69F4 /* Sources */,
+				01626BDA25C163D7001D69F4 /* Frameworks */,
+				01626BDB25C163D7001D69F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01626BDF25C163D7001D69F4 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 01626BDD25C163D7001D69F4 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		01626BE725C163D7001D69F4 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01626C0025C163D7001D69F4 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				01626BE425C163D7001D69F4 /* Sources */,
+				01626BE525C163D7001D69F4 /* Frameworks */,
+				01626BE625C163D7001D69F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01626BEA25C163D7001D69F4 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 01626BE825C163D7001D69F4 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01626BC125C163D5001D69F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					01626BCC25C163D7001D69F4 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					01626BD425C163D7001D69F4 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					01626BDC25C163D7001D69F4 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 01626BCC25C163D7001D69F4;
+					};
+					01626BE725C163D7001D69F4 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 01626BD425C163D7001D69F4;
+					};
+				};
+			};
+			buildConfigurationList = 01626BC425C163D5001D69F4 /* Build configuration list for PBXProject "Photo Curves" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01626BC025C163D5001D69F4;
+			packageReferences = (
+			);
+			productRefGroup = 01626BCE25C163D7001D69F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01626BCC25C163D7001D69F4 /* Photo Curves (iOS) */,
+				01626BD425C163D7001D69F4 /* Photo Curves (macOS) */,
+				01626BDC25C163D7001D69F4 /* Tests iOS */,
+				01626BE725C163D7001D69F4 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01626BCB25C163D7001D69F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202F7E8229FA8462003823E5 /* External License Attribution.txt in Resources */,
+				01626BF325C163D7001D69F4 /* Assets.xcassets in Resources */,
+				20E18DAC2A05B80C00BB5980 /* photocurves.jpg in Resources */,
+				206144C029358EB4004974CD /* GPLv2.txt in Resources */,
+				20C271AE2897F0FD00F325C9 /* Mona_Lisa_by_Leonardo_da_Vinci.jpeg in Resources */,
+				205E6F2A28B03138006D5775 /* NodeLaunch Screen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01626BD325C163D7001D69F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202F7E8329FA8462003823E5 /* External License Attribution.txt in Resources */,
+				206144C129358EB4004974CD /* GPLv2.txt in Resources */,
+				20E18DAD2A05B80C00BB5980 /* photocurves.jpg in Resources */,
+				01626BF425C163D7001D69F4 /* Assets.xcassets in Resources */,
+				205E6F2B28B03138006D5775 /* NodeLaunch Screen.storyboard in Resources */,
+				20C271AF2897F0FD00F325C9 /* Mona_Lisa_by_Leonardo_da_Vinci.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01626BDB25C163D7001D69F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01626BE625C163D7001D69F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01626BC925C163D7001D69F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209F2F7727E2BF80000B28A8 /* OptionSettings.swift in Sources */,
+				202F7E8829FA8462003823E5 /* SplineView.swift in Sources */,
+				207C2535287246270013E9DA /* FilterXHolder.swift in Sources */,
+				202F7E8629FA8462003823E5 /* CGRecct+TransformToFill.swift in Sources */,
+				20628BDD288FB3A800582FD7 /* PhotoRulerHViewX.swift in Sources */,
+				207C254128726B360013E9DA /* PhotoPageToolbarViewX.swift in Sources */,
+				207C253E287269E70013E9DA /* OptionsZoomToolbarViewX.swift in Sources */,
+				20744AE7286E74210039751B /* PhotoMainPropertiesViewX.swift in Sources */,
+				209D46B027E1AB7F0001F369 /* PageSettings.swift in Sources */,
+				202F7EB529FA86FF003823E5 /* CIConvertRGBToHSVFilter.swift in Sources */,
+				2019521129DE4BD500934440 /* ColorControlsFX.swift in Sources */,
+				205CB6CA29C6893A0012A3CE /* SharedExtensions.swift in Sources */,
+				20B25B4228908BF000724615 /* BaseTransitionFX.swift in Sources */,
+				202F7EB329FA86FF003823E5 /* CICombineRGBFilter.swift in Sources */,
+				202F7E9229FA8462003823E5 /* CubicSpline+Callable.swift in Sources */,
+				202F7EB129FA86FF003823E5 /* CombineHSV.metal in Sources */,
+				20744AE4286E71E90039751B /* PhotoViewX.swift in Sources */,
+				2019521529DE62F300934440 /* SettingsViewX.swift in Sources */,
+				202F7EA029FA8569003823E5 /* ToneCurvePropertiesViewX.swift in Sources */,
+				2019520E29DE4A0200934440 /* FilterPropertiesViewX.swift in Sources */,
+				207809312870514600E17084 /* ImageUtil.swift in Sources */,
+				20628BE0288FB3B800582FD7 /* PhotoRulerVViewX.swift in Sources */,
+				202F7E9B29FA84BB003823E5 /* CurveViewX.swift in Sources */,
+				20B87E9F28BEE228002F1E3F /* FiltersNames.swift in Sources */,
+				202F7E9029FA8462003823E5 /* CubicCurve.swift in Sources */,
+				202DDD2828810ADF00D55FEA /* PhotoPHImagePickerX.swift in Sources */,
+				2033ABEC289146BE000F3D7C /* BaseTileFX.swift in Sources */,
+				20A99D1B27EA8534005FDCCC /* LabelTemplates.swift in Sources */,
+				202F7E8E29FA8462003823E5 /* Array+Extensions.swift in Sources */,
+				202F7E8429FA8462003823E5 /* SIMD+CGpoint.swift in Sources */,
+				202F7E9429FA8462003823E5 /* CubicSpline.swift in Sources */,
+				20A99D1327EA8369005FDCCC /* BaseViewModel.swift in Sources */,
+				202F7EAD29FA86FF003823E5 /* CombineRGB.metal in Sources */,
+				207C253B28724AF00013E9DA /* FiltersPropertiesViewModel.swift in Sources */,
+				202F7E8A29FA8462003823E5 /* CubicSpline+Path.swift in Sources */,
+				20744AE1286E71560039751B /* PhotoDesignViewX.swift in Sources */,
+				2031845D29F9F0790068138A /* ViewExtensions.swift in Sources */,
+				207B9DF3286CF8520064A46E /* BaseBlendFX.swift in Sources */,
+				20ECA9B72861A04500C37762 /* FilterX.swift in Sources */,
+				207C2532287246010013E9DA /* FiltersX.swift in Sources */,
+				202F7E8C29FA8462003823E5 /* SplineShape.swift in Sources */,
+				202F7E9D29FA84BB003823E5 /* PhotoCurvePropertiesViewX.swift in Sources */,
+				202F7EAB29FA86FF003823E5 /* CIConvertHSVToRGBFilter.swift in Sources */,
+				206D3B5F2878D0DC002B3D16 /* BaseGeneratorFX.swift in Sources */,
+				202F7EA329FA8600003823E5 /* ToneCurveFX.swift in Sources */,
+				20744AF0286E7EB60039751B /* PhotoMainSheetViewX.swift in Sources */,
+				01626BEF25C163D7001D69F4 /* SketchEffectsApp.swift in Sources */,
+				202F7E9929FA84BB003823E5 /* CurveHandleViewX.swift in Sources */,
+				20744ADD286E70CD0039751B /* PhotoMainViewX.swift in Sources */,
+				20D9B36529CA778C004DCFE8 /* ViewOffset.swift in Sources */,
+				2019521329DE4BDA00934440 /* ImageFX.swift in Sources */,
+				202F7EAF29FA86FF003823E5 /* CICombineHSVFilter.swift in Sources */,
+				20E800D227E02322000A1FD1 /* AppSettings.swift in Sources */,
+				207C253828724AB30013E9DA /* FilterPropertiesViewModel.swift in Sources */,
+				20744AEA286E74400039751B /* PhotoToolbarViewX.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01626BD125C163D7001D69F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202F7EB629FA86FF003823E5 /* CIConvertRGBToHSVFilter.swift in Sources */,
+				207C2533287246010013E9DA /* FiltersX.swift in Sources */,
+				202F7EAC29FA86FF003823E5 /* CIConvertHSVToRGBFilter.swift in Sources */,
+				202F7E8929FA8462003823E5 /* SplineView.swift in Sources */,
+				207B9DF4286CF8520064A46E /* BaseBlendFX.swift in Sources */,
+				20628BDE288FB3A800582FD7 /* PhotoRulerHViewX.swift in Sources */,
+				20D9B36629CA778C004DCFE8 /* ViewOffset.swift in Sources */,
+				206D3B602878D0DC002B3D16 /* BaseGeneratorFX.swift in Sources */,
+				202F7E9C29FA84BB003823E5 /* CurveViewX.swift in Sources */,
+				20744AE5286E71E90039751B /* PhotoViewX.swift in Sources */,
+				202F7E8B29FA8462003823E5 /* CubicSpline+Path.swift in Sources */,
+				202F7EB229FA86FF003823E5 /* CombineHSV.metal in Sources */,
+				202DDD2928810ADF00D55FEA /* PhotoPHImagePickerX.swift in Sources */,
+				20ECA9B82861A04500C37762 /* FilterX.swift in Sources */,
+				202F7E8F29FA8462003823E5 /* Array+Extensions.swift in Sources */,
+				202F7E9E29FA84BB003823E5 /* PhotoCurvePropertiesViewX.swift in Sources */,
+				20B25B4328908BF000724615 /* BaseTransitionFX.swift in Sources */,
+				202F7EB029FA86FF003823E5 /* CICombineHSVFilter.swift in Sources */,
+				20744AE8286E74210039751B /* PhotoMainPropertiesViewX.swift in Sources */,
+				202F7E8D29FA8462003823E5 /* SplineShape.swift in Sources */,
+				202F7E9529FA8462003823E5 /* CubicSpline.swift in Sources */,
+				207C254228726B360013E9DA /* PhotoPageToolbarViewX.swift in Sources */,
+				2031845E29F9F0790068138A /* ViewExtensions.swift in Sources */,
+				207809322870514600E17084 /* ImageUtil.swift in Sources */,
+				202F7EB429FA86FF003823E5 /* CICombineRGBFilter.swift in Sources */,
+				202F7EA429FA8600003823E5 /* ToneCurveFX.swift in Sources */,
+				207C253928724AB30013E9DA /* FilterPropertiesViewModel.swift in Sources */,
+				20628BE1288FB3B800582FD7 /* PhotoRulerVViewX.swift in Sources */,
+				20B87EA028BEE228002F1E3F /* FiltersNames.swift in Sources */,
+				209F2F7827E2BF80000B28A8 /* OptionSettings.swift in Sources */,
+				2033ABED289146BE000F3D7C /* BaseTileFX.swift in Sources */,
+				202F7E9A29FA84BB003823E5 /* CurveHandleViewX.swift in Sources */,
+				207C253C28724AF00013E9DA /* FiltersPropertiesViewModel.swift in Sources */,
+				202F7E9329FA8462003823E5 /* CubicSpline+Callable.swift in Sources */,
+				202F7EA129FA8569003823E5 /* ToneCurvePropertiesViewX.swift in Sources */,
+				202F7E9129FA8462003823E5 /* CubicCurve.swift in Sources */,
+				20E800D327E02322000A1FD1 /* AppSettings.swift in Sources */,
+				20744AEB286E74400039751B /* PhotoToolbarViewX.swift in Sources */,
+				20744AF1286E7EB60039751B /* PhotoMainSheetViewX.swift in Sources */,
+				202F7EAE29FA86FF003823E5 /* CombineRGB.metal in Sources */,
+				20744ADE286E70CD0039751B /* PhotoMainViewX.swift in Sources */,
+				20A99D1C27EA8534005FDCCC /* LabelTemplates.swift in Sources */,
+				20A99D1427EA8369005FDCCC /* BaseViewModel.swift in Sources */,
+				202F7E8729FA8462003823E5 /* CGRecct+TransformToFill.swift in Sources */,
+				202F7E8529FA8462003823E5 /* SIMD+CGpoint.swift in Sources */,
+				209D46B127E1AB7F0001F369 /* PageSettings.swift in Sources */,
+				20744AE2286E71560039751B /* PhotoDesignViewX.swift in Sources */,
+				205CB6CB29C6893A0012A3CE /* SharedExtensions.swift in Sources */,
+				207C2536287246270013E9DA /* FilterXHolder.swift in Sources */,
+				207C253F287269E70013E9DA /* OptionsZoomToolbarViewX.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01626BD925C163D7001D69F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01626BE225C163D7001D69F4 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01626BE425C163D7001D69F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01626BED25C163D7001D69F4 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01626BDF25C163D7001D69F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01626BCC25C163D7001D69F4 /* Photo Curves (iOS) */;
+			targetProxy = 01626BDE25C163D7001D69F4 /* PBXContainerItemProxy */;
+		};
+		01626BEA25C163D7001D69F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01626BD425C163D7001D69F4 /* Photo Curves (macOS) */;
+			targetProxy = 01626BE925C163D7001D69F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01626BF525C163D7001D69F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01626BF625C163D7001D69F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		01626BF825C163D7001D69F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-PhotoCurve";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = SketchEffects.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = B93L2R82PL;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTLLINKER_FLAGS = "-cikernel";
+				MTL_COMPILER_FLAGS = "";
+				"MTL_COMPILER_FLAGS[sdk=*]" = "-fcikernel";
+				PRODUCT_BUNDLE_IDENTIFIER = com.photorealityar.photocurves;
+				PRODUCT_NAME = "Photo Curves";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01626BF925C163D7001D69F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-PhotoCurve";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = SketchEffects.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = B93L2R82PL;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTLLINKER_FLAGS = "-cikernel";
+				MTL_COMPILER_FLAGS = "";
+				"MTL_COMPILER_FLAGS[sdk=*]" = "-fcikernel";
+				PRODUCT_BUNDLE_IDENTIFIER = com.photorealityar.photocurves;
+				PRODUCT_NAME = "Photo Curves";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01626BFB25C163D7001D69F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Sgma";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 68;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = B93L2R82PL;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 0.20;
+				MTLLINKER_FLAGS = "-cikernel";
+				"MTL_COMPILER_FLAGS[sdk=*]" = "-fcikernel";
+				PRODUCT_BUNDLE_IDENTIFIER = com.barcoderesource.barcodelabel;
+				PRODUCT_NAME = "Photo Curves";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		01626BFC25C163D7001D69F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Sgma";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 68;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = B93L2R82PL;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 0.20;
+				MTLLINKER_FLAGS = "-cikernel";
+				"MTL_COMPILER_FLAGS[sdk=*]" = "-fcikernel";
+				PRODUCT_BUNDLE_IDENTIFIER = com.barcoderesource.barcodelabel;
+				PRODUCT_NAME = "Photo Curves";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		01626BFE25C163D7001D69F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B93L2R82PL;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "technoriver.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SketchEffects (iOS)";
+			};
+			name = Debug;
+		};
+		01626BFF25C163D7001D69F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B93L2R82PL;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "technoriver.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SketchEffects (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01626C0125C163D7001D69F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = B93L2R82PL;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "technoriver.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "SketchEffects (macOS)";
+			};
+			name = Debug;
+		};
+		01626C0225C163D7001D69F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = B93L2R82PL;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "technoriver.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "SketchEffects (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01626BC425C163D5001D69F4 /* Build configuration list for PBXProject "Photo Curves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01626BF525C163D7001D69F4 /* Debug */,
+				01626BF625C163D7001D69F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01626BF725C163D7001D69F4 /* Build configuration list for PBXNativeTarget "Photo Curves (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01626BF825C163D7001D69F4 /* Debug */,
+				01626BF925C163D7001D69F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01626BFA25C163D7001D69F4 /* Build configuration list for PBXNativeTarget "Photo Curves (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01626BFB25C163D7001D69F4 /* Debug */,
+				01626BFC25C163D7001D69F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01626BFD25C163D7001D69F4 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01626BFE25C163D7001D69F4 /* Debug */,
+				01626BFF25C163D7001D69F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01626C0025C163D7001D69F4 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01626C0125C163D7001D69F4 /* Debug */,
+				01626C0225C163D7001D69F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01626BC125C163D5001D69F4 /* Project object */;
+}

@@ -1,0 +1,28 @@
+Photo Curves
+https://https://github.com/Misfits-Rebels-Outcasts/Photo-Curves
+
+Photo Reality AR
+https://PhotoRealityAR.com
+
+SwiftUI WYSIWYG Draw
+https://github.com/Misfits-Rebels-Outcasts/SwiftUI-WYSIWYG-Draw
+License: GPL2.0
+
+Shader Muse
+https://github.com/Misfits-Rebels-Outcasts/ShaderMuse
+License: GPL2.0
+
+Nodef - No Definition Pipeline
+https://github.com/Misfits-Rebels-Outcasts/Nodef
+
+--
+
+Shader Muse uses source code from the following which is available under the MIT License:
+
+https://github.com/quantumOrange/CubicSpline
+
+Any modified derivation is available under GPL2.0
+
+
+
+

@@ -1,0 +1,46 @@
+Open Pipeline
+
+RealityKit Terrian Shader is part of the community using the Open Pipeline to build the next generation of graphics design software. Open Pipeline reduces Cognitive Overload in graphics design with a simplified digital compositing node graph. It is to the user interface of graphics design software like Markdown is to HTML.
+
+Community website
+
+https://photorealityar.com
+
+In the App View change
+
+            RealityContainerView()
+                .background(Color.blue)
+                .ignoresSafeArea()
+                
+            to
+            
+            /*
+            PhotoMainViewX()
+                .padding(0)
+                .environmentObject(PageSettings())
+             */
+
+to see how this shader is integrated into Open Pipeline
+
+Manifesto
+-Reduce Cognitive Overload in graphics design with a simplified node graph.
+-Reduce Information Overload in graphics design documentation with a succinct list of steps.
+-Improve Modular Extensibility in graphics software development with an Open Pipeline.
+
+Open Pipeline
+https://github.com/Misfits-Rebels-Outcasts/Nodef
+
+Open Pipeline Projects
+
+RealityKit Terrian Shaders
+https://github.com/Misfits-Rebels-Outcasts/RealityKit-Terrian-Shader
+
+Photo Curves - Photo Tone Curve
+https://github.com/Misfits-Rebels-Outcasts/Photo-Curves
+
+Shader Muse - Metal Shaders
+https://github.com/Misfits-Rebels-Outcasts/ShaderMuse
+
+SwiftUI WYSIWYG Draw
+https://github.com/Misfits-Rebels-Outcasts/SwiftUI-WYSIWYG-Draw
+

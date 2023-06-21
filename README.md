@@ -40,7 +40,7 @@ Note - The brackets e.g. "(1)" refers to the input node or image.
 
 ## A Satire in HACKERNOON
 
-<img src="https://github.com/Misfits-Rebels-Outcasts/Nodef/assets/47021297/12487ce0-da05-4698-b3d6-52d241914c74" width="50%" height="50%">
+<img src="https://github.com/Misfits-Rebels-Outcasts/Nodef/assets/47021297/12487ce0-da05-4698-b3d6-52d241914c74" width="40%" height="40%">
   
 [Revolutionary User Interface Design: Tackling Cognitive Overload in Graphics Software](https://hackernoon.com/revolutionary-user-interface-design-tackling-cognitive-overload-in-graphics-software) 
 

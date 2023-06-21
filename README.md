@@ -44,9 +44,11 @@ Note - The brackets e.g. "(1)" refers to the input node or image.
 </a>
 
 <p>
+</p>
+
 [Revolutionary User Interface Design: Tackling Cognitive Overload in Graphics Software](https://hackernoon.com/revolutionary-user-interface-design-tackling-cognitive-overload-in-graphics-software) 
      
-</p>
+
 
 ## Proposed Idea: Node graph as a list of steps
 

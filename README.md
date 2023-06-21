@@ -38,7 +38,7 @@ to
 
 Note - The brackets e.g. "(1)" refers to the input node or image.
 
-## A Satirical Article by HACKERNOON
+## A Satire in HACKERNOON
 
 <img src="https://github.com/Misfits-Rebels-Outcasts/Nodef/assets/47021297/12487ce0-da05-4698-b3d6-52d241914c74" width="20%" height="20%">
   

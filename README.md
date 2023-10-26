@@ -1,8 +1,8 @@
-# Digital Compositing with a List on a Mobile Phone
+# Agile Digital Compositing workflow for mobile Photo & Video Editor
 
 Digital Compositing (node-based) is the process of combining multiple seemingly simple nodes to render and achieve a desired result. The paradigm of a node-based tool involves linking basic media objects onto a procedural map or node graph and then intuitively laying out each of the steps in a sequential progression of inputs and outputs. Any parameters from an earlier step can be modified to change the outcome, with the results instantly being visible to you, and each of the nodes, being procedural, can be easily reused, saving time and effort.
 
-This repo proposes the idea of **displaying a digital compositing node graph succinctly in English as a list of steps**. A list of steps is easy to understand due to its sequential nature and a succinct medium for display on a device with a limited screen space (mobile phone). It is also easy to create and can be conveniently typed into a document or used for discussion in a book.
+This repo proposes the idea of **displaying a digital compositing node graph succinctly as a list of steps**. A list of steps is easy to understand due to its sequential nature and a succinct medium for display on a device with a limited screen space (mobile phone). It is also easy to create and can be conveniently typed into a document or used for discussion in a book.
 
 ## TL;DR
 
@@ -60,6 +60,11 @@ ad mea perpetuum deducite tempora carmen. (Ovid)'*
 
 The latest source code is in ShaderMuse. 
 
+* [Video Editor](https://photorealityar.com/videoeditorsdk.html) - Reality ^Cat Cut AR Movie Maker.
+  
+  <img src="documentation/VideoEditor.jpg" width="20%" height="20%">
+  
+* [Stable Diffusion Cat Animator](https://photorealityar.com/stablediffusioncatanimator.html) - Use Artificial Intelligence and a base kitten video to drive animations of a cartoon cat, an owl, and a racoon.
 * [RealityKit Terrain Shader](https://github.com/Misfits-Rebels-Outcasts/RealityKit-Terrain-Shader) - Use Fractal Brownian Motion (fBM) to generate an Augmented Reality (AR) Terrain using iOS RealityKit Custom Materials.
 * [Photo Curves](https://github.com/Misfits-Rebels-Outcasts/Photo-Curves) - Photo Curves, Tone Curves, and RGB Curves component.
 * [ShaderMuse](https://github.com/Misfits-Rebels-Outcasts/ShaderMuse) - Digital Compositing Shaders, Filters, and Effects (Source v0.2).
@@ -69,9 +74,13 @@ The latest source code is in ShaderMuse.
 * [Photo Reality AR](https://photorealityar.com) - Augmented Reality Photo AR.
 
 Platform
-* iOS, iPadOS, or Mac with Swift and Metal
+* iOS, iPadOS, Mac, or xrOS with Swift and Metal
 
 ## Free App in App Store
+
+* [Reality ^Cat Cut - Video Editor](https://apps.apple.com/us/app/reality-cat-cut-video-editor/id6470134946)
+
+  <img src="documentation/cathyboo.png" width="12%" height="12%">
 
 * [Pipeline: Digital Compositing](https://apps.apple.com/us/app/pipeline-digital-compositing/id1640788489)
 

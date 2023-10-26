@@ -69,7 +69,7 @@ ad mea perpetuum deducite tempora carmen. (Ovid)'*
 
 * [Video Editor](https://photorealityar.com/videoeditorsdk.html) - Reality ^Cat Cut AR Movie Maker.
   
-  <img src="documentation/VideoEditor.jpg" width="70%" height="70%">
+  <img src="documentation/VideoEditor.jpg">
   
 * [Stable Diffusion Cat Animator](https://photorealityar.com/stablediffusioncatanimator.html) - Use Artificial Intelligence and a base kitten video to drive animations of a cartoon cat, an owl, and a racoon.
 * [RealityKit Terrain Shader](https://github.com/Misfits-Rebels-Outcasts/RealityKit-Terrain-Shader) - Use Fractal Brownian Motion (fBM) to generate an Augmented Reality (AR) Terrain using iOS RealityKit Custom Materials.

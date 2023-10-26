@@ -1,10 +1,10 @@
-# Agile Digital Compositing workflow for mobile Photo & Video Editor
+# Agile Digital Compositing workflow for Photo & Video Editor
 
 Digital Compositing (node-based) is the process of combining multiple seemingly simple nodes to render and achieve a desired result. The paradigm of a node-based tool involves linking basic media objects onto a procedural map or node graph and then intuitively laying out each of the steps in a sequential progression of inputs and outputs. Any parameters from an earlier step can be modified to change the outcome, with the results instantly being visible to you, and each of the nodes, being procedural, can be easily reused, saving time and effort.
 
 This repo proposes the idea of **displaying a digital compositing node graph succinctly as a list of steps**. A list of steps is easy to understand due to its sequential nature and a succinct medium for display on a device with a limited screen space (mobile phone). It is also easy to create and can be conveniently typed into a document or used for discussion in a book.
 
-## TL;DR
+## TL;DR - Agile Digital Compositing for mobile & spatial devices
 
      Read photo  Read photo
      |           |     
@@ -37,6 +37,15 @@ to
     8. Viewer           (7)     
 
 Note - The brackets e.g. "(1)" refers to the input node or image.
+
+## A HACKERNOON SATIRE
+
+<img src="https://github.com/Misfits-Rebels-Outcasts/Nodef/assets/47021297/12487ce0-da05-4698-b3d6-52d241914c74" width="40%" height="40%">
+<p>
+</p>
+
+[Revolutionary User Interface Design: Tackling Cognitive Overload in Graphics Software](https://hackernoon.com/revolutionary-user-interface-design-tackling-cognitive-overload-in-graphics-software) 
+     
 
 ## Proposed Idea: Node graph as a list of steps
 

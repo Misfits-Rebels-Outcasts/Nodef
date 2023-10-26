@@ -1,10 +1,10 @@
-# Agile Digital Compositing workflow for Photo & Video Editor
+# Digital Compositing workflow for Photo & Video Editor on mobile and spatial devices
 
 Digital Compositing (node-based) is the process of combining multiple seemingly simple nodes to render and achieve a desired result. The paradigm of a node-based tool involves linking basic media objects onto a procedural map or node graph and then intuitively laying out each of the steps in a sequential progression of inputs and outputs. Any parameters from an earlier step can be modified to change the outcome, with the results instantly being visible to you, and each of the nodes, being procedural, can be easily reused, saving time and effort.
 
 This repo proposes the idea of **displaying a digital compositing node graph succinctly as a list of steps**. A list of steps is easy to understand due to its sequential nature and a succinct medium for display on a device with a limited screen space (mobile phone). It is also easy to create and can be conveniently typed into a document or used for discussion in a book.
 
-## TL;DR - Agile Digital Compositing for mobile & spatial devices
+## TL;DR - Agile Digital Compositing
 
      Read photo  Read photo
      |           |     
@@ -71,7 +71,7 @@ The latest source code is in ShaderMuse.
 
 * [Video Editor](https://photorealityar.com/videoeditorsdk.html) - Reality ^Cat Cut AR Movie Maker.
   
-  <img src="documentation/VideoEditor.jpg" width="20%" height="20%">
+  <img src="documentation/VideoEditor.jpg" width="50%" height="50%">
   
 * [Stable Diffusion Cat Animator](https://photorealityar.com/stablediffusioncatanimator.html) - Use Artificial Intelligence and a base kitten video to drive animations of a cartoon cat, an owl, and a racoon.
 * [RealityKit Terrain Shader](https://github.com/Misfits-Rebels-Outcasts/RealityKit-Terrain-Shader) - Use Fractal Brownian Motion (fBM) to generate an Augmented Reality (AR) Terrain using iOS RealityKit Custom Materials.

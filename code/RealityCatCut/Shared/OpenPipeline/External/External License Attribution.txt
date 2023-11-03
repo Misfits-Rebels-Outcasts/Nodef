@@ -1,0 +1,27 @@
+Nodef - No Definition Pipeline
+https://github.com/Misfits-Rebels-Outcasts/Nodef
+License: GPL2.0
+
+SwiftUI WYSIWYG Draw
+https://github.com/Misfits-Rebels-Outcasts/SwiftUI-WYSIWYG-Draw
+License: GPL2.0
+
+Shader Muse
+https://github.com/Misfits-Rebels-Outcasts/ShaderMuse
+License: GPL2.0
+
+--
+
+Shader Muse uses source code from the following which is available under the MIT License:
+
+https://github.com/quantumOrange/CubicSpline
+
+https://github.com/Tomohiro-Yamashita/VideoTimelineView
+
+https://github.com/Krupanshu-Sharma/OnBoardingViewSwiftUI
+
+Any modified derivation is available under GPL2.0
+
+
+
+

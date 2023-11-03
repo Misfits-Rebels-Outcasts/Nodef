@@ -1,0 +1,170 @@
+{
+  "__content" : [
+    {
+      "scenes" : [
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "alignment" : "vertical",
+                "name" : "surface"
+              },
+              "behaviors" : [
+
+              ],
+              "gravity" : [
+                0,
+                0,
+                0
+              ],
+              "identifier" : "87DEA4E0-4F2C-4F13-A700-83B7C8488206",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "BF67FB98-D218-472C-A933-0DA2A9090896" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "frame",
+                          {
+                            "typeName" : "Double",
+                            "value" : 0.17999999999999999
+                          }
+                        ],
+                        [
+                          "frameWidth",
+                          {
+                            "typeName" : "String",
+                            "value" : "medium"
+                          }
+                        ],
+                        [
+                          "image",
+                          {
+                            "typeName" : "String",
+                            "value" : "image:b701ec0fd426aa2d17be86b5547d9e32\/Mona_LisaLarge.jpeg"
+                          }
+                        ],
+                        [
+                          "matte",
+                          {
+                            "typeName" : "Double",
+                            "value" : 0.29999999999999999
+                          }
+                        ],
+                        [
+                          "styles",
+                          {
+                            "typeName" : "String",
+                            "value" : "Elaborate"
+                          }
+                        ]
+                      ],
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CoreAssetFactories.PictureFrameAssetFactory",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "F251F61F-30AC-4AE5-BFE8-17362AA613D7"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        1.0031877756118774,
+                        3.1592830743059947e-16,
+                        2.3357230038989485e-10,
+                        0,
+                        -2.3357230038989485e-10,
+                        3.5876789752364857e-06,
+                        1.0031876564025879,
+                        0,
+                        -4.9502055981463485e-16,
+                        -1.0031876564025879,
+                        3.5876789752364857e-06,
+                        0,
+                        0,
+                        0.15999999642372131,
+                        -0.017246359959244728,
+                        1
+                      ]
+                    }
+                  },
+                  "F637AB4A-7A47-40AA-9CE8-90EAF4364617" : null,
+                  "Shelf" : null
+                },
+                "factory" : null,
+                "runtimeAttributes" : [
+                  [
+                    "isAccessibilityEnabled",
+                    {
+                      "typeName" : "Bool",
+                      "value" : false
+                    }
+                  ]
+                ]
+              },
+              "physicsMode" : "grid",
+              "title" : "Scene",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  0.99981743097305298,
+                  3.3909127949982576e-08,
+                  -0.019104456529021263,
+                  0,
+                  0.019092816859483719,
+                  0.034899547696113586,
+                  0.99920845031738281,
+                  0,
+                  0.00066674203844740987,
+                  -0.99939078092575073,
+                  0.034893184900283813,
+                  0,
+                  0.1481538712978363,
+                  -1.2762054204940796,
+                  0.11549302935600281,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 5
+        }
+      ],
+      "tags" : {
+        "__content" : [
+          {
+            "tagsStore" : {
+
+            }
+          }
+        ],
+        "__version" : 1
+      }
+    }
+  ],
+  "__version" : 1
+}

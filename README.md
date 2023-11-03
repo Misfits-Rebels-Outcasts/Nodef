@@ -1,4 +1,4 @@
-# Digital Compositing workflow for Photo & Video Editor on mobile and spatial devices
+# agile DIGITAL COMPOSITING workflow for Photo & Video Editor
 
 Digital Compositing (node-based) is the process of combining multiple seemingly simple nodes to render and achieve a desired result. The paradigm of a node-based tool involves linking basic media objects onto a procedural map or node graph and then intuitively laying out each of the steps in a sequential progression of inputs and outputs. Any parameters from an earlier step can be modified to change the outcome, with the results instantly being visible to you, and each of the nodes, being procedural, can be easily reused, saving time and effort.
 
@@ -67,7 +67,7 @@ ad mea perpetuum deducite tempora carmen. (Ovid)'*
 
 ## Open-Source Projects (GPLv2)
 
-* [Video Editor](https://photorealityar.com/videoeditorsdk.html) - Reality ^Cat Cut AR Movie Maker.
+* Reality ^Cat Cut - [Video Editor](https://photorealityar.com/videoeditorsdk.html) and AR Movie Maker.
   
   <img src="documentation/VideoEditor.jpg">
   

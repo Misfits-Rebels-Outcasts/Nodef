@@ -81,6 +81,7 @@ ad mea perpetuum deducite tempora carmen. (Ovid)'*
 * [SwiftUI WYSIWYG Draw](https://github.com/Misfits-Rebels-Outcasts/SwiftUI-WYSIWYG-Draw) for Nodef in the future.
 * [Photo Filters & Effects](code/Nodef) - Source Code for v0.1 [Notes](code/Readme.md)
 * [Photo Reality AR](https://photorealityar.com) - Augmented Reality Photo AR.
+* [Public Domain USDZ](https://github.com/Misfits-Rebels-Outcasts/Public-Domain-USDZ) - Public Domain USDZ Movie Props.
 
 Platform
 * iOS, iPadOS, Mac, or xrOS with Swift and Metal

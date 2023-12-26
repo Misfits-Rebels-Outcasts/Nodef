@@ -66,7 +66,7 @@ ad mea perpetuum deducite tempora carmen. (Ovid)'*
 * [Elegant Simplicity of a Digital Compositing Pipeline](documentation/DigitalCompositingPipelineAdvantages.md) - Under Construction
 
 ## Open-Source Projects (GPLv2)
-* [Spatial Cat Videos](https://photorealityar.com/spatialcatyvideos.html) - Spatial Cat Videos by Reality ^Cat TV.
+* [Spatial Cat Videos](https://photorealityar.com/spatialcatvideos.html) - Spatial Cat Videos by Reality ^Cat TV.
 * Reality ^Cat Cut - [Video Editor](https://photorealityar.com/videoeditorsdk.html) and AR Movie Maker.
   
   <img src="documentation/VideoEditor.jpg">

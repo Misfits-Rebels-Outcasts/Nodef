@@ -67,6 +67,10 @@ ad mea perpetuum deducite tempora carmen. (Ovid)'*
 
 ## Open-Source Projects (GPLv2)
 * [Spatial Cat Videos](https://photorealityar.com/spatialcatvideos.html) - Spatial Cat Videos by Reality ^Cat TV.
+* [Spatial Animal Videos](https://photorealityar.com/spatialanimalvideos.html) - Spatial Animal Videos by Reality ^Cat TV.
+  
+  <img src="documentation/llamma_spatial_video.jpg">
+  
 * Reality ^Cat Cut - [Video Editor](https://photorealityar.com/videoeditorsdk.html) and AR Movie Maker.
   
   <img src="documentation/VideoEditor.jpg">

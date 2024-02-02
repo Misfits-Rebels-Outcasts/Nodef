@@ -66,17 +66,17 @@ ad mea perpetuum deducite tempora carmen. (Ovid)'*
 * [Elegant Simplicity of a Digital Compositing Pipeline](documentation/DigitalCompositingPipelineAdvantages.md) - Under Construction
 
 ## Open-Source Projects (GPLv2)
-* [Spatial Cat Videos](https://photorealityar.com/spatialcatvideos.html) - Spatial Cat Videos by Reality ^Cat TV.
-* [Spatial Animal Videos](https://photorealityar.com/spatialanimalvideos.html) - Spatial Animal Videos by Reality ^Cat TV.
-  
-  <img src="documentation/llamma_spatial_video.jpg">
-  
 * Reality ^Cat Cut - [Video Editor](https://photorealityar.com/videoeditorsdk.html) and AR Movie Maker.
   
   <img src="documentation/VideoEditor.jpg">
 
   Latest Source code is in [code/RealityCatCut](code/RealityCatCut)
   
+* [Spatial Cat Videos](https://photorealityar.com/spatialcatvideos.html) - Spatial Cat Videos by Reality ^Cat TV.
+* [Spatial Animal Videos](https://photorealityar.com/spatialanimalvideos.html) - Spatial Animal Videos by Reality ^Cat TV.
+  
+  <img src="documentation/llamma_spatial_video.jpg">
+
 * [Stable Diffusion Cat Animator](https://photorealityar.com/stablediffusioncatanimator.html) - Use Artificial Intelligence and a base kitten video to drive animations of a cartoon cat, an owl, and a racoon.
 * [RealityKit Terrain Shader](https://github.com/Misfits-Rebels-Outcasts/RealityKit-Terrain-Shader) - Use Fractal Brownian Motion (fBM) to generate an Augmented Reality (AR) Terrain using iOS RealityKit Custom Materials.
 * [Photo Curves](https://github.com/Misfits-Rebels-Outcasts/Photo-Curves) - Photo Curves, Tone Curves, and RGB Curves component.

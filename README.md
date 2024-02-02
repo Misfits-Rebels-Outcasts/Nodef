@@ -73,6 +73,9 @@ ad mea perpetuum deducite tempora carmen. (Ovid)'*
   Latest Source code is in [code/RealityCatCut](code/RealityCatCut)
   
 * [Spatial Cat Videos](https://photorealityar.com/spatialcatvideos.html) - Spatial Cat Videos by Reality ^Cat TV.
+
+* [Photogrammetry Cats](https://photorealityar.com/spatialcats.html) - USDZ Cats with Object Capture and Photogrammetry
+
 * [Spatial Animal Videos](https://photorealityar.com/spatialanimalvideos.html) - Spatial Animal Videos by Reality ^Cat TV.
   
   <img src="documentation/llamma_spatial_video.jpg">

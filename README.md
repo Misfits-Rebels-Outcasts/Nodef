@@ -68,7 +68,7 @@ ad mea perpetuum deducite tempora carmen. (Ovid)'*
 ## Open-Source Projects (GPLv2)
 * Reality ^Cat Cut - [Video Editor](https://photorealityar.com/videoeditorsdk.html) and AR Movie Maker.
   
-  <img src="documentation/VideoEditor.jpg">
+  <img src="documentation/AgileDigitalCompositing.jpeg">
 
   Latest Source code is in [code/RealityCatCut](code/RealityCatCut)
   

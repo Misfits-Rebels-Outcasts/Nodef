@@ -73,7 +73,7 @@ ad mea perpetuum deducite tempora carmen. (Ovid)'*
 
 * Reality ^Cat Cut - [Video Editor](https://photorealityar.com/videoeditorsdk.html) and AR Movie Maker.
   
-  <img src="documentation/AgileDigitalCompositing.jpeg">
+  <img src="documentation/AgileDigitalCompositing.jpeg" width="50%" height="50%">
 
   Latest Source code is in [code/RealityCatCut](code/RealityCatCut)
   

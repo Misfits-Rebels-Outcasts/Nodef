@@ -66,6 +66,11 @@ ad mea perpetuum deducite tempora carmen. (Ovid)'*
 * [Elegant Simplicity of a Digital Compositing Pipeline](documentation/DigitalCompositingPipelineAdvantages.md) - Under Construction
 
 ## Open-Source Projects (GPLv2)
+
+* [Spatial Shader](https://photorealityar.com/spatialshader.html) - Spatial Stereoscopic Shader.
+
+  <img src="documentation/spatialshader.jpg">
+
 * Reality ^Cat Cut - [Video Editor](https://photorealityar.com/videoeditorsdk.html) and AR Movie Maker.
   
   <img src="documentation/AgileDigitalCompositing.jpeg">
@@ -78,8 +83,6 @@ ad mea perpetuum deducite tempora carmen. (Ovid)'*
 
 * [Spatial Animal Videos](https://photorealityar.com/spatialanimalvideos.html) - Spatial Animal Videos by Reality ^Cat TV.
   
-  <img src="documentation/llamma_spatial_video.jpg">
-
 * [Stable Diffusion Cat Animator](https://photorealityar.com/stablediffusioncatanimator.html) - Use Artificial Intelligence and a base kitten video to drive animations of a cartoon cat, an owl, and a racoon.
 * [RealityKit Terrain Shader](https://github.com/Misfits-Rebels-Outcasts/RealityKit-Terrain-Shader) - Use Fractal Brownian Motion (fBM) to generate an Augmented Reality (AR) Terrain using iOS RealityKit Custom Materials.
 * [Photo Curves](https://github.com/Misfits-Rebels-Outcasts/Photo-Curves) - Photo Curves, Tone Curves, and RGB Curves component.
@@ -91,7 +94,7 @@ ad mea perpetuum deducite tempora carmen. (Ovid)'*
 * [Public Domain USDZ](https://github.com/Misfits-Rebels-Outcasts/Public-Domain-USDZ) - Public Domain USDZ Movie Props.
 
 Platform
-* iOS, iPadOS, Mac, or xrOS with Swift and Metal
+* iOS, iPadOS, Mac, or visionOS with Swift and Metal
 
 ## Free App in App Store
 

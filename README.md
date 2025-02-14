@@ -1,4 +1,4 @@
-# Agile DIGITAL COMPOSITING workflow for Photo & Video Editor
+# Agile DIGITAL COMPOSITING workflow for Spatial Photo & Video Editor and Spatial Shader
 
 Digital Compositing (node-based) is the process of combining multiple seemingly simple nodes to render and achieve a desired result. The paradigm of a node-based tool involves linking basic media objects onto a procedural map or node graph and then intuitively laying out each of the steps in a sequential progression of inputs and outputs. Any parameters from an earlier step can be modified to change the outcome, with the results instantly being visible to you, and each of the nodes, being procedural, can be easily reused, saving time and effort.
 
@@ -69,7 +69,7 @@ ad mea perpetuum deducite tempora carmen. (Ovid)'*
 
 * [Spatial Shader](https://photorealityar.com/spatialshader.html) - Spatial Stereoscopic Shader.
 
-  <img src="documentation/spatialshader.png" width="50%" height="50%">
+  <img src="documentation/spatialshader.png" width="70%" height="70%">
 
 * Reality ^Cat Cut - [Video Editor](https://photorealityar.com/videoeditorsdk.html) and AR Movie Maker.
   

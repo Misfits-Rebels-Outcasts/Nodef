@@ -69,7 +69,7 @@ ad mea perpetuum deducite tempora carmen. (Ovid)'*
 
 * [Spatial Shader](https://photorealityar.com/spatialshader.html) - Spatial Stereoscopic Shader.
 
-  <img src="documentation/spatialshader.jpg">
+  <img src="documentation/spatialshader.png">
 
 * Reality ^Cat Cut - [Video Editor](https://photorealityar.com/videoeditorsdk.html) and AR Movie Maker.
   

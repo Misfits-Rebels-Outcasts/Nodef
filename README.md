@@ -79,6 +79,10 @@ ad mea perpetuum deducite tempora carmen. (Ovid)'*
   
 * [Spatial Cat Videos](https://photorealityar.com/spatialcatvideos.html) - Spatial Cat Videos by Reality ^Cat TV.
 
+* [Spatial Photo Editor](https://photorealityar.com/spatialphotoeditor.html) - Spatial Photo Editor.
+
+* [Spatial Photo Filters](https://photorealityar.com/spatialphotofilters.html) - Spatial Photo Filters.
+
 * [Photogrammetry Cats](https://photorealityar.com/spatialcats.html) - USDZ Cats with Object Capture and Photogrammetry
 
 * [Spatial Animal Videos](https://photorealityar.com/spatialanimalvideos.html) - Spatial Animal Videos by Reality ^Cat TV.
@@ -98,6 +102,12 @@ Platform
 
 ## Free App in App Store
 
+* [Spatial Photo Editor](https://apps.apple.com/us/app/spatial-photo-editor/id6738454259)
+
+* [Spatial Shader](https://apps.apple.com/us/app/spatial-shader/id6738732683)
+
+  <img src="documentation/spatialshaderapp.png" width="12%" height="12%">
+
 * [Reality ^Cat Cut - Video Editor](https://apps.apple.com/us/app/reality-cat-cut-video-editor/id6470134946)
 
   <img src="documentation/cathyboo.png" width="12%" height="12%">
@@ -105,10 +115,6 @@ Platform
 * [Pipeline: Digital Compositing](https://apps.apple.com/us/app/pipeline-digital-compositing/id1640788489)
 
   <img src="documentation/sigmanode3.png" width="12%" height="12%">
-
-* [Spatial Shader](https://apps.apple.com/us/app/spatial-shader/id6738732683)
-
-  <img src="documentation/spatialshaderapp.png" width="12%" height="12%">
      
 ## Videos
 

@@ -104,6 +104,8 @@ Platform
 
 * [Spatial Photo Editor](https://apps.apple.com/us/app/spatial-photo-editor/id6738454259)
 
+  <img src="documentation/spatialphotoeditor.png" width="12%" height="12%">
+  
 * [Spatial Shader](https://apps.apple.com/us/app/spatial-shader/id6738732683)
 
   <img src="documentation/spatialshaderapp.png" width="12%" height="12%">
